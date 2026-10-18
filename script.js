@@ -2611,8 +2611,9 @@ const FLASHCARDS_DATA = [
 // App State
 const state = {
     student: {
-        name: localStorage.getItem('vstep_sp3_name') || '',
-        classCode: localStorage.getItem('vstep_sp3_class') || ''
+        name: '',
+        classCode: '',
+        isTeacher: false
     },
     theme: localStorage.getItem('vstep_sp3_theme') || 'light',
     audioEnabled: true,
@@ -2701,59 +2702,28 @@ function initAuth() {
     const userRoleLabel = userProfile ? userProfile.querySelector('.info span') : null;
     const userAvatar = userProfile ? userProfile.querySelector('.avatar') : null;
 
-    // Kiểm tra thông tin đã lưu trong localStorage
-    const savedName = localStorage.getItem('vstep_sp3_name');
-    const savedClass = localStorage.getItem('vstep_sp3_class');
-
-    let isValidSaved = false;
-    if (savedName && savedClass) {
-        const normSavedName = normalizeStr(savedName);
-        const fmtSavedClass = savedClass.toUpperCase().replace(/\s+/g, '').replace('CB21O', 'CB210');
-
-        const isTeacherSaved = 
-            fmtSavedClass === 'GV' || 
-            fmtSavedClass === 'GV2026' || 
-            normSavedName === 'ptmn' || 
-            normSavedName.includes('ptmn') || 
-            normSavedName.includes('co nguyet') || 
-            normSavedName.includes('minh nguyet');
-
-        if (isTeacherSaved) {
-            isValidSaved = true;
-            state.student.isTeacher = true;
-        } else if (CLASS_STUDENTS[fmtSavedClass]) {
-            const matched = CLASS_STUDENTS[fmtSavedClass].find(s => normalizeStr(s) === normSavedName);
-            if (matched) {
-                isValidSaved = true;
-                state.student.isTeacher = false;
-            }
-        }
+    // Luôn luôn hiển thị modal đăng nhập mỗi khi tải lại trang / refresh
+    state.student.name = '';
+    state.student.classCode = '';
+    state.student.isTeacher = false;
+    
+    if (modal) {
+        modal.style.display = 'flex';
+        modal.classList.remove('hidden');
     }
-
-    if (isValidSaved) {
-        if (modal) modal.style.display = 'none';
-        if (displayName) displayName.innerText = state.student.name + ' (' + state.student.classCode + ')';
-        if (userRoleLabel) userRoleLabel.innerText = state.student.isTeacher ? 'Giáo viên' : 'Học viên';
-        if (userAvatar && state.student.isTeacher) {
-            userAvatar.innerHTML = '<i class="fa-solid fa-chalkboard-user"></i>';
-        }
-        if (userProfile) userProfile.classList.remove('hidden');
-    } else {
-        localStorage.removeItem('vstep_sp3_name');
-        localStorage.removeItem('vstep_sp3_class');
-        state.student.name = '';
-        state.student.classCode = '';
-        if (modal) modal.style.display = 'flex';
+    if (userProfile) {
+        userProfile.classList.add('hidden');
     }
+    if (nameInput) nameInput.value = '';
+    if (classInput) classInput.value = '';
+    if (errorMsg) errorMsg.style.display = 'none';
 
-    // Cho phép nhấn vào profile để đăng xuất hoặc chuyển tài khoản
+    // Cho phép nhấn vào profile để đăng xuất hoặc đổi tài khoản
     if (userProfile) {
         userProfile.style.cursor = 'pointer';
         userProfile.title = 'Nhấn để đổi tài khoản hoặc đăng xuất';
         userProfile.onclick = () => {
             if (confirm('Bạn có muốn đổi tài khoản hoặc đăng nhập lại không?')) {
-                localStorage.removeItem('vstep_sp3_name');
-                localStorage.removeItem('vstep_sp3_class');
                 location.reload();
             }
         };
@@ -2830,8 +2800,6 @@ function initAuth() {
 
         state.student.name = finalName;
         state.student.classCode = finalClass;
-        localStorage.setItem('vstep_sp3_name', finalName);
-        localStorage.setItem('vstep_sp3_class', finalClass);
 
         const logData = `${finalName} - Lớp: ${finalClass}`;
         const trackingUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdnmu4S5vco1TBcNBUGaeEAlbpan_w4aO9JMLIqbafBKABh4g/formResponse';
