@@ -174,17 +174,17 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Improve work performance",
+        "text": "Create job opportunities",
         "pos": "top",
         "type": "verb",
-        "vi": "Nâng cao hiệu suất công việc"
+        "vi": "Tạo cơ hội việc làm"
       },
       {
         "num": 2,
-        "text": "Create job opportunities",
+        "text": "Improve work performance",
         "pos": "right",
         "type": "verb",
-        "vi": "Tạo nhiều cơ hội việc làm"
+        "vi": "Nâng cao hiệu suất công việc"
       },
       {
         "num": 3,
@@ -232,21 +232,21 @@ const ALL_TOPICS_POOL = [
         "text": "Flexible",
         "pos": "top",
         "type": "adj",
-        "vi": "Linh hoạt về thời gian & địa điểm"
+        "vi": "Linh hoạt"
       },
       {
         "num": 2,
         "text": "Time-saving",
         "pos": "right",
         "type": "adj",
-        "vi": "Tiết kiệm thời gian đi lại"
+        "vi": "Tiết kiệm thời gian"
       },
       {
         "num": 3,
         "text": "Money-saving",
         "pos": "bottom",
         "type": "adj",
-        "vi": "Tiết kiệm chi phí sinh hoạt & học tập"
+        "vi": "Tiết kiệm tiền bạc"
       },
       {
         "num": 4,
@@ -342,21 +342,21 @@ const ALL_TOPICS_POOL = [
         "text": "Develop themselves",
         "pos": "top",
         "type": "verb",
-        "vi": "Phát triển bản thân toàn diện"
+        "vi": "Phát triển bản thân"
       },
       {
         "num": 2,
         "text": "See the world",
         "pos": "right",
         "type": "verb",
-        "vi": "Khám phá thế giới rộng lớn"
+        "vi": "Khám phá thế giới"
       },
       {
         "num": 3,
         "text": "Experience different styles of education",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Trải nghiệm nền giáo dục tiên tiến"
+        "vi": "Trải nghiệm các nền giáo dục khác nhau"
       },
       {
         "num": 4,
@@ -397,21 +397,21 @@ const ALL_TOPICS_POOL = [
         "text": "Communication",
         "pos": "top",
         "type": "noun",
-        "vi": "Giao tiếp toàn cầu"
+        "vi": "Giao tiếp"
       },
       {
         "num": 2,
         "text": "Career and job opportunities",
         "pos": "right",
         "type": "noun",
-        "vi": "Cơ hội việc làm rộng mở"
+        "vi": "Cơ hội nghề nghiệp & việc làm"
       },
       {
         "num": 3,
         "text": "Academic purposes",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Mục đích học thuật & nghiên cứu"
+        "vi": "Mục đích học thuật"
       },
       {
         "num": 4,
@@ -452,21 +452,21 @@ const ALL_TOPICS_POOL = [
         "text": "Become more independent and sociable",
         "pos": "top",
         "type": "verb",
-        "vi": "Tự lập và hòa đồng hơn"
+        "vi": "Trở nên tự lập và hòa đồng hơn"
       },
       {
         "num": 2,
         "text": "Better preparation for formal schooling",
         "pos": "right",
         "type": "noun",
-        "vi": "Chuẩn bị tốt cho trường tiểu học"
+        "vi": "Chuẩn bị tốt hơn cho việc học chính thức"
       },
       {
         "num": 3,
-        "text": "Support parents in balancing work and life",
+        "text": "Support parents in balancing work and family life",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Giúp cha mẹ an tâm làm việc"
+        "vi": "Hỗ trợ cha mẹ cân bằng công việc và gia đình"
       },
       {
         "num": 4,
@@ -507,21 +507,21 @@ const ALL_TOPICS_POOL = [
         "text": "Higher levels of job satisfaction",
         "pos": "top",
         "type": "noun",
-        "vi": "Mức độ hài lòng công việc cao"
+        "vi": "Mức độ hài lòng công việc cao hơn"
       },
       {
         "num": 2,
         "text": "Higher levels of creativity",
         "pos": "right",
         "type": "noun",
-        "vi": "Khuyến khích sự sáng tạo"
+        "vi": "Mức độ sáng tạo cao hơn"
       },
       {
         "num": 3,
         "text": "Higher levels of cooperation and teamwork",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Tăng cường hợp tác nhóm"
+        "vi": "Mức độ hợp tác và làm việc nhóm cao hơn"
       },
       {
         "num": 4,
@@ -562,21 +562,21 @@ const ALL_TOPICS_POOL = [
         "text": "Relax",
         "pos": "top",
         "type": "verb",
-        "vi": "Thư giãn tinh thần"
+        "vi": "Thư giãn"
       },
       {
         "num": 2,
         "text": "Widen knowledge",
         "pos": "right",
         "type": "verb",
-        "vi": "Mở rộng hiểu biết sâu rộng"
+        "vi": "Mở rộng kiến thức"
       },
       {
         "num": 3,
-        "text": "Improve memory and focus",
+        "text": "Improve vocabulary",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Cải thiện trí nhớ và tập trung"
+        "vi": "Nâng cao vốn từ vựng"
       },
       {
         "num": 4,
@@ -617,21 +617,21 @@ const ALL_TOPICS_POOL = [
         "text": "Improve healthcare",
         "pos": "top",
         "type": "verb",
-        "vi": "Nâng cao chất lượng y tế"
+        "vi": "Cải thiện y tế và chăm sóc sức khỏe"
       },
       {
         "num": 2,
         "text": "Facilitate teaching and learning",
         "pos": "right",
         "type": "verb",
-        "vi": "Hỗ trợ dạy và học hiệu quả"
+        "vi": "Hỗ trợ việc dạy và học"
       },
       {
         "num": 3,
-        "text": "Handle daily repetitive tasks",
+        "text": "Handle daily tasks",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Xử lý công việc lặp đi lặp lại"
+        "vi": "Xử lý các công việc hàng ngày"
       },
       {
         "num": 4,
@@ -669,7 +669,7 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Make time for personal hobbies",
+        "text": "Make time for hobbies",
         "pos": "top",
         "type": "verb",
         "vi": "Dành thời gian cho sở thích"
@@ -679,14 +679,14 @@ const ALL_TOPICS_POOL = [
         "text": "Build personal relationships",
         "pos": "right",
         "type": "verb",
-        "vi": "Gắn kết tình cảm gia đình"
+        "vi": "Xây dựng các mối quan hệ cá nhân"
       },
       {
         "num": 3,
-        "text": "Have time to relax and recover",
+        "text": "Have time to relax",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Thư giãn phục hồi năng lượng"
+        "vi": "Có thời gian thư giãn"
       },
       {
         "num": 4,
@@ -727,21 +727,21 @@ const ALL_TOPICS_POOL = [
         "text": "Explore different cultures",
         "pos": "top",
         "type": "verb",
-        "vi": "Khám phá các nền văn hóa"
+        "vi": "Khám phá các nền văn hóa khác nhau"
       },
       {
         "num": 2,
         "text": "Make new friends",
         "pos": "right",
         "type": "verb",
-        "vi": "Kết nối thêm bạn bè mới"
+        "vi": "Kết bạn mới"
       },
       {
         "num": 3,
-        "text": "Reduce stress and refresh mind",
+        "text": "Reduce stress",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Giảm căng thẳng mệt mỏi"
+        "vi": "Giảm căng thẳng"
       },
       {
         "num": 4,
@@ -782,7 +782,7 @@ const ALL_TOPICS_POOL = [
         "text": "Show gratitude and appreciation for life",
         "pos": "top",
         "type": "verb",
-        "vi": "Biết ơn và trân trọng cuộc sống"
+        "vi": "Thể hiện lòng biết ơn và trân trọng cuộc sống"
       },
       {
         "num": 2,
@@ -793,10 +793,10 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 3,
-        "text": "Acquire useful social skills",
+        "text": "Acquire useful skills",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Rèn luyện kỹ năng xã hội hữu ích"
+        "vi": "Tiếp thu các kỹ năng hữu ích"
       },
       {
         "num": 4,
@@ -837,21 +837,21 @@ const ALL_TOPICS_POOL = [
         "text": "Inexpensive",
         "pos": "top",
         "type": "adj",
-        "vi": "Tiết kiệm chi phí"
+        "vi": "Không tốn kém / Tiết kiệm"
       },
       {
         "num": 2,
-        "text": "Relaxing and comfortable",
+        "text": "Relax",
         "pos": "right",
-        "type": "adj",
-        "vi": "Thư giãn, không ồn ào"
+        "type": "verb",
+        "vi": "Thư giãn"
       },
       {
         "num": 3,
-        "text": "Safe and peaceful",
+        "text": "Safety",
         "pos": "bottom",
-        "type": "adj",
-        "vi": "An toàn, tránh kẹt xe"
+        "type": "noun",
+        "vi": "An toàn"
       },
       {
         "num": 4,
@@ -892,21 +892,21 @@ const ALL_TOPICS_POOL = [
         "text": "More experienced",
         "pos": "top",
         "type": "adj",
-        "vi": "Nhiều kinh nghiệm thực chiến"
+        "vi": "Giàu kinh nghiệm hơn"
       },
       {
         "num": 2,
         "text": "More knowledgeable",
         "pos": "right",
         "type": "adj",
-        "vi": "Kiến thức sâu rộng"
+        "vi": "Hiểu biết sâu rộng hơn"
       },
       {
         "num": 3,
-        "text": "More responsible and calm",
+        "text": "More responsible",
         "pos": "bottom",
         "type": "adj",
-        "vi": "Điềm tĩnh và trách nhiệm"
+        "vi": "Có trách nhiệm hơn"
       },
       {
         "num": 4,
@@ -954,11 +954,11 @@ const ALL_TOPICS_POOL = [
         "text": "Lack of shopping experience",
         "pos": "right",
         "type": "noun",
-        "vi": "Thiếu trải nghiệm thử đồ thực tế"
+        "vi": "Thiếu trải nghiệm mua sắm thực tế"
       },
       {
         "num": 3,
-        "text": "Unexpected product quality",
+        "text": "Unexpected quality",
         "pos": "bottom",
         "type": "noun",
         "vi": "Chất lượng không như mong đợi"
@@ -1002,21 +1002,21 @@ const ALL_TOPICS_POOL = [
         "text": "Take a lot of time",
         "pos": "top",
         "type": "verb",
-        "vi": "Mất nhiều thời gian chờ đợi"
+        "vi": "Mất nhiều thời gian"
       },
       {
         "num": 2,
-        "text": "Be very crowded during rush hours",
+        "text": "Be very crowded",
         "pos": "right",
         "type": "verb",
-        "vi": "Rất đông đúc vào giờ cao điểm"
+        "vi": "Rất đông đúc"
       },
       {
         "num": 3,
-        "text": "Risk of being victims of petty crimes",
+        "text": "Be victims of criminal acts",
         "pos": "bottom",
-        "type": "noun",
-        "vi": "Nguy cơ bị móc túi, mất đồ"
+        "type": "verb",
+        "vi": "Có nguy cơ là nạn nhân của tội phạm"
       },
       {
         "num": 4,
@@ -1054,24 +1054,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Waste time if not planned well",
+        "text": "Waste time",
         "pos": "top",
         "type": "verb",
-        "vi": "Tốn thời gian nếu không sắp xếp tốt"
+        "vi": "Lãng phí thời gian"
       },
       {
         "num": 2,
-        "text": "Waste money on gym memberships",
+        "text": "Waste money",
         "pos": "right",
         "type": "verb",
-        "vi": "Tốn chi phí tập luyện đắt đỏ"
+        "vi": "Lãng phí tiền bạc"
       },
       {
         "num": 3,
-        "text": "Risk of getting injured",
+        "text": "Get injured",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Nguy cơ chấn thương cơ bắp/khớp"
+        "vi": "Bị chấn thương"
       },
       {
         "num": 4,
@@ -1109,24 +1109,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Financial burden and risks",
+        "text": "Financial burden",
         "pos": "top",
         "type": "noun",
-        "vi": "Gánh nặng và rủi ro tài chính"
+        "vi": "Gánh nặng tài chính"
       },
       {
         "num": 2,
-        "text": "Lack of employment benefits",
+        "text": "Lack of benefits",
         "pos": "right",
         "type": "noun",
         "vi": "Thiếu các chế độ bảo hiểm, đãi ngộ"
       },
       {
         "num": 3,
-        "text": "Increased responsibility and long hours",
+        "text": "Increased responsibility",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Trách nhiệm nặng nề & giờ làm dài"
+        "vi": "Trách nhiệm nặng nề hơn"
       },
       {
         "num": 4,
@@ -1164,24 +1164,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Pet restrictions",
+        "text": "Pet restriction",
         "pos": "top",
         "type": "noun",
-        "vi": "Quy định cấm nuôi thú cưng"
+        "vi": "Bị hạn chế nuôi thú cưng"
       },
       {
         "num": 2,
-        "text": "Limited private spaces",
+        "text": "Limited spaces",
         "pos": "right",
         "type": "noun",
-        "vi": "Không gian sinh hoạt hạn chế"
+        "vi": "Không gian hạn chế"
       },
       {
         "num": 3,
         "text": "Noise from neighbors",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Tiếng ồn từ các căn hộ lân cận"
+        "vi": "Tiếng ồn từ hàng xóm"
       },
       {
         "num": 4,
@@ -1222,7 +1222,7 @@ const ALL_TOPICS_POOL = [
         "text": "Over-reliance on AI in daily life",
         "pos": "top",
         "type": "noun",
-        "vi": "Lệ thuộc quá mức vào AI"
+        "vi": "Quá phụ thuộc vào AI trong cuộc sống"
       },
       {
         "num": 2,
@@ -1233,10 +1233,10 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 3,
-        "text": "Risk of receiving false or biased information",
+        "text": "The risk of receiving false or biased information",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Nguy cơ tin giả và thông tin sai lệch"
+        "vi": "Nguy cơ nhận thông tin sai lệch hoặc thiên vị"
       },
       {
         "num": 4,
@@ -1277,21 +1277,21 @@ const ALL_TOPICS_POOL = [
         "text": "Get media influence",
         "pos": "top",
         "type": "verb",
-        "vi": "Chịu ảnh hưởng phim ảnh, game bạo lực"
+        "vi": "Chịu ảnh hưởng từ phim ảnh, truyền thông"
       },
       {
         "num": 2,
         "text": "Have peer pressure",
         "pos": "right",
         "type": "verb",
-        "vi": "Chịu áp lực xấu từ bạn bè"
+        "vi": "Chịu áp lực từ bạn bè"
       },
       {
         "num": 3,
         "text": "Lack of parental supervision",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Thiếu sự quan tâm uốn nắn từ cha mẹ"
+        "vi": "Thiếu sự giám sát của cha mẹ"
       },
       {
         "num": 4,
@@ -1332,21 +1332,21 @@ const ALL_TOPICS_POOL = [
         "text": "Be closer to the children",
         "pos": "top",
         "type": "verb",
-        "vi": "Gần gũi nhất với con cái"
+        "vi": "Gần gũi với con cái hơn"
       },
       {
         "num": 2,
         "text": "Teach them with love and responsibility",
         "pos": "right",
         "type": "verb",
-        "vi": "Dạy dỗ bằng tình yêu và trách nhiệm"
+        "vi": "Dạy dỗ con bằng tình thương và trách nhiệm"
       },
       {
         "num": 3,
-        "text": "Understand their strengths and weaknesses",
+        "text": "Understand the strengths and weaknesses",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Hiểu rõ điểm mạnh và điểm yếu của con"
+        "vi": "Thấu hiểu điểm mạnh và điểm yếu của con"
       },
       {
         "num": 4,
@@ -1384,24 +1384,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "High parental expectations",
+        "text": "Parents’ expectation",
         "pos": "top",
         "type": "noun",
-        "vi": "Kỳ vọng quá lớn từ cha mẹ"
+        "vi": "Kỳ vọng của cha mẹ"
       },
       {
         "num": 2,
         "text": "Peer competition",
         "pos": "right",
         "type": "noun",
-        "vi": "Áp lực ganh đua điểm số từ bạn bè"
+        "vi": "Sự cạnh tranh từ bạn bè"
       },
       {
         "num": 3,
-        "text": "Heavy academic workload",
+        "text": "Heavy workload",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Khối lượng bài vở, thi cử quá tải"
+        "vi": "Khối lượng bài vở nặng nề"
       },
       {
         "num": 4,
@@ -1442,21 +1442,21 @@ const ALL_TOPICS_POOL = [
         "text": "Good communication skills",
         "pos": "top",
         "type": "noun",
-        "vi": "Kỹ năng giao tiếp và đồng cảm tốt"
+        "vi": "Kỹ năng giao tiếp tốt"
       },
       {
         "num": 2,
         "text": "Effective teamwork skills",
         "pos": "right",
         "type": "noun",
-        "vi": "Khả năng làm việc nhóm hòa hợp"
+        "vi": "Kỹ năng làm việc nhóm hiệu quả"
       },
       {
         "num": 3,
         "text": "The ability to multitask",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Khả năng quán xuyến nhiều việc"
+        "vi": "Khả năng xử lý nhiều việc cùng lúc"
       },
       {
         "num": 4,
@@ -1494,24 +1494,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Study or work burnout",
+        "text": "Study/Work burnout",
         "pos": "top",
         "type": "noun",
-        "vi": "Áp lực kiệt sức vì công việc/học hành"
+        "vi": "Kiệt sức do học tập hoặc công việc"
       },
       {
         "num": 2,
         "text": "Poor financial situation",
         "pos": "right",
         "type": "noun",
-        "vi": "Khó khăn về tài chính, nợ nần"
+        "vi": "Tình hình tài chính khó khăn"
       },
       {
         "num": 3,
-        "text": "Relationship and marital problems",
+        "text": "Relationship problems",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Mâu thuẫn trong các mối quan hệ"
+        "vi": "Vấn đề trong các mối quan hệ"
       },
       {
         "num": 4,
@@ -1549,24 +1549,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Unhealthy fast-food eating habits",
+        "text": "Unhealthy eating habits",
         "pos": "top",
         "type": "noun",
-        "vi": "Thói quen ăn thức ăn nhanh nhiều dầu mỡ"
+        "vi": "Thói quen ăn uống không lành mạnh"
       },
       {
         "num": 2,
-        "text": "Excessive mobile phone and TV use",
+        "text": "Excessive mobile phone use",
         "pos": "right",
         "type": "noun",
-        "vi": "Dùng điện thoại và xem TV quá nhiều"
+        "vi": "Sử dụng điện thoại quá nhiều"
       },
       {
         "num": 3,
-        "text": "Lack of physical exercise and outdoor play",
+        "text": "Lack of physical exercise",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Lười vận động và chơi ngoài trời"
+        "vi": "Thiếu vận động thể chất"
       },
       {
         "num": 4,
@@ -1604,24 +1604,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Share routines and household tasks",
+        "text": "Share some routines & household tasks",
         "pos": "top",
         "type": "verb",
-        "vi": "Chia sẻ việc nhà hàng ngày"
+        "vi": "Chia sẻ sinh hoạt & việc nhà"
       },
       {
         "num": 2,
-        "text": "Equal childcare responsibility",
+        "text": "Childcare responsibility",
         "pos": "right",
         "type": "noun",
-        "vi": "Cùng chia sẻ việc nuôi dạy con"
+        "vi": "Trách nhiệm chăm sóc con cái"
       },
       {
         "num": 3,
-        "text": "Work together as a supportive team",
+        "text": "Work as a team",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Phối hợp hỗ trợ nhau như một đội"
+        "vi": "Phối hợp như một đội"
       },
       {
         "num": 4,
@@ -1659,24 +1659,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "High creativity",
+        "text": "Creativity",
         "pos": "top",
         "type": "noun",
-        "vi": "Khả năng sáng tạo cao"
+        "vi": "Sự sáng tạo"
       },
       {
         "num": 2,
-        "text": "Strong sense of responsibility",
+        "text": "Responsibility",
         "pos": "right",
         "type": "noun",
-        "vi": "Tinh thần trách nhiệm vững vàng"
+        "vi": "Tinh thần trách nhiệm"
       },
       {
         "num": 3,
-        "text": "Possess diverse multidisciplinary skills",
+        "text": "Have many skills",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Sở hữu đa dạng kỹ năng chuyên môn"
+        "vi": "Có nhiều kỹ năng đa dạng"
       },
       {
         "num": 4,
@@ -1714,24 +1714,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Give helpful and honest advice",
+        "text": "Give helpful advice",
         "pos": "top",
         "type": "verb",
-        "vi": "Đưa ra lời khuyên chân thành"
+        "vi": "Đưa ra lời khuyên hữu ích"
       },
       {
         "num": 2,
-        "text": "Listen empathetically and keep secrets",
+        "text": "Listen and keep your secrets",
         "pos": "right",
         "type": "verb",
-        "vi": "Lắng nghe và giữ kín bí mật"
+        "vi": "Lắng nghe và giữ bí mật"
       },
       {
         "num": 3,
-        "text": "Point out mistakes constructively",
+        "text": "Point out your mistakes",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Góp ý chân tình khi bạn sai"
+        "vi": "Chỉ ra lỗi sai cho bạn"
       },
       {
         "num": 4,
@@ -1769,24 +1769,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "High responsibility",
+        "text": "Responsibility",
         "pos": "top",
         "type": "noun",
-        "vi": "Trách nhiệm cao"
+        "vi": "Tinh thần trách nhiệm"
       },
       {
         "num": 2,
         "text": "Good communication skills",
         "pos": "right",
         "type": "noun",
-        "vi": "Kỹ năng giao tiếp xuất sắc"
+        "vi": "Kỹ năng giao tiếp tốt"
       },
       {
         "num": 3,
-        "text": "Be supportive and encouraging",
+        "text": "Be supportive",
         "pos": "bottom",
-        "type": "verb",
-        "vi": "Luôn hỗ trợ và khích lệ cấp dưới"
+        "type": "adj",
+        "vi": "Luôn hỗ trợ và động viên"
       },
       {
         "num": 4,
@@ -1824,24 +1824,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Be creative in lesson delivery",
+        "text": "Be creative",
         "pos": "top",
-        "type": "verb",
-        "vi": "Sáng tạo trong phương pháp giảng dạy"
+        "type": "adj",
+        "vi": "Sáng tạo trong giảng dạy"
       },
       {
         "num": 2,
-        "text": "Be knowledgeable and up-to-date",
+        "text": "Be knowledgeable",
         "pos": "right",
-        "type": "verb",
-        "vi": "Kiến thức sâu rộng và cập nhật"
+        "type": "adj",
+        "vi": "Am hiểu kiến thức sâu rộng"
       },
       {
         "num": 3,
-        "text": "Be patient and caring with all students",
+        "text": "Be patient",
         "pos": "bottom",
-        "type": "verb",
-        "vi": "Kiên nhẫn và tận tụy với học trò"
+        "type": "adj",
+        "vi": "Kiên nhẫn với học sinh"
       },
       {
         "num": 4,
@@ -1886,17 +1886,17 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 2,
-        "text": "Eagerness to learn new knowledge",
+        "text": "Eagerness to learn",
         "pos": "right",
         "type": "noun",
-        "vi": "Tinh thần ham học hỏi"
+        "vi": "Sự ham học hỏi"
       },
       {
         "num": 3,
-        "text": "Ability to manage study time well",
+        "text": "Ability to manage time well",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Khả năng sắp xếp thời gian hợp lý"
+        "vi": "Khả năng quản lý thời gian tốt"
       },
       {
         "num": 4,
@@ -1934,24 +1934,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Share thoughts with someone close",
+        "text": "Share with someone else",
         "pos": "top",
         "type": "verb",
-        "vi": "Tâm sự với người thân/bạn bè"
+        "vi": "Tâm sự với người khác"
       },
       {
         "num": 2,
-        "text": "Listen to soothing or favorite music",
+        "text": "Listen to music",
         "pos": "right",
         "type": "verb",
-        "vi": "Nghe nhạc thư giãn"
+        "vi": "Nghe nhạc"
       },
       {
         "num": 3,
-        "text": "Do physical exercise regularly",
+        "text": "Do exercise",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Tập thể dục giải phóng năng lượng"
+        "vi": "Tập thể dục"
       },
       {
         "num": 4,
@@ -1992,21 +1992,21 @@ const ALL_TOPICS_POOL = [
         "text": "Build effective communication skills",
         "pos": "top",
         "type": "verb",
-        "vi": "Rèn luyện giao tiếp cởi mở, chân thành"
+        "vi": "Xây dựng kỹ năng giao tiếp hiệu quả"
       },
       {
         "num": 2,
-        "text": "Keep good co-operation and mutual support",
+        "text": "Keep good co-operation",
         "pos": "right",
         "type": "verb",
-        "vi": "Hợp tác và hỗ trợ đồng nghiệp"
+        "vi": "Duy trì sự hợp tác tốt"
       },
       {
         "num": 3,
-        "text": "Avoid destructive criticism and office gossip",
+        "text": "Avoid criticism and gossip",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Tránh bàn tán sau lưng và chỉ trích xấu"
+        "vi": "Tránh chỉ trích và bàn tán"
       },
       {
         "num": 4,
@@ -2046,22 +2046,22 @@ const ALL_TOPICS_POOL = [
         "num": 1,
         "text": "Being punctual",
         "pos": "top",
-        "type": "adj",
-        "vi": "Đến đúng giờ"
+        "type": "noun",
+        "vi": "Đúng giờ"
       },
       {
         "num": 2,
-        "text": "Being well-dressed and professional",
+        "text": "Being well-dressed",
         "pos": "right",
-        "type": "adj",
+        "type": "noun",
         "vi": "Ăn mặc lịch sự, chỉn chu"
       },
       {
         "num": 3,
-        "text": "Being humorous and confident",
+        "text": "Being humorous",
         "pos": "bottom",
-        "type": "adj",
-        "vi": "Tự tin, thân thiện, trả lời khéo léo"
+        "type": "noun",
+        "vi": "Hài hước, tự nhiên"
       },
       {
         "num": 4,
@@ -2099,24 +2099,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Do physical exercise regularly",
+        "text": "Do exercise",
         "pos": "top",
         "type": "verb",
-        "vi": "Tập thể dục đều đặn"
+        "vi": "Tập thể dục"
       },
       {
         "num": 2,
-        "text": "Manage stress effectively",
+        "text": "Manage stress",
         "pos": "right",
         "type": "verb",
-        "vi": "Kiểm soát căng thẳng tinh thần"
+        "vi": "Kiểm soát căng thẳng"
       },
       {
         "num": 3,
-        "text": "Eat healthy food and drink plenty of water",
+        "text": "Eat healthy food",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Ăn uống lành mạnh, đủ chất"
+        "vi": "Ăn uống lành mạnh"
       },
       {
         "num": 4,
@@ -2157,21 +2157,21 @@ const ALL_TOPICS_POOL = [
         "text": "Do physical exercise",
         "pos": "top",
         "type": "verb",
-        "vi": "Tập luyện thể thao"
+        "vi": "Tập luyện thể chất"
       },
       {
         "num": 2,
-        "text": "Talk to someone you trust",
+        "text": "Talk to someone",
         "pos": "right",
         "type": "verb",
-        "vi": "Tâm sự với người tin cậy"
+        "vi": "Tâm sự với ai đó"
       },
       {
         "num": 3,
-        "text": "Take a short break and relax",
+        "text": "Take a short break",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Nghỉ ngơi ngắn giữa giờ"
+        "vi": "Nghỉ ngơi ngắn"
       },
       {
         "num": 4,
@@ -2212,14 +2212,14 @@ const ALL_TOPICS_POOL = [
         "text": "Prepare meals at home",
         "pos": "top",
         "type": "verb",
-        "vi": "Nấu ăn tại nhà"
+        "vi": "Tự nấu ăn tại nhà"
       },
       {
         "num": 2,
         "text": "Avoid unnecessary shopping",
         "pos": "right",
         "type": "verb",
-        "vi": "Tránh mua sắm hoang phí"
+        "vi": "Tránh mua sắm không cần thiết"
       },
       {
         "num": 3,
@@ -2264,24 +2264,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Add more useful books and reference resources",
+        "text": "Add more useful books and resources",
         "pos": "top",
         "type": "verb",
-        "vi": "Bổ sung nhiều sách và tài liệu hữu ích"
+        "vi": "Bổ sung thêm sách và tài liệu hữu ích"
       },
       {
         "num": 2,
-        "text": "Provide digital materials and modern computers",
+        "text": "Provide digital materials and computers",
         "pos": "right",
         "type": "verb",
-        "vi": "Cung cấp tài liệu số và máy tính tra cứu"
+        "vi": "Cung cấp tài liệu số và máy tính"
       },
       {
         "num": 3,
-        "text": "Create a more comfortable, quiet reading space",
+        "text": "Create a more comfortable reading space",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Tạo không gian đọc yên tĩnh, thoải mái"
+        "vi": "Tạo không gian đọc sách thoải mái hơn"
       },
       {
         "num": 4,
@@ -2322,21 +2322,21 @@ const ALL_TOPICS_POOL = [
         "text": "Reading more history books",
         "pos": "top",
         "type": "verb",
-        "vi": "Đọc thêm sách lịch sử đa dạng"
+        "vi": "Đọc thêm sách lịch sử"
       },
       {
         "num": 2,
-        "text": "Listen to historical stories and podcasts",
+        "text": "Listen to historical stories",
         "pos": "right",
         "type": "verb",
-        "vi": "Nghe kể chuyện lịch sử & podcast"
+        "vi": "Lắng nghe các câu chuyện lịch sử"
       },
       {
         "num": 3,
         "text": "Watch historical documentaries or films",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Xem phim tài liệu & phim lịch sử"
+        "vi": "Xem phim tài liệu hoặc phim lịch sử"
       },
       {
         "num": 4,
@@ -2374,24 +2374,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Make phone and video calls",
+        "text": "Make phone calls",
         "pos": "top",
         "type": "verb",
-        "vi": "Gọi điện thoại và gọi video"
+        "vi": "Gọi điện thoại"
       },
       {
         "num": 2,
-        "text": "Meet in person for coffee or meals",
+        "text": "Meet in person",
         "pos": "right",
         "type": "verb",
-        "vi": "Gặp mặt trực tiếp ăn uống, trò chuyện"
+        "vi": "Gặp mặt trực tiếp"
       },
       {
         "num": 3,
-        "text": "Send instant messages and emails",
+        "text": "Write letters or messages",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Nhắn tin qua ứng dụng & mạng xã hội"
+        "vi": "Viết thư hoặc gửi tin nhắn"
       },
       {
         "num": 4,
@@ -2443,7 +2443,7 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 3,
-        "text": "Friendly working environment",
+        "text": "A friendly working environment",
         "pos": "bottom",
         "type": "noun",
         "vi": "Môi trường làm việc & đồng nghiệp"
@@ -2487,21 +2487,21 @@ const ALL_TOPICS_POOL = [
         "text": "Professional appearance and attire",
         "pos": "top",
         "type": "noun",
-        "vi": "Trang phục và ngoại hình chuyên nghiệp"
+        "vi": "Trang phục và diện mạo chuyên nghiệp"
       },
       {
         "num": 2,
         "text": "Punctuality",
         "pos": "right",
         "type": "noun",
-        "vi": "Sự đúng giờ"
+        "vi": "Đúng giờ"
       },
       {
         "num": 3,
         "text": "Clear and confident communication",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Giao tiếp rõ ràng, tự tin"
+        "vi": "Giao tiếp rõ ràng và tự tin"
       },
       {
         "num": 4,
@@ -2542,21 +2542,21 @@ const ALL_TOPICS_POOL = [
         "text": "Tuition fees",
         "pos": "top",
         "type": "noun",
-        "vi": "Học phí & chi phí đào tạo"
+        "vi": "Học phí và chi phí sinh hoạt"
       },
       {
         "num": 2,
         "text": "Academic reputation",
         "pos": "right",
         "type": "noun",
-        "vi": "Danh tiếng & chất lượng đào tạo"
+        "vi": "Danh tiếng học thuật và giảng viên"
       },
       {
         "num": 3,
         "text": "Career prospects",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Cơ hội việc làm sau tốt nghiệp"
+        "vi": "Cơ hội việc làm sau khi ra trường"
       },
       {
         "num": 4,
