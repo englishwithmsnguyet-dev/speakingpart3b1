@@ -1595,336 +1595,6 @@ const ALL_TOPICS_POOL = [
     ]
   },
   {
-    "id": "q-topic-01",
-    "category": "qualities",
-    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
-    "topicCode": "ĐỀ SỐ 01",
-    "title": "Equal partnership in a family has some features.",
-    "center": "Equal partnership",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Share some routines & household tasks",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Chia sẻ sinh hoạt & việc nhà"
-      },
-      {
-        "num": 2,
-        "text": "Childcare responsibility",
-        "pos": "right",
-        "type": "noun",
-        "vi": "Trách nhiệm chăm sóc con cái"
-      },
-      {
-        "num": 3,
-        "text": "Work as a team",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Phối hợp như một đội"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "How have the roles of husband and wife changed in the past 10 years?",
-        "vi": "Vai trò vợ chồng đã thay đổi thế nào?",
-        "a": "In the past, husbands earned money while wives only did housework. Nowadays, both partners <strong>share financial responsibilities and household chores equally</strong>."
-      },
-      {
-        "q": "What roles do grandparents play in a family?",
-        "vi": "Vai trò của ông bà trong gia đình?",
-        "a": "Grandparents provide <strong>unconditional love and help look after grandchildren</strong> when parents work. They also share <strong>valuable traditional wisdom and family values</strong>."
-      },
-      {
-        "q": "What do you think about single-parent families?",
-        "vi": "Bạn nghĩ gì về gia đình đơn thân?",
-        "a": "Single parents are <strong>very admirable because they work double hard</strong> to raise their children alone. Society should <strong>offer them financial and emotional support</strong>."
-      }
-    ]
-  },
-  {
-    "id": "q-topic-02",
-    "category": "qualities",
-    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
-    "topicCode": "ĐỀ SỐ 02",
-    "title": "A good worker can adapt well to any working environment.",
-    "center": "A good worker",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Creativity",
-        "pos": "top",
-        "type": "noun",
-        "vi": "Sự sáng tạo"
-      },
-      {
-        "num": 2,
-        "text": "Responsibility",
-        "pos": "right",
-        "type": "noun",
-        "vi": "Tinh thần trách nhiệm"
-      },
-      {
-        "num": 3,
-        "text": "Have many skills",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Có nhiều kỹ năng đa dạng"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Why is adaptability important in today's rapid job market?",
-        "vi": "Tại sao khả năng thích nghi quan trọng?",
-        "a": "Because business environments and technology <strong>change extremely fast with new tools</strong>. Adaptable workers can <strong>learn new skills quickly and keep their jobs</strong>."
-      },
-      {
-        "q": "Can someone improve their problem-solving skills?",
-        "vi": "Có thể cải thiện kỹ năng giải quyết vấn đề?",
-        "a": "Yes, people can improve this skill by <strong>analyzing difficulties calmly and learning from mistakes</strong>. In addition, <strong>asking for advice from senior mentors</strong> is very effective."
-      },
-      {
-        "q": "What is more valuable: technical skills or a positive work attitude?",
-        "vi": "Kỹ năng chuyên môn hay thái độ tích cực quan trọng hơn?",
-        "a": "In my view, a <strong>positive and hardworking attitude is more valuable</strong> because technical skills can be trained. An honest and enthusiastic employee will <strong>always be trusted by the manager</strong>."
-      }
-    ]
-  },
-  {
-    "id": "q-topic-03",
-    "category": "qualities",
-    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
-    "topicCode": "ĐỀ SỐ 03",
-    "title": "A friend in need is a friend indeed.",
-    "center": "A good friend",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Give helpful advice",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Đưa ra lời khuyên hữu ích"
-      },
-      {
-        "num": 2,
-        "text": "Listen and keep your secrets",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Lắng nghe và giữ bí mật"
-      },
-      {
-        "num": 3,
-        "text": "Point out your mistakes",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Chỉ ra lỗi sai cho bạn"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "How can people maintain long-distance friendships?",
-        "vi": "Duy trì tình bạn xa cách bằng cách nào?",
-        "a": "Friends can <strong>send daily messages and video call each other</strong> regularly on weekends. Moreover, <strong>sending birthday gifts and planning visits</strong> keeps the friendship strong."
-      },
-      {
-        "q": "Is having a few true friends better than having many acquaintances?",
-        "vi": "Ít bạn thân tốt hơn nhiều bạn xã giao?",
-        "a": "Yes, having two or three loyal friends is <strong>far better than hundreds of superficial acquaintances</strong>. True friends will <strong>stand by you when you face difficulties</strong> in life."
-      },
-      {
-        "q": "What should you do if a friend betrays your trust?",
-        "vi": "Nên làm gì khi bạn bè phản bội lòng tin?",
-        "a": "First, you should <strong>talk directly to understand the real situation</strong>. If that person does not feel sorry or change, it is best to <strong>keep a safe distance from them</strong>."
-      }
-    ]
-  },
-  {
-    "id": "q-topic-04",
-    "category": "qualities",
-    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
-    "topicCode": "ĐỀ SỐ 04",
-    "title": "A good team leader has some clear qualities.",
-    "center": "A team leader",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Responsibility",
-        "pos": "top",
-        "type": "noun",
-        "vi": "Tinh thần trách nhiệm"
-      },
-      {
-        "num": 2,
-        "text": "Good communication skills",
-        "pos": "right",
-        "type": "noun",
-        "vi": "Kỹ năng giao tiếp tốt"
-      },
-      {
-        "num": 3,
-        "text": "Be supportive",
-        "pos": "bottom",
-        "type": "adj",
-        "vi": "Luôn hỗ trợ và động viên"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Can leadership be taught, or is it inborn?",
-        "vi": "Lãnh đạo là bẩm sinh hay do học tập?",
-        "a": "I believe leadership skills can be <strong>learned through practice and proper training</strong>. Although some people are naturally charismatic, <strong>anyone can become a leader with dedication</strong>."
-      },
-      {
-        "q": "How should a leader handle team conflicts?",
-        "vi": "Lãnh đạo nên xử lý mâu thuẫn nhóm thế nào?",
-        "a": "A leader should <strong>listen to both sides calmly and impartially</strong>. Then, they should <strong>guide team members to find a fair compromise</strong> that everyone accepts."
-      },
-      {
-        "q": "What is the difference between a boss and a true leader?",
-        "vi": "Khác biệt giữa một ông chủ và người lãnh đạo?",
-        "a": "A boss simply <strong>gives strict orders and demands results</strong> from employees. In contrast, a true leader <strong>inspires the team and works alongside them</strong>."
-      }
-    ]
-  },
-  {
-    "id": "q-topic-05",
-    "category": "qualities",
-    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
-    "topicCode": "ĐỀ SỐ 05",
-    "title": "A great teacher can inspire and support students in many ways.",
-    "center": "A great teacher",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Be creative",
-        "pos": "top",
-        "type": "adj",
-        "vi": "Sáng tạo trong giảng dạy"
-      },
-      {
-        "num": 2,
-        "text": "Be knowledgeable",
-        "pos": "right",
-        "type": "adj",
-        "vi": "Am hiểu kiến thức sâu rộng"
-      },
-      {
-        "num": 3,
-        "text": "Be patient",
-        "pos": "bottom",
-        "type": "adj",
-        "vi": "Kiên nhẫn với học sinh"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Who was your favorite teacher and why?",
-        "vi": "Ai là giáo viên yêu thích nhất của bạn?",
-        "a": "My favorite teacher was my high school English teacher because she was <strong>very patient, caring, and encouraging</strong>. She always <strong>made complex lessons easy and fun to understand</strong>."
-      },
-      {
-        "q": "Will computers ever replace human teachers?",
-        "vi": "Máy tính có thể thay thế giáo viên?",
-        "a": "No, computers will never replace teachers because machines cannot <strong>show real human empathy and personal encouragement</strong>. A caring teacher <strong>inspires moral values and character</strong>."
-      },
-      {
-        "q": "What is the hardest challenge modern teachers face?",
-        "vi": "Thử thách lớn nhất của giáo viên hiện nay?",
-        "a": "The hardest challenge is <strong>dealing with students who are distracted by smartphones</strong> in class. Teachers also have to <strong>manage heavy administrative paperwork</strong> every day."
-      }
-    ]
-  },
-  {
-    "id": "q-topic-06",
-    "category": "qualities",
-    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
-    "topicCode": "ĐỀ SỐ 06",
-    "title": "A good student shows certain important qualities.",
-    "center": "A good student",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Self-discipline",
-        "pos": "top",
-        "type": "noun",
-        "vi": "Tính kỷ luật tự giác"
-      },
-      {
-        "num": 2,
-        "text": "Eagerness to learn",
-        "pos": "right",
-        "type": "noun",
-        "vi": "Sự ham học hỏi"
-      },
-      {
-        "num": 3,
-        "text": "Ability to manage time well",
-        "pos": "bottom",
-        "type": "noun",
-        "vi": "Khả năng quản lý thời gian tốt"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Why is self-discipline the most crucial quality for students today?",
-        "vi": "Tại sao tính tự giác là quan trọng nhất?",
-        "a": "Self-discipline is crucial because students face <strong>countless online distractions like social media and video games</strong>. With discipline, they can <strong>finish homework on time and study consistently</strong>."
-      },
-      {
-        "q": "Which is more important: high test scores or good character?",
-        "vi": "Điểm số cao hay phẩm chất tốt quan trọng hơn?",
-        "a": "Good character is far more important because <strong>high scores without honesty cannot make a good citizen</strong>. A person with integrity will <strong>earn respect and succeed in the long run</strong>."
-      },
-      {
-        "q": "How can students improve their time management?",
-        "vi": "Học sinh cải thiện quản lý thời gian thế nào?",
-        "a": "Students should <strong>write down daily tasks in a study notebook</strong> and set realistic deadlines. Additionally, <strong>turning off phone notifications while studying</strong> helps them concentrate."
-      }
-    ]
-  },
-  {
     "id": "w-topic-01",
     "category": "ways",
     "categoryName": "Nhóm Cách Thức / Phương Pháp",
@@ -2420,6 +2090,336 @@ const ALL_TOPICS_POOL = [
     ]
   },
   {
+    "id": "q-topic-01",
+    "category": "qualities",
+    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
+    "topicCode": "ĐỀ SỐ 01",
+    "title": "Equal partnership in a family has some features.",
+    "center": "Equal partnership",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Share some routines & household tasks",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Chia sẻ sinh hoạt & việc nhà"
+      },
+      {
+        "num": 2,
+        "text": "Childcare responsibility",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Trách nhiệm chăm sóc con cái"
+      },
+      {
+        "num": 3,
+        "text": "Work as a team",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Phối hợp như một đội"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "How have the roles of husband and wife changed in the past 10 years?",
+        "vi": "Vai trò vợ chồng đã thay đổi thế nào?",
+        "a": "In the past, husbands earned money while wives only did housework. Nowadays, both partners <strong>share financial responsibilities and household chores equally</strong>."
+      },
+      {
+        "q": "What roles do grandparents play in a family?",
+        "vi": "Vai trò của ông bà trong gia đình?",
+        "a": "Grandparents provide <strong>unconditional love and help look after grandchildren</strong> when parents work. They also share <strong>valuable traditional wisdom and family values</strong>."
+      },
+      {
+        "q": "What do you think about single-parent families?",
+        "vi": "Bạn nghĩ gì về gia đình đơn thân?",
+        "a": "Single parents are <strong>very admirable because they work double hard</strong> to raise their children alone. Society should <strong>offer them financial and emotional support</strong>."
+      }
+    ]
+  },
+  {
+    "id": "q-topic-02",
+    "category": "qualities",
+    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
+    "topicCode": "ĐỀ SỐ 02",
+    "title": "A good worker can adapt well to any working environment.",
+    "center": "A good worker",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Creativity",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Sự sáng tạo"
+      },
+      {
+        "num": 2,
+        "text": "Responsibility",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Tinh thần trách nhiệm"
+      },
+      {
+        "num": 3,
+        "text": "Have many skills",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Có nhiều kỹ năng đa dạng"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Why is adaptability important in today's rapid job market?",
+        "vi": "Tại sao khả năng thích nghi quan trọng?",
+        "a": "Because business environments and technology <strong>change extremely fast with new tools</strong>. Adaptable workers can <strong>learn new skills quickly and keep their jobs</strong>."
+      },
+      {
+        "q": "Can someone improve their problem-solving skills?",
+        "vi": "Có thể cải thiện kỹ năng giải quyết vấn đề?",
+        "a": "Yes, people can improve this skill by <strong>analyzing difficulties calmly and learning from mistakes</strong>. In addition, <strong>asking for advice from senior mentors</strong> is very effective."
+      },
+      {
+        "q": "What is more valuable: technical skills or a positive work attitude?",
+        "vi": "Kỹ năng chuyên môn hay thái độ tích cực quan trọng hơn?",
+        "a": "In my view, a <strong>positive and hardworking attitude is more valuable</strong> because technical skills can be trained. An honest and enthusiastic employee will <strong>always be trusted by the manager</strong>."
+      }
+    ]
+  },
+  {
+    "id": "q-topic-03",
+    "category": "qualities",
+    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
+    "topicCode": "ĐỀ SỐ 03",
+    "title": "A friend in need is a friend indeed.",
+    "center": "A good friend",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Give helpful advice",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Đưa ra lời khuyên hữu ích"
+      },
+      {
+        "num": 2,
+        "text": "Listen and keep your secrets",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Lắng nghe và giữ bí mật"
+      },
+      {
+        "num": 3,
+        "text": "Point out your mistakes",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Chỉ ra lỗi sai cho bạn"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "How can people maintain long-distance friendships?",
+        "vi": "Duy trì tình bạn xa cách bằng cách nào?",
+        "a": "Friends can <strong>send daily messages and video call each other</strong> regularly on weekends. Moreover, <strong>sending birthday gifts and planning visits</strong> keeps the friendship strong."
+      },
+      {
+        "q": "Is having a few true friends better than having many acquaintances?",
+        "vi": "Ít bạn thân tốt hơn nhiều bạn xã giao?",
+        "a": "Yes, having two or three loyal friends is <strong>far better than hundreds of superficial acquaintances</strong>. True friends will <strong>stand by you when you face difficulties</strong> in life."
+      },
+      {
+        "q": "What should you do if a friend betrays your trust?",
+        "vi": "Nên làm gì khi bạn bè phản bội lòng tin?",
+        "a": "First, you should <strong>talk directly to understand the real situation</strong>. If that person does not feel sorry or change, it is best to <strong>keep a safe distance from them</strong>."
+      }
+    ]
+  },
+  {
+    "id": "q-topic-04",
+    "category": "qualities",
+    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
+    "topicCode": "ĐỀ SỐ 04",
+    "title": "A good team leader has some clear qualities.",
+    "center": "A team leader",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Responsibility",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Tinh thần trách nhiệm"
+      },
+      {
+        "num": 2,
+        "text": "Good communication skills",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Kỹ năng giao tiếp tốt"
+      },
+      {
+        "num": 3,
+        "text": "Be supportive",
+        "pos": "bottom",
+        "type": "adj",
+        "vi": "Luôn hỗ trợ và động viên"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Can leadership be taught, or is it inborn?",
+        "vi": "Lãnh đạo là bẩm sinh hay do học tập?",
+        "a": "I believe leadership skills can be <strong>learned through practice and proper training</strong>. Although some people are naturally charismatic, <strong>anyone can become a leader with dedication</strong>."
+      },
+      {
+        "q": "How should a leader handle team conflicts?",
+        "vi": "Lãnh đạo nên xử lý mâu thuẫn nhóm thế nào?",
+        "a": "A leader should <strong>listen to both sides calmly and impartially</strong>. Then, they should <strong>guide team members to find a fair compromise</strong> that everyone accepts."
+      },
+      {
+        "q": "What is the difference between a boss and a true leader?",
+        "vi": "Khác biệt giữa một ông chủ và người lãnh đạo?",
+        "a": "A boss simply <strong>gives strict orders and demands results</strong> from employees. In contrast, a true leader <strong>inspires the team and works alongside them</strong>."
+      }
+    ]
+  },
+  {
+    "id": "q-topic-05",
+    "category": "qualities",
+    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
+    "topicCode": "ĐỀ SỐ 05",
+    "title": "A great teacher can inspire and support students in many ways.",
+    "center": "A great teacher",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Be creative",
+        "pos": "top",
+        "type": "adj",
+        "vi": "Sáng tạo trong giảng dạy"
+      },
+      {
+        "num": 2,
+        "text": "Be knowledgeable",
+        "pos": "right",
+        "type": "adj",
+        "vi": "Am hiểu kiến thức sâu rộng"
+      },
+      {
+        "num": 3,
+        "text": "Be patient",
+        "pos": "bottom",
+        "type": "adj",
+        "vi": "Kiên nhẫn với học sinh"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Who was your favorite teacher and why?",
+        "vi": "Ai là giáo viên yêu thích nhất của bạn?",
+        "a": "My favorite teacher was my high school English teacher because she was <strong>very patient, caring, and encouraging</strong>. She always <strong>made complex lessons easy and fun to understand</strong>."
+      },
+      {
+        "q": "Will computers ever replace human teachers?",
+        "vi": "Máy tính có thể thay thế giáo viên?",
+        "a": "No, computers will never replace teachers because machines cannot <strong>show real human empathy and personal encouragement</strong>. A caring teacher <strong>inspires moral values and character</strong>."
+      },
+      {
+        "q": "What is the hardest challenge modern teachers face?",
+        "vi": "Thử thách lớn nhất của giáo viên hiện nay?",
+        "a": "The hardest challenge is <strong>dealing with students who are distracted by smartphones</strong> in class. Teachers also have to <strong>manage heavy administrative paperwork</strong> every day."
+      }
+    ]
+  },
+  {
+    "id": "q-topic-06",
+    "category": "qualities",
+    "categoryName": "Nhóm Đặc Điểm / Phẩm Chất",
+    "topicCode": "ĐỀ SỐ 06",
+    "title": "A good student shows certain important qualities.",
+    "center": "A good student",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Self-discipline",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Tính kỷ luật tự giác"
+      },
+      {
+        "num": 2,
+        "text": "Eagerness to learn",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Sự ham học hỏi"
+      },
+      {
+        "num": 3,
+        "text": "Ability to manage time well",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Khả năng quản lý thời gian tốt"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Why is self-discipline the most crucial quality for students today?",
+        "vi": "Tại sao tính tự giác là quan trọng nhất?",
+        "a": "Self-discipline is crucial because students face <strong>countless online distractions like social media and video games</strong>. With discipline, they can <strong>finish homework on time and study consistently</strong>."
+      },
+      {
+        "q": "Which is more important: high test scores or good character?",
+        "vi": "Điểm số cao hay phẩm chất tốt quan trọng hơn?",
+        "a": "Good character is far more important because <strong>high scores without honesty cannot make a good citizen</strong>. A person with integrity will <strong>earn respect and succeed in the long run</strong>."
+      },
+      {
+        "q": "How can students improve their time management?",
+        "vi": "Học sinh cải thiện quản lý thời gian thế nào?",
+        "a": "Students should <strong>write down daily tasks in a study notebook</strong> and set realistic deadlines. Additionally, <strong>turning off phone notifications while studying</strong> helps them concentrate."
+      }
+    ]
+  },
+  {
     "id": "f-topic-01",
     "category": "factors",
     "categoryName": "Nhóm Yếu Tố",
@@ -2533,7 +2533,7 @@ const ALL_TOPICS_POOL = [
     "id": "f-topic-03",
     "category": "factors",
     "categoryName": "Nhóm Yếu Tố",
-    "topicCode": "BÀI MẪU",
+    "topicCode": "TOPIC 03",
     "title": "There are several factors to consider when choosing a university.",
     "center": "Choosing a university",
     "branches": [
@@ -2676,6 +2676,20 @@ const CLASS_STUDENTS = {
         "Phạm Thị Út Lua", "Lê Huỳnh Diễm My", "Nguyễn Thị Ngọc Mỹ", "Huỳnh Thị Kim Ngân",
         "Trần Thị Kim Ngân", "Nguyễn Thị Tiểu Phụng", "Trần Yến Phụng", "Phạm Ngọc Thạch",
         "Cao Thị Thu Trang", "Nguyễn Thị Thanh Tuyền", "Trần Phạm Phương Uyên", "Trần Ngô Mỹ Vy"
+    ],
+    "CB219": [
+        "Lưu Thị Vân Anh", "Nguyễn Tuấn Anh", "Trần Thị Huỳnh Duy", "Duy Thị Huỳnh Hân",
+        "Trần Thị Xuân Hoa", "Nguyễn Phạm Khang", "Đặng Văn Khánh", "Chim Nhật Luân",
+        "Lư Vĩnh Phúc", "Nguyễn Chí Thiện", "Trần Thị Ngọc Thơ", "Huỳnh Yến Trang",
+        "Thị Thu Trinh", "Nguyễn Thị Mỹ Xuyên", "Nguyễn Như Ý"
+    ],
+    "B212": [
+        "Nguyễn Duy Hồng Anh", "Nguyễn Ngọc Minh Anh", "Nguyễn Lê Mỹ Hân", "Nguyễn Hồng Minh Huy",
+        "Nguyễn Quốc Khải", "Đoàn Nguyễn Đình Khang", "Lê Nguyễn Gia Khánh", "Nguyễn Hữu Khánh", 
+        "Hồ Thị Ngọc Lan", "Trần Thị Hồng Lỉnh", "Võ Thị Triệu Minh", "Hứa Đình Nghi", 
+        "Võ Thị Bảo Ngọc", "Lê Tiến Phát", "Nguyễn Hoàng Thông", "Nguyễn Kim Tiền", 
+        "Lê Thị Bảo Trân", "Võ Thị Diễm Trinh", "Nguyễn Tấn Trung", "Nguyễn Tiến Trung", 
+        "Trần Thị Ánh Tuyết", "Đặng Nguyễn Khánh Uyên", "Nguyễn Thị Chúc Yến"
     ]
 };
 
@@ -2769,7 +2783,7 @@ function initAuth() {
             state.student.isTeacher = true;
         } else {
             // 2. Kiểm tra học viên thuộc 5 lớp: CB206, CB210, CB211, CB213, ONB103
-            const allowedClasses = ['CB206', 'CB210', 'CB211', 'CB213', 'ONB103'];
+            const allowedClasses = ['CB206', 'CB210', 'CB211', 'CB213', 'ONB103', 'CB219', 'B212'];
             if (!allowedClasses.includes(formattedClass)) {
                 if (errorMsg) {
                     errorMsg.textContent = 'Mã lớp không hợp lệ! Web chỉ nhận các lớp CB206, CB210 (CB21O), CB211, CB213, ONB103 hoặc Giáo viên (PTMN / GV).';
@@ -3120,7 +3134,7 @@ function initExamSimulator() {
         ALL_TOPICS_POOL.forEach((t, i) => {
             const opt = document.createElement('option');
             opt.value = t.id;
-            opt.textContent = '[' + t.categoryName + '] ' + t.title;
+            opt.textContent = '[' + t.categoryName + ' - ' + (t.topicCode || '') + '] ' + t.title;
             topicSelect.appendChild(opt);
         });
 
