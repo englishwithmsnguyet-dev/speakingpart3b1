@@ -1640,7 +1640,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What should you do when a friend feels deeply sad?",
         "vi": "Nên làm gì khi bạn bè buồn bã?",
-        "a": "You should <strong>sit beside them, listen attentively</strong>, and say comforting words. Furthermore, <strong>taking them out for a warm meal or walk</strong> helps cheer them up."
+        "a": "You should <strong>sit beside them, listen attentively</strong>, and say comforting words. In addition, <strong>taking them out for a warm meal or walk</strong> helps cheer them up."
       },
       {
         "q": "Can spending time in nature improve mental health?",
