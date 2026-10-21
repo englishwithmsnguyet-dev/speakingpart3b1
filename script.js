@@ -265,7 +265,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What are some disadvantages of online learning?",
         "vi": "Một số bất lợi của học trực tuyến?",
-        "a": "One big drawback is that students can be <strong>easily distracted by social media and online games</strong>. Furthermore, staring at a computer screen for hours can <strong>cause eye strain and severe headaches</strong>."
+        "a": "One big drawback is that students can be <strong>easily distracted by social media and online games</strong>. In addition, staring at a computer screen for hours can <strong>cause eye strain and severe headaches</strong>."
       },
       {
         "q": "How can students study online more effectively?",
@@ -375,7 +375,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Should students work part-time while studying abroad?",
         "vi": "Du học sinh có nên làm thêm không?",
-        "a": "Yes, a part-time job helps students <strong>earn extra pocket money</strong> to pay for daily living expenses. Furthermore, it gives them <strong>valuable work experience and improves communication</strong>."
+        "a": "Yes, a part-time job helps students <strong>earn extra pocket money</strong> to pay for daily living expenses. In addition, it gives them <strong>valuable work experience and improves communication</strong>."
       },
       {
         "q": "Do you prefer studying abroad or studying in your home country?",
@@ -485,7 +485,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What should parents look for when choosing a preschool?",
         "vi": "Phụ huynh nên chú ý điều gì khi chọn trường mầm non?",
-        "a": "Parents should look for a school with <strong>caring teachers and a safe environment</strong> for kids. Furthermore, <strong>clean classrooms and nutritious meals</strong> are also very important factors."
+        "a": "Parents should look for a school with <strong>caring teachers and a safe environment</strong> for kids. In addition, <strong>clean classrooms and nutritious meals</strong> are also very important factors."
       },
       {
         "q": "Should preschool focus on academics or playtime?",
@@ -655,7 +655,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What ethical risks come with AI development?",
         "vi": "Nguy cơ đạo đức nào đi kèm với AI?",
-        "a": "The biggest risk is that personal data could be <strong>stolen or misused by cyber criminals</strong>. Furthermore, fake information created by AI can <strong>deceive people on the internet</strong>."
+        "a": "The biggest risk is that personal data could be <strong>stolen or misused by cyber criminals</strong>. In addition, fake information created by AI can <strong>deceive people on the internet</strong>."
       }
     ]
   },
@@ -815,7 +815,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can people help the needy besides donating money?",
         "vi": "Giúp người nghèo bằng cách nào ngoài tiền?",
-        "a": "People can <strong>donate old clothes and warm blankets</strong> to poor families in rural areas. Furthermore, <strong>spending time teaching orphan children</strong> is an extremely meaningful deed."
+        "a": "People can <strong>donate old clothes and warm blankets</strong> to poor families in rural areas. In addition, <strong>spending time teaching orphan children</strong> is an extremely meaningful deed."
       },
       {
         "q": "Have you ever participated in a charity project?",
