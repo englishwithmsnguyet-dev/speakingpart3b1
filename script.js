@@ -1305,7 +1305,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can schools help prevent school violence?",
         "vi": "Trường học làm gì để ngăn bạo lực học đường?",
-        "a": "Schools should <strong>teach moral lessons about mutual respect</strong> and organize anti-bullying workshops. Furthermore, <strong>installing security cameras and strict rules</strong> will stop aggressive behavior."
+        "a": "Schools should <strong>teach moral lessons about mutual respect</strong> and organize anti-bullying workshops. In addition, <strong>installing security cameras and strict rules</strong> will stop aggressive behavior."
       },
       {
         "q": "Is cyberbullying among youth becoming worse?",
@@ -1585,7 +1585,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What health issues can obese children face later in life?",
         "vi": "Trẻ béo phì đối mặt nguy cơ gì sau này?",
-        "a": "Obese children face high risks of <strong>diabetes, high blood pressure, and heart diseases</strong> as adults. Furthermore, they may <strong>feel low self-esteem due to teasing</strong>."
+        "a": "Obese children face high risks of <strong>diabetes, high blood pressure, and heart diseases</strong> as adults. In addition, they may <strong>feel low self-esteem due to teasing</strong>."
       },
       {
         "q": "How can families create an active lifestyle together?",
