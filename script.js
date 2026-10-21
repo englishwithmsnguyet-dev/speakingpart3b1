@@ -1743,19 +1743,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "What question should an applicant ask the interviewer at the end?",
-        "vi": "Ứng viên nên hỏi gì ở cuối buổi phỏng vấn?",
-        "a": "An applicant can ask about <strong>daily work duties and future training programs</strong> at the company. This smart question shows that they are <strong>truly eager to learn and contribute</strong>."
+        "q": "Do you think first impressions are important in job interviews?",
+        "vi": "Bạn có nghĩ ấn tượng ban đầu quan trọng trong phỏng vấn xin việc không?",
+        "a": "Yes, I think they are important. Interviewers often form opinions about candidates in the first few minutes. Therefore, a good first impression may increase candidates’ chances of getting the job."
       },
       {
-        "q": "How can candidates calm interview nerves?",
-        "vi": "Làm sao giữ bình tĩnh trước phỏng vấn?",
-        "a": "Candidates should <strong>take deep slow breaths and practice common questions</strong> at home. Furthermore, <strong>arriving fifteen minutes early</strong> gives them time to feel calm and ready."
+        "q": "Which do you think is more important in an interview: appearance or personality?",
+        "vi": "Theo bạn điều gì quan trọng hơn trong phỏng vấn: ngoại hình hay tính cách?",
+        "a": "I think both are important, but personality is more important. A good personality helps candidates communicate well with the interviewer. It can also help them build a good relationship with other people at work."
       },
       {
-        "q": "Is sending a thank-you email after the interview recommended?",
-        "vi": "Có nên gửi email cảm ơn sau phỏng vấn?",
-        "a": "Yes, sending a brief thank-you email <strong>shows professionalism and polite manners</strong>. It also reminds the employer of your <strong>strong enthusiasm for the job position</strong>."
+        "q": "What can people do if they make a bad first impression in an interview?",
+        "vi": "Mọi người có thể làm gì nếu lỡ tạo ấn tượng ban đầu không tốt trong phỏng vấn?",
+        "a": "They should stay calm and continue the interview confidently. They can give clear answers and show their skills. This may help change the interviewer's opinion."
       }
     ]
   },
@@ -1908,19 +1908,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Why do students struggle to save money?",
-        "vi": "Tại sao sinh viên khó tiết kiệm tiền?",
-        "a": "Students struggle to save because of <strong>frequent eating out with friends and impulsive shopping</strong>. Without tracking small daily expenses, money <strong>disappears very quickly each month</strong>."
+        "q": "Why do you think saving money is important for students?",
+        "vi": "Tại sao bạn nghĩ việc tiết kiệm tiền lại quan trọng đối với sinh viên?",
+        "a": "Saving money is important because students often have a limited budget. They can use their savings to pay for books or other necessary things. It can also help them prepare for unexpected problems."
       },
       {
-        "q": "Should students buy second-hand textbooks?",
-        "vi": "Sinh viên có nên mua giáo trình cũ?",
-        "a": "Yes, buying used textbooks helps students <strong>save a large amount of money each semester</strong>. Most second-hand books are <strong>still in good shape and have helpful notes</strong>."
+        "q": "Which way of saving money do you think is the most effective for students?",
+        "vi": "Cách tiết kiệm tiền nào bạn nghĩ là hiệu quả nhất đối với sinh viên?",
+        "a": "I think setting a monthly budget is the most effective way. Students can plan how much money they can spend each month. As a result, they can control their spending and save more money."
       },
       {
-        "q": "How can student discounts help with monthly budgets?",
-        "vi": "Ưu đãi sinh viên giúp gì cho ngân sách?",
-        "a": "Student discounts offer <strong>cheaper bus fares, cinema tickets, and software subscriptions</strong>. Taking advantage of these deals <strong>cuts monthly living costs noticeably</strong>."
+        "q": "What difficulties do students often face when trying to save money?",
+        "vi": "Sinh viên thường gặp khó khăn gì khi cố gắng tiết kiệm tiền?",
+        "a": "Students may find it difficult to save money because they have limited income. They may also want to buy clothes or eat out with their friends. As a result, they may spend too much money and have little left to save."
       }
     ]
   },
