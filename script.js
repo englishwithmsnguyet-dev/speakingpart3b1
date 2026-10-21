@@ -975,17 +975,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can consumers protect themselves when shopping online?",
         "vi": "Làm thế nào người mua tự bảo vệ mình?",
-        "a": "Consumers should <strong>buy products from official and trusted stores</strong> on reputable websites. Furthermore, always <strong>read reviews and customer ratings carefully</strong> before making a purchase."
+        "a": "Consumers should <strong>buy products from official and trusted stores</strong> on reputable websites. In addition, they should always <strong>read reviews and customer ratings carefully</strong> before buying."
       },
       {
         "q": "Will online stores completely replace traditional shopping malls?",
         "vi": "Cửa hàng online có thay thế hoàn toàn trung tâm thương mại?",
-        "a": "No, traditional malls will not disappear because people love <strong>trying on clothes in person and hanging out</strong> with friends. Real shopping gives an <strong>exciting social experience</strong> that screens cannot replace."
+        "a": "No, traditional malls will not disappear because people love <strong>trying on clothes in person and hanging out</strong> with friends. Real shopping gives an <strong>enjoyable experience</strong> that online shopping cannot replace."
       },
       {
         "q": "What should you do if an online order arrives damaged?",
         "vi": "Nên làm gì khi hàng online bị hư hỏng?",
-        "a": "You should <strong>take clear photos of the damaged package</strong> and notify the seller immediately. After that, you can <strong>request a replacement or a full refund</strong>."
+        "a": "You should <strong>take photos of the damaged package</strong> and notify the seller immediately. After that, you can <strong>ask for a replacement or a full refund</strong>."
       }
     ]
   },
@@ -1030,12 +1030,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can governments encourage more people to ride buses and metros?",
         "vi": "Chính phủ khuyến khích đi xe bus thế nào?",
-        "a": "Governments should <strong>offer cheaper monthly tickets</strong> and keep buses clean and air-conditioned. Moreover, <strong>adding more frequent departure routes</strong> will save passengers valuable time."
+        "a": "Governments should <strong>offer cheaper tickets</strong> and keep buses clean and comfortable. In addition, <strong>adding more bus routes</strong> will help passengers save time."
       },
       {
         "q": "Is public transport eco-friendly?",
         "vi": "Phương tiện công cộng có thân thiện môi trường không?",
-        "a": "Yes, public transport is <strong>much more eco-friendly than private cars</strong> because buses carry many passengers at once. This helps <strong>reduce smoke emissions and traffic jams</strong> significantly."
+        "a": "Yes, public transport is <strong>much more eco-friendly than private vehicles</strong> because buses can carry many people at once. This helps <strong>reduce traffic jams and air pollution</strong> significantly."
       },
       {
         "q": "Do you prefer traveling by motorbike or by bus?",
@@ -1049,7 +1049,7 @@ const ALL_TOPICS_POOL = [
     "category": "drawbacks",
     "categoryName": "Nhóm Bất Lợi",
     "topicCode": "ĐỀ SỐ 03",
-    "title": "Doing exercise also has some drawbacks.",
+    "title": "There are some drawbacks of doing exercise.",
     "center": "Doing exercise",
     "branches": [
       {
@@ -1085,17 +1085,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can people prevent sports injuries?",
         "vi": "Làm thế nào phòng tránh chấn thương thể thao?",
-        "a": "People should <strong>warm up carefully for ten minutes</strong> before doing intense sports. In addition, <strong>wearing proper athletic shoes</strong> protects joints and muscles from sudden injuries."
+        "a": "People should <strong>warm up carefully for ten minutes</strong> before doing exercise. In addition, <strong>wearing suitable sports shoes</strong> helps protect their feet and prevent injuries."
       },
       {
         "q": "Is going to an expensive gym necessary to stay fit?",
         "vi": "Có cần đến phòng gym đắt tiền không?",
-        "a": "No, an expensive gym is not necessary because people can <strong>jog in the local park or exercise at home</strong>. Doing simple push-ups and walking daily is <strong>more than enough to stay healthy</strong>."
+        "a": "No, going to an expensive gym is not necessary because people can <strong>jog in the park or exercise at home</strong>. Doing simple exercises every day is <strong>enough to stay healthy</strong>."
       },
       {
         "q": "How many hours of exercise per week is enough for adults?",
         "vi": "Người lớn nên tập bao nhiêu giờ mỗi tuần?",
-        "a": "Adults should exercise for <strong>about three to five hours per week</strong> to maintain fitness. Doing <strong>thirty minutes of moderate movement each day</strong> brings the best health results."
+        "a": "Adults should exercise for <strong>about three to five hours each week</strong>. Doing <strong>thirty minutes of moderate exercise each day</strong> brings great health benefits."
       }
     ]
   },
@@ -1140,17 +1140,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you think people should become self-employed despite these disadvantages?",
         "vi": "Có nên tự kinh doanh bất chấp bất lợi?",
-        "a": "Yes, self-employment allows people to <strong>control their own working schedule</strong> and pursue their true passions. If they work hard and stay patient, they can <strong>achieve great financial freedom</strong>."
+        "a": "Yes, self-employment gives people <strong>freedom to control their own work schedule</strong> and pursue their passions. If they work hard and stay patient, they can <strong>achieve great success</strong>."
       },
       {
         "q": "Should students choose self-employment or work for a company after graduation?",
         "vi": "Sinh viên nên tự kinh doanh hay đi làm công ty?",
-        "a": "Graduates should <strong>work for a company for a few years</strong> to gain practical experience and professional skills. After building a network, they can <strong>start their own business with lower risks</strong>."
+        "a": "Graduates should <strong>work for a company first</strong> to gain practical experience and professional skills. After a few years, they can <strong>start their own business with lower risks</strong>."
       },
       {
         "q": "What skills are most important for self-employed entrepreneurs?",
         "vi": "Kỹ năng nào quan trọng nhất cho chủ kinh doanh?",
-        "a": "The most important skills are <strong>strict self-discipline and financial management</strong>. Furthermore, having <strong>strong communication skills to attract customers</strong> is vital for long-term success."
+        "a": "The most important skills are <strong>self-discipline and good financial management</strong>. In addition, having <strong>good communication skills helps entrepreneurs attract more customers</strong>."
       }
     ]
   },
@@ -1195,17 +1195,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why do many young families still choose apartments?",
         "vi": "Tại sao nhiều gia đình trẻ vẫn chọn chung cư?",
-        "a": "Young families choose apartments because of <strong>reasonable prices and modern building security</strong>. Besides, having <strong>elevators, playgrounds, and mini-marts right downstairs</strong> is extremely convenient."
+        "a": "Young families choose apartments because of <strong>reasonable prices and good security</strong>. In addition, having <strong>elevators, playgrounds, and mini-marts nearby</strong> is very convenient."
       },
       {
         "q": "How can apartment residents deal with noisy neighbors?",
         "vi": "Xử lý hàng xóm ồn ào thế nào?",
-        "a": "Residents should <strong>talk politely with their neighbors</strong> to ask for lower volume during late hours. If the problem continues, they can <strong>report it to the apartment management board</strong>."
+        "a": "Residents should <strong>talk politely with their neighbors</strong> to ask them to keep the noise down. If the problem continues, they can <strong>report it to the building management</strong>."
       },
       {
         "q": "Do you prefer a townhouse or a condominium?",
         "vi": "Bạn thích nhà phố hay chung cư?",
-        "a": "I prefer <strong>living in a condominium</strong> because it has 24/7 security guards and a quiet living environment. Living on higher floors also <strong>offers fresh air and avoids street dust</strong>."
+        "a": "I prefer <strong>living in an apartment</strong> because it offers good security and a peaceful living environment. Living on higher floors also <strong>provides fresh air and reduces street noise</strong>."
       }
     ]
   },
@@ -1250,17 +1250,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can students avoid relying too much on AI?",
         "vi": "Học sinh tránh phụ thuộc AI thế nào?",
-        "a": "Students should <strong>write their own ideas and drafts</strong> before using AI for quick reference. Moreover, teachers should <strong>ask students to give oral presentations</strong> in class."
+        "a": "Students should <strong>try to brainstorm and write drafts by themselves</strong> before checking with AI. In addition, teachers can <strong>organize more in-class speaking activities and presentations</strong>."
       },
       {
         "q": "Can AI replace human creativity in art and writing?",
         "vi": "AI có thay thế được sáng tạo nghệ thuật?",
-        "a": "No, AI cannot replace real human creativity because it lacks <strong>genuine emotions and personal life experience</strong>. True art comes from <strong>the soul and unique feelings of human beings</strong>."
+        "a": "No, AI cannot replace real human creativity because it lacks <strong>real feelings and personal life experiences</strong>. True art always comes from <strong>human emotions and imagination</strong>."
       },
       {
         "q": "What should schools do about students using ChatGPT to do homework?",
         "vi": "Trường học nên làm gì khi học sinh dùng ChatGPT?",
-        "a": "Schools should <strong>teach students how to use AI ethically</strong> as a research assistant. Additionally, teachers can <strong>assign in-class writing tests</strong> without internet access."
+        "a": "Schools should <strong>guide students on how to use AI as a helpful study tool</strong> instead of copying. In addition, teachers can <strong>assign more in-class writing tasks</strong>."
       }
     ]
   },
