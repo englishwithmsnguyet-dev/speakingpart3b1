@@ -841,7 +841,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     margin-top: 0.85rem;
 }
 
-.btn-pill-tts, .btn-pill-copy, .btn-pill-trans {
+.btn-pill-tts, .btn-pill-copy {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -874,10 +874,74 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     border-color: #a7f3d0;
 }
 
+/* Nút Xem Bản Dịch Tiếng Việt - Nổi bật, to rõ, bắt mắt ở đầu bài nói mẫu */
+.btn-pill-trans {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.52rem 1.15rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.92rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+    border: 1.5px solid #6366f1;
+    color: #4338ca;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.2);
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.btn-pill-trans i {
+    font-size: 1.05rem;
+    color: #6366f1;
+    transition: transform 0.25s ease;
+}
+
 .btn-pill-trans:hover {
-    background: #f5f3ff;
-    color: #6d28d9;
-    border-color: #ddd6fe;
+    background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+    color: #ffffff;
+    border-color: #4f46e5;
+    box-shadow: 0 4px 14px rgba(79, 70, 229, 0.35);
+    transform: translateY(-1px);
+}
+
+.btn-pill-trans:hover i {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.btn-pill-trans.active {
+    background: linear-gradient(135deg, #3730a3 0%, #4338ca 100%);
+    color: #ffffff;
+    border-color: #312e81;
+    box-shadow: 0 2px 8px rgba(67, 56, 202, 0.4);
+}
+
+.btn-pill-trans.active i {
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .btn-pill-trans {
+    background: rgba(99, 102, 241, 0.2);
+    border-color: #818cf8;
+    color: #c7d2fe;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .btn-pill-trans i {
+    color: #a5b4fc;
+}
+
+[data-theme="dark"] .btn-pill-trans:hover,
+[data-theme="dark"] .btn-pill-trans.active {
+    background: #6366f1;
+    color: #ffffff;
+    border-color: #818cf8;
+}
+
+[data-theme="dark"] .btn-pill-trans:hover i,
+[data-theme="dark"] .btn-pill-trans.active i {
+    color: #ffffff;
 }
 
 @keyframes pulseGlow {
@@ -1985,15 +2049,25 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .sample-translation-drawer {
     background: #f8fafc;
-    border-top: 1px dashed var(--border);
-    padding: 1.35rem 1.5rem;
+    border-top: 1.5px dashed var(--border);
+    border-left: 4.5px solid #6366f1;
+    padding: 1.25rem 1.5rem;
     line-height: 2.1;
     font-size: 0.98rem;
-    color: var(--text-light);
+    color: var(--text-main);
+    border-radius: 0 0 12px 12px;
+    animation: fadeInTrans 0.25s ease-out;
+}
+
+@keyframes fadeInTrans {
+    from { opacity: 0; transform: translateY(-6px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 [data-theme="dark"] .sample-translation-drawer {
-    background: rgba(15, 23, 42, 0.6);
+    background: rgba(15, 23, 42, 0.7);
+    border-left-color: #818cf8;
+    color: #e2e8f0;
 }
 
 /* Phần Câu hỏi mở rộng đi kèm Mindmap */

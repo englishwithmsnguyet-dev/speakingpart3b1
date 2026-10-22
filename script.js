@@ -3093,10 +3093,23 @@ window.showOverviewMindmapDetail = function(branchNum) {
 window.toggleTranslation = function(targetId, btn) {
     const el = document.getElementById(targetId);
     if (!el) return;
-    const isHidden = el.style.display === 'none';
+    const isHidden = el.style.display === 'none' || getComputedStyle(el).display === 'none';
     el.style.display = isHidden ? 'block' : 'none';
     if (btn) {
-        btn.innerHTML = isHidden ? '<i class="fa-solid fa-eye-slash"></i> Ẩn bản dịch' : '<i class="fa-solid fa-language"></i> Xem bản dịch';
+        if (isHidden) {
+            btn.classList.add('active');
+            btn.innerHTML = '<i class="fa-solid fa-eye-slash"></i> Ẩn bản dịch tiếng Việt';
+            // Smoothly scroll translation drawer into view if needed
+            setTimeout(() => {
+                const rect = el.getBoundingClientRect();
+                if (rect.bottom > window.innerHeight) {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }, 80);
+        } else {
+            btn.classList.remove('active');
+            btn.innerHTML = '<i class="fa-solid fa-language"></i> Xem bản dịch tiếng Việt';
+        }
     }
 };
 
