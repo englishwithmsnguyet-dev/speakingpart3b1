@@ -2683,12 +2683,6 @@ const CLASS_STUDENTS = {
         "Lư Vĩnh Phúc", "Nguyễn Chí Thiện", "Trần Thị Ngọc Thơ", "Huỳnh Yến Trang",
         "Thị Thu Trinh", "Nguyễn Thị Mỹ Xuyên", "Nguyễn Như Ý"
     ],
-    "CB220": [
-        "Lý Quốc Dũng", "Phan Minh Khôi", "Huỳnh Văn My", "Mai Thúy Ngân",
-        "Võ Huỳnh Thảo Nguyên", "Đặng Dũ Nguyên", "Nguyễn Gia Nguyễn", "Trương Thị Thảo Như",
-        "Huỳnh Nhật Phát", "Nguyễn Huỳnh Thanh Sơn", "Thái Nhựt Thịnh", "Trần Nguyễn Huỳnh Trâm",
-        "Nguyễn Thị Tường Vi", "Lê Tường Vy", "Bùi Ngọc Như Ý"
-    ],
     "B212": [
         "Nguyễn Duy Hồng Anh", "Nguyễn Ngọc Minh Anh", "Nguyễn Lê Mỹ Hân", "Nguyễn Hồng Minh Huy",
         "Nguyễn Quốc Khải", "Đoàn Nguyễn Đình Khang", "Lê Nguyễn Gia Khánh", "Nguyễn Hữu Khánh", 
@@ -2788,11 +2782,11 @@ function initAuth() {
             finalClass = formattedClass || 'GV';
             state.student.isTeacher = true;
         } else {
-            // 2. Kiểm tra học viên thuộc các lớp được cấp phép
-            const allowedClasses = ['CB206', 'CB210', 'CB211', 'CB213', 'ONB103', 'CB219', 'CB220', 'B212'];
+            // 2. Kiểm tra học viên thuộc 5 lớp: CB206, CB210, CB211, CB213, ONB103
+            const allowedClasses = ['CB206', 'CB210', 'CB211', 'CB213', 'ONB103', 'CB219', 'B212'];
             if (!allowedClasses.includes(formattedClass)) {
                 if (errorMsg) {
-                    errorMsg.textContent = 'Mã lớp không hợp lệ! Web chỉ nhận các lớp được cấp phép hoặc Giáo viên (PTMN / GV).';
+                    errorMsg.textContent = 'Mã lớp không hợp lệ! Web chỉ nhận các lớp CB206, CB210 (CB21O), CB211, CB213, ONB103 hoặc Giáo viên (PTMN / GV).';
                     errorMsg.style.display = 'block';
                 }
                 if (classInput) classInput.focus();
