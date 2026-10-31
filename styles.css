@@ -2778,9 +2778,9 @@ body.dark-theme .login-modal-card {
 
 .login-avatar-container {
     position: relative;
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 12px auto;
+    width: 126px;
+    height: 126px;
+    margin: 0 auto 14px auto;
 }
 
 .login-avatar-glow {
@@ -2798,7 +2798,7 @@ body.dark-theme .login-modal-card {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 15%;
+    object-position: center 20%;
     border: 3.5px solid #ffffff;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
     display: block;
