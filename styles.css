@@ -2874,63 +2874,74 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
    ENGLISH WITH MISS NGUYET - BRAND IDENTITY
    ========================================= */
 
-/* 1. Login Modal Brand */
-.login-brand-header {
+/* 1. Login Modal Brand Showcase */
+.login-brand-showcase {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-bottom: 1.25rem;
 }
 
 .login-avatar-ring {
     position: relative;
-    width: 96px;
-    height: 96px;
+    width: 104px;
+    height: 104px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0.85rem;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .login-avatar-ring:hover {
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 
 .login-brand-img {
-    width: 96px;
-    height: 96px;
+    width: 104px;
+    height: 104px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 10px 25px rgba(67, 97, 238, 0.45);
-    border: 3px solid #ffffff;
+    box-shadow: 0 8px 25px rgba(82, 84, 232, 0.35);
 }
 
 body.dark-theme .login-brand-img {
-    border-color: #3b82f6;
-    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 30px rgba(129, 140, 248, 0.45);
 }
 
-.login-brand-tag {
-    font-size: 0.88rem;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    color: #4361ee;
+.login-brand-title {
+    font-family: 'Roboto Serif', 'Merriweather', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    color: #5254e8;
     text-transform: uppercase;
-    background: rgba(67, 97, 238, 0.08);
-    padding: 0.35rem 1rem;
-    border-radius: 50px;
-    border: 1.5px solid rgba(67, 97, 238, 0.25);
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
+    line-height: 1.25;
+    margin: 0 0 4px 0;
+    text-shadow: 0 1px 2px rgba(82, 84, 232, 0.12);
 }
 
-body.dark-theme .login-brand-tag {
-    color: #93c5fd;
-    background: rgba(59, 130, 246, 0.15);
-    border-color: rgba(59, 130, 246, 0.4);
+body.dark-theme .login-brand-title {
+    color: #818cf8;
+    text-shadow: 0 0 16px rgba(129, 140, 248, 0.4);
+}
+
+.login-brand-subtitle {
+    font-family: 'Roboto Serif', 'Merriweather', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #475569;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+
+body.dark-theme .login-brand-subtitle {
+    color: #cbd5e1;
 }
 
 /* 2. Sidebar Brand Header */
@@ -2939,7 +2950,8 @@ body.dark-theme .login-brand-tag {
     align-items: center;
     gap: 0.85rem;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
+    padding: 0.25rem 0;
 }
 
 .sidebar-header .brand:hover {
@@ -2948,61 +2960,75 @@ body.dark-theme .login-brand-tag {
 
 .brand-avatar-box {
     position: relative;
-    width: 46px;
-    height: 46px;
+    width: 48px;
+    height: 48px;
     flex-shrink: 0;
 }
 
 .brand-avatar-box .brand-avatar-img {
-    width: 46px;
-    height: 46px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 4px 14px rgba(67, 97, 238, 0.35);
-    border: 2px solid #ffffff;
+    box-shadow: 0 4px 14px rgba(82, 84, 232, 0.35);
 }
 
 body.dark-theme .brand-avatar-box .brand-avatar-img {
-    border-color: #3b82f6;
+    box-shadow: 0 0 16px rgba(129, 140, 248, 0.45);
 }
 
 .brand-verified-dot {
     position: absolute;
     bottom: -2px;
     right: -2px;
-    width: 16px;
-    height: 16px;
+    width: 17px;
+    height: 17px;
     background: #10b981;
     color: #ffffff;
     border-radius: 50%;
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--bg-sidebar);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    border: 2px solid var(--bg-sidebar, #ffffff);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .brand-info-group {
     display: flex;
     flex-direction: column;
+    min-width: 0;
 }
 
 .brand-author-name {
-    font-size: 1.05rem;
-    line-height: 1.2;
-    font-weight: 800;
-    color: var(--text-main);
-    letter-spacing: 0.5px;
+    font-family: 'Roboto Serif', 'Merriweather', Georgia, serif;
+    font-size: 0.85rem;
+    line-height: 1.25;
+    font-weight: 900;
+    color: #5254e8;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body.dark-theme .brand-author-name {
+    color: #818cf8;
 }
 
 .brand-course-badge {
-    font-size: 0.68rem;
-    font-weight: 700;
-    color: var(--primary);
-    letter-spacing: 1px;
-    margin-top: 3px;
+    font-family: 'Roboto Serif', 'Merriweather', Georgia, serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: #475569;
+    letter-spacing: 0.06em;
+    margin-top: 2px;
     text-transform: uppercase;
+}
+
+body.dark-theme .brand-course-badge {
+    color: #cbd5e1;
 }
 
 /* 3. Topbar Brand Link */
