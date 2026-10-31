@@ -16,29 +16,71 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
     <!-- Canvas Confetti -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
-    <link href="styles.css?v=20261031_brand_identity_v2" rel="stylesheet"/>
+    <link href="styles.css?v=20261031_login_v3" rel="stylesheet"/>
 </head>
 <body>
-    <!-- Modal Đăng Nhập / Chào Mừng (B2 Style) -->
+    <!-- Modal Đăng Nhập / Chào Mừng (Chuẩn Phong Cách Miss Nguyet) -->
     <div class="login-overlay" id="welcome-modal">
-        <div class="login-card">
-            <!-- Brand Showcase exactly as in the design -->
-            <div class="login-brand-showcase">
-                <div class="login-avatar-ring">
-                    <img src="assets/images/brand-circle.png" alt="English with Miss Nguyet" class="login-brand-img">
+        <div class="login-modal-card">
+            <!-- Avatar with Glow Ring -->
+            <div class="login-avatar-container">
+                <div class="login-avatar-glow"></div>
+                <img src="assets/images/teacher-avatar-hd.jpg" alt="Miss Nguyet" class="login-avatar-img">
+            </div>
+
+            <!-- Instructor Badge -->
+            <div>
+                <span class="login-instructor-badge">
+                    <i class="fa-solid fa-certificate"></i> LEAD INSTRUCTOR
+                </span>
+            </div>
+
+            <!-- Welcome & System Title -->
+            <div class="login-welcome-title">
+                <i class="fa-solid fa-graduation-cap"></i> Welcome to Miss Nguyet's Class!
+            </div>
+            <div class="login-system-title">
+                VSTEP SPEAKING PART 03
+            </div>
+
+            <!-- Main Headline -->
+            <h2 class="login-headline">
+                NHẬP THÔNG TIN<br>ĐỂ BẮT ĐẦU HỌC 🚀
+            </h2>
+
+            <!-- Authentication Form -->
+            <form class="login-form" id="login-form" onsubmit="event.preventDefault();">
+                <!-- Field 1: Họ và tên -->
+                <div class="login-field-group">
+                    <label class="login-field-label">
+                        <i class="fa-solid fa-user-pen" style="color: #6366f1;"></i> HỌ VÀ TÊN HỌC VIÊN:
+                    </label>
+                    <input type="text" id="student-name" class="login-input" placeholder="Nhập họ và tên..." autocomplete="off" spellcheck="false" required>
                 </div>
-                <h1 class="login-brand-title">ENGLISH WITH MISS NGUYET</h1>
-                <div class="login-brand-subtitle">VSTEP SPEAKING PART 03</div>
+
+                <!-- Field 2: Mã lớp học -->
+                <div class="login-field-group">
+                    <label class="login-field-label">
+                        <i class="fa-solid fa-users" style="color: #0284c7;"></i> MÃ LỚP HỌC:
+                    </label>
+                    <input type="text" id="student-class" class="login-input" placeholder="Nhập mã lớp..." autocomplete="off" spellcheck="false" required>
+                </div>
+
+                <!-- Error Message Banner -->
+                <div id="login-error" class="login-error-msg" style="display: none;"></div>
+
+                <!-- Submit Button -->
+                <button type="button" id="start-btn" class="login-submit-btn">
+                    BẮT ĐẦU HỌC <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </form>
+
+            <!-- Brand Footer -->
+            <div class="login-footer-brand">
+                <i class="fa-brands fa-facebook" style="color: #1877f2; font-size: 1.05rem;"></i>
+                <span>ENGLISH WITH MISS NGUYET</span>
             </div>
-            
-            <p class="login-subtitle">Vui lòng điền Họ tên và Lớp học của bạn để bắt đầu học. Kết quả luyện tập sẽ được ghi nhận và gửi báo cáo cho giáo viên.</p>
-            
-            <div class="login-form">
-                <input type="text" id="student-name" placeholder="HỌ VÀ TÊN" autocomplete="off" spellcheck="false" required>
-                <input type="text" id="student-class" placeholder="LỚP HỌC" autocomplete="off" spellcheck="false" required>
-                <p id="login-error" class="login-error" style="display: none;"></p>
-                <button id="start-btn" class="login-btn">BẮT ĐẦU HỌC NGAY</button>
-            </div>
+
             <iframe id="hidden_iframe" name="hidden_iframe" style="display:none;"></iframe>
             <form action="https://docs.google.com/forms/d/e/1FAIpQLSdnmu4S5vco1TBcNBUGaeEAlbpan_w4aO9JMLIqbafBKABh4g/formResponse" id="google-form" method="POST" target="hidden_iframe" style="display:none;">
                 <input id="entry_388968236" name="entry.388968236" type="hidden"/>
