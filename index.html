@@ -14,69 +14,58 @@
     <!-- Canvas Confetti -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
     <link href="styles.css?v=20261102_avatar_fit" rel="stylesheet"/>
+    <!-- Chậu Cỏ 4 Lá May Mắn & Tích Luỹ Nước Nỗ Lực Styles -->
+    <link rel=stylesheet href=flower_garden.css>
 </head>
 <body>
     <!-- Modal Đăng Nhập / Chào Mừng (Chuẩn Phong Cách Miss Nguyet) -->
     <div class="login-overlay" id="welcome-modal">
-        <div class="login-modal-card">
-            <!-- Avatar with Glow Ring -->
-            <div class="login-avatar-container">
-                <div class="login-avatar-glow"></div>
-                <img src="assets/images/miss_nguyet.jpg" alt="Miss Nguyet" class="login-avatar-img">
-            </div>
-
-            <!-- Instructor Badge -->
-            <div>
-                <span class="login-instructor-badge">
+        <div class="login-card-custom login-modal-card">
+            <!-- Miss Nguyet Avatar Brand Ring -->
+            <div class="login-teacher-avatar-wrap">
+                <div class="login-teacher-halo">
+                    <img src="assets/images/miss_nguyet.jpg" alt="Miss Nguyet" class="login-teacher-avatar">
+                </div>
+                <span class="login-teacher-badge">
                     <i class="fa-solid fa-certificate"></i> LEAD INSTRUCTOR
                 </span>
             </div>
 
-            <!-- Welcome & System Title -->
-            <div class="login-welcome-title">
+            <div class="login-brand-tag">
                 <i class="fa-solid fa-graduation-cap"></i> Welcome to Miss Nguyet's Class!
             </div>
-            <div class="login-system-title">
-                VSTEP SPEAKING PART 03
-            </div>
+            <div class="login-course-title">VSTEP SPEAKING PART 03 – B1 LEVEL</div>
+            <h2 class="login-title-custom">NHẬP THÔNG TIN<br/>ĐỂ BẮT ĐẦU HỌC 🚀</h2>
 
-            <!-- Main Headline -->
-            <h2 class="login-headline">
-                NHẬP THÔNG TIN<br>ĐỂ BẮT ĐẦU HỌC 🚀
-            </h2>
-
-            <!-- Authentication Form -->
-            <form class="login-form" id="login-form" onsubmit="event.preventDefault();">
-                <!-- Field 1: Họ và tên -->
-                <div class="login-field-group">
-                    <label class="login-field-label">
+            <form class="login-form-wrapper" id="login-form" onsubmit="event.preventDefault();">
+                <div class="input-group-custom">
+                    <label for="student-name">
                         <i class="fa-solid fa-user-pen" style="color: #6366f1;"></i> HỌ VÀ TÊN HỌC VIÊN:
                     </label>
-                    <input type="text" id="student-name" class="login-input" placeholder="Nhập họ và tên..." autocomplete="off" spellcheck="false" required>
+                    <input autocomplete="off" id="student-name" class="login-input" type="text" placeholder="Nhập họ và tên học viên..." onkeydown="if(event.key==='Enter') document.getElementById('start-btn').click()" required />
                 </div>
 
-                <!-- Field 2: Mã lớp học -->
-                <div class="login-field-group">
-                    <label class="login-field-label">
-                        <i class="fa-solid fa-users" style="color: #0284c7;"></i> MÃ LỚP HỌC:
+                <div class="input-group-custom">
+                    <label for="student-class">
+                        <i class="fa-solid fa-chalkboard-user" style="color: #0284c7;"></i> MÃ LỚP HỌC:
                     </label>
-                    <input type="text" id="student-class" class="login-input" placeholder="Nhập mã lớp..." autocomplete="off" spellcheck="false" required>
+                    <input autocomplete="off" id="student-class" class="login-input" type="text" placeholder="Nhập mã lớp học..." onkeydown="if(event.key==='Enter') document.getElementById('start-btn').click()" required />
                 </div>
 
-                <!-- Error Message Banner -->
-                <div id="login-error" class="login-error-msg" style="display: none;"></div>
+                <p id="login-error" class="login-error-msg" style="display: none;"></p>
 
-                <!-- Submit Button -->
-                <button type="button" id="start-btn" class="login-submit-btn">
-                    BẮT ĐẦU HỌC <i class="fa-solid fa-arrow-right"></i>
+                <button type="button" class="btn-login-custom" id="start-btn">
+                    <span>BẮT ĐẦU HỌC</span>
+                    <i class="fa-solid fa-arrow-right"></i>
                 </button>
-            </form>
 
-            <!-- Brand Footer -->
-            <div class="login-footer-brand">
-                <i class="fa-brands fa-facebook" style="color: #1877f2; font-size: 1.05rem;"></i>
-                <span>ENGLISH WITH MISS NGUYET</span>
-            </div>
+                <div class="login-footer-signature">
+                    <a href="https://www.facebook.com/nguyetpham28" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-facebook" style="color: #1877f2;"></i>
+                        <span>ENGLISH WITH MISS NGUYET</span>
+                    </a>
+                </div>
+            </form>
 
             <iframe id="hidden_iframe" name="hidden_iframe" style="display:none;"></iframe>
             <form action="https://docs.google.com/forms/d/e/1FAIpQLSdnmu4S5vco1TBcNBUGaeEAlbpan_w4aO9JMLIqbafBKABh4g/formResponse" id="google-form" method="POST" target="hidden_iframe" style="display:none;">
@@ -241,6 +230,9 @@
                             </button>
                         </div>
                     </div>
+
+                    <!-- Chậu Cỏ 4 Lá May Mắn & Tích Luỹ Nước Nỗ Lực -->
+                    <div id="garden-container"></div>
 
                     <div class="hero-vibrant-card">
                         <span class="hero-badge-pill"><i class="fa-solid fa-star"></i> VSTEP SPEAKING PART 03 • TOPIC DEVELOPMENT</span>
@@ -11945,5 +11937,8 @@
 
     <!-- Main Javascript -->
     <script src="script.js?v=20261022_transpill"></script>
+    <!-- Hệ thống Chậu Cỏ 4 Lá May Mắn & Tích Luỹ Nước Nỗ Lực -->
+    <script src=flower_definitions.js></script>
+    <script src=flower_garden.js></script>
 </body>
 </html>
