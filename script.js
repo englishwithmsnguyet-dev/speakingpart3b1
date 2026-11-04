@@ -2945,32 +2945,48 @@ function initNavigation() {
     const sidebar = document.getElementById('sidebar');
     const backdrop = document.getElementById('sidebar-backdrop');
 
+    window.switchTab = function(targetId) {
+        navItems.forEach(i => {
+            if (i.getAttribute('data-target') === targetId) {
+                i.classList.add('active');
+            } else {
+                i.classList.remove('active');
+            }
+        });
+
+        document.querySelectorAll('.tab-pane').forEach(p => {
+            p.classList.remove('active');
+            p.style.display = '';
+        });
+        const targetPane = document.getElementById(targetId);
+        if (targetPane) {
+            targetPane.classList.add('active');
+            targetPane.classList.remove('hidden');
+            targetPane.style.display = '';
+            if (targetId === 'flower-garden' && window.FlowerGarden) {
+                window.FlowerGarden.render();
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        const activeItem = document.querySelector(`.nav-item[data-target="${targetId}"]`);
+        if (activeItem && topTitle) {
+            const titleText = activeItem.querySelector('span') ? activeItem.querySelector('span').innerText : targetId;
+            topTitle.innerText = titleText;
+        }
+
+        if (sidebar && sidebar.classList.contains('open')) {
+            sidebar.classList.remove('open');
+            if (backdrop) backdrop.classList.remove('open');
+        }
+    };
+
     navItems.forEach(item => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
             const targetId = item.getAttribute('data-target');
             if (!targetId) return;
-
-            navItems.forEach(i => i.classList.remove('active'));
-            item.classList.add('active');
-
-            document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-            const targetPane = document.getElementById(targetId);
-            if (targetPane) {
-                targetPane.classList.add('active');
-                if (targetId === 'flower-garden' && window.FlowerGarden) {
-                    window.FlowerGarden.render();
-                }
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
-
-            const titleText = item.querySelector('span') ? item.querySelector('span').innerText : targetId;
-            if (topTitle) topTitle.innerText = titleText;
-
-            if (sidebar && sidebar.classList.contains('open')) {
-                sidebar.classList.remove('open');
-                if (backdrop) backdrop.classList.remove('open');
-            }
+            window.switchTab(targetId);
         });
     });
 
