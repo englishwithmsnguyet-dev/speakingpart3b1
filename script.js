@@ -2958,6 +2958,9 @@ function initNavigation() {
             const targetPane = document.getElementById(targetId);
             if (targetPane) {
                 targetPane.classList.add('active');
+                if (targetId === 'flower-garden' && window.FlowerGarden) {
+                    window.FlowerGarden.render();
+                }
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
 
