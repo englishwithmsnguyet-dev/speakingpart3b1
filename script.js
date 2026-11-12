@@ -150,17 +150,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What are some disadvantages of working in a team?",
         "vi": "Những bất lợi của việc làm việc nhóm là gì?",
-        "a": "One big disadvantage is that team members may <strong>have different opinions and argue</strong> with each other. Moreover, some lazy members might <strong>rely on others to do all the work</strong>."
+        "a": "One big problem is that team members may <strong>have different ideas and argue</strong> with each other. Also, some lazy people might <strong>wait for others to do all the work</strong>."
       },
       {
-        "q": "In your opinion, how can organizations encourage effective teamwork?",
-        "vi": "Theo bạn, các tổ chức có thể khuyến khích làm việc nhóm hiệu quả bằng cách nào?",
-        "a": "Organizations should <strong>organize fun team-building activities</strong> and <strong>set clear common goals</strong>. In addition, <strong>rewarding good achievements</strong> will motivate employees to cooperate much better."
+        "q": "In your opinion, how can companies encourage good teamwork?",
+        "vi": "Theo bạn, các công ty có thể khuyến khích làm việc nhóm tốt bằng cách nào?",
+        "a": "Companies can <strong>plan fun group activities</strong> and <strong>set clear goals</strong>. Also, <strong>giving bonuses for good work</strong> will make workers want to work together better."
       },
       {
-        "q": "Do you think teamwork is more beneficial for young people or older people? Why?",
-        "vi": "Bạn có nghĩ làm việc nhóm có lợi hơn cho người trẻ hay người lớn tuổi?",
-        "a": "I think teamwork is <strong>beneficial for both groups</strong> because everyone needs support at work. While young people <strong>learn practical experience</strong>, older people <strong>receive fresh and creative ideas</strong>."
+        "q": "Do you think teamwork is more useful for young people or older people? Why?",
+        "vi": "Bạn có nghĩ làm việc nhóm có ích hơn cho người trẻ hay người lớn tuổi?",
+        "a": "I think teamwork is <strong>good for both groups</strong> because everyone needs help at work. Young people can <strong>learn experience from older people</strong>, and older people can <strong>learn new ideas from the young</strong>."
       }
     ]
   },
@@ -203,19 +203,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Do you think soft skills are necessary in today's society? Why or why not?",
-        "vi": "Bạn có nghĩ kỹ năng mềm là cần thiết không?",
-        "a": "Yes, soft skills are <strong>extremely necessary today</strong> because technical knowledge alone is not enough to succeed. Having good social skills helps people <strong>build strong relationships and work smoothly</strong> with colleagues."
+        "q": "Do you think soft skills are necessary today? Why or why not?",
+        "vi": "Bạn có nghĩ kỹ năng mềm là cần thiết ngày nay không?",
+        "a": "Yes, soft skills are very necessary today because <strong>knowledge from books is not enough</strong>. Good soft skills help people <strong>work happily and easily with other people</strong>."
       },
       {
         "q": "Which soft skill do you think is the most important?",
         "vi": "Kỹ năng mềm nào quan trọng nhất?",
-        "a": "In my opinion, <strong>good communication is the most important skill</strong> because it helps people avoid misunderstandings. When people express ideas clearly, they can <strong>solve daily problems much faster</strong>."
+        "a": "In my opinion, <strong>communication is the most important skill</strong> because it helps people avoid problems. When people talk clearly, they can <strong>understand each other and work faster</strong>."
       },
       {
-        "q": "Do you think young people generally have better soft skills than older people?",
+        "q": "Do you think young people have better soft skills than older people?",
         "vi": "Người trẻ có kỹ năng mềm tốt hơn người lớn tuổi không?",
-        "a": "I think young people are often <strong>more energetic and open-minded</strong> in learning new skills. However, older people have <strong>more patience and emotional control</strong> from life experience."
+        "a": "I think young people are often <strong>faster at learning new skills</strong>. However, older people are usually <strong>more patient and calm</strong> because they have more life experience."
       }
     ]
   },
@@ -258,19 +258,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Do you think online learning will replace traditional schooling in the future?",
-        "vi": "Học online có thay thế trường học truyền thống không?",
-        "a": "No, I do not think online learning will <strong>replace traditional schooling completely</strong> because face-to-face interaction is essential. Meeting teachers and friends in real life helps students <strong>develop social skills naturally</strong>."
+        "q": "Do you think online learning will replace traditional schools in the future?",
+        "vi": "Học online có thay thế trường học truyền thống trong tương lai không?",
+        "a": "No, I do not think online learning will replace normal schools completely because <strong>meeting in person is very important</strong>. Going to school helps students <strong>make real friends and talk easily with teachers</strong>."
       },
       {
         "q": "What are some disadvantages of online learning?",
-        "vi": "Một số bất lợi của học trực tuyến?",
-        "a": "One big drawback is that students can be <strong>easily distracted by social media and online games</strong>. In addition, staring at a computer screen for hours can <strong>cause eye strain and severe headaches</strong>."
+        "vi": "Một số bất lợi của học trực tuyến là gì?",
+        "a": "One big problem is that students can <strong>easily lose focus because of social media and games</strong>. Also, looking at a computer screen for a long time can <strong>hurt their eyes and cause headaches</strong>."
       },
       {
-        "q": "How can students study online more effectively?",
-        "vi": "Làm thế nào để học trực tuyến hiệu quả hơn?",
-        "a": "Students should <strong>find a quiet place to study</strong> and <strong>make a daily study schedule</strong>. In addition, <strong>reviewing the lessons regularly</strong> helps them remember knowledge much longer."
+        "q": "How can students study online better?",
+        "vi": "Làm thế nào để học sinh học trực tuyến tốt hơn?",
+        "a": "Students should <strong>choose a quiet room to study</strong> and <strong>make a clear study plan every day</strong>. Besides, reviewing lessons often helps them remember what they learned."
       }
     ]
   },
@@ -315,17 +315,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why is body language important in presentations?",
         "vi": "Tại sao ngôn ngữ cơ thể quan trọng trong thuyết trình?",
-        "a": "Body language is important because <strong>confident eye contact and friendly smiles</strong> make the presentation more engaging. It helps the audience <strong>feel connected and trust the speaker</strong> easily."
+        "a": "Body language is important because <strong>a smile and good eye contact make the talk more interesting</strong>. It helps listeners <strong>feel relaxed and pay attention to the speaker</strong>."
       },
       {
         "q": "Can body language cause misunderstandings in different cultures?",
         "vi": "Ngôn ngữ cơ thể có gây hiểu lầm giữa các nền văn hóa không?",
-        "a": "Yes, certain gestures like nodding or thumbs-up can have <strong>opposite meanings in different countries</strong>. Therefore, people should <strong>learn local customs carefully</strong> before traveling or doing business abroad."
+        "a": "Yes, some actions can have <strong>different meanings in different countries</strong>. Therefore, people should <strong>learn about local customs</strong> before traveling abroad."
       },
       {
         "q": "How can people improve their body language?",
         "vi": "Làm thế nào để cải thiện ngôn ngữ cơ thể?",
-        "a": "People can improve by <strong>practicing speaking in front of a mirror</strong> to observe their gestures. Moreover, <strong>watching professional speakers on video</strong> is a great way to learn positive body language."
+        "a": "People can <strong>practice speaking in front of a mirror</strong> to check their hands and face. Watching good speakers on videos is also <strong>a great way to learn</strong>."
       }
     ]
   },
@@ -370,17 +370,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What difficulties do international students often face?",
         "vi": "Du học sinh thường gặp khó khăn gì?",
-        "a": "International students often struggle with <strong>homesickness and difficult language barriers</strong> at first. In addition, <strong>adapting to unfamiliar food and weather</strong> can take quite a long time."
+        "a": "Students often <strong>feel lonely and miss their family and food</strong> at first. Also, speaking a foreign language every day can be <strong>hard in the beginning</strong>."
       },
       {
-        "q": "Should students work part-time while studying abroad?",
-        "vi": "Du học sinh có nên làm thêm không?",
-        "a": "Yes, a part-time job helps students <strong>earn extra pocket money</strong> to pay for daily living expenses. In addition, it gives them <strong>valuable work experience and improves communication</strong>."
+        "q": "Should students do a part-time job while studying abroad?",
+        "vi": "Du học sinh có nên đi làm thêm không?",
+        "a": "Yes, a part-time job helps students <strong>earn extra money for daily living costs</strong>. It also gives them good work experience and helps them practice speaking the language."
       },
       {
         "q": "Do you prefer studying abroad or studying in your home country?",
         "vi": "Bạn thích du học hay học trong nước?",
-        "a": "I prefer <strong>studying in my home country</strong> because I can live close to my family and friends. It is much more comfortable and helps me <strong>save a large amount of money</strong>."
+        "a": "I prefer studying in my home country because I can <strong>live close to my family and friends</strong>. It is much more comfortable and helps me <strong>save a lot of money</strong>."
       }
     ]
   },
@@ -425,17 +425,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "At what age should children start learning English?",
         "vi": "Trẻ em nên học tiếng Anh từ mấy tuổi?",
-        "a": "I think children should start learning English <strong>around four or five years old</strong>. At this young age, they can <strong>pick up natural pronunciation and vocabulary</strong> through simple songs and cartoons."
+        "a": "I think children should start learning English <strong>around four or five years old</strong>. At this age, they can learn words and sounds easily through <strong>simple songs and cartoons</strong>."
       },
       {
-        "q": "What is the best way to practice English speaking?",
-        "vi": "Cách tốt nhất để luyện nói tiếng Anh?",
-        "a": "The best way is to <strong>practice speaking English every day</strong> with foreign friends or teachers. Besides, <strong>talking to yourself in English</strong> about daily routines is very effective."
+        "q": "What is the best way to practice speaking English?",
+        "vi": "Cách tốt nhất để luyện nói tiếng Anh là gì?",
+        "a": "The best way is to <strong>speak English every day with friends or teachers</strong>. Watching English movies and <strong>repeating simple sentences</strong> is also very helpful."
       },
       {
         "q": "Is English the most useful language in the world?",
-        "vi": "Tiếng Anh có phải là ngôn ngữ hữu ích nhất?",
-        "a": "Yes, English is <strong>the most widely spoken language</strong> in international business, science, and travel. Knowing English allows people to <strong>connect with the global community easily</strong>."
+        "vi": "Tiếng Anh có phải là ngôn ngữ hữu ích nhất trên thế giới không?",
+        "a": "Yes, English is used a lot in <strong>business, travel, and the Internet</strong>. Knowing English helps people <strong>connect with the world much more easily</strong>."
       }
     ]
   },
@@ -478,19 +478,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Are there any disadvantages of sending toddlers to school early?",
-        "vi": "Có bất lợi gì khi cho trẻ đi học sớm?",
-        "a": "One disadvantage is that toddlers may <strong>feel anxious and cry a lot</strong> when separated from parents. In addition, they easily <strong>catch common colds from other kids</strong> at nursery school."
+        "q": "Are there any disadvantages of sending young children to school early?",
+        "vi": "Có bất lợi gì khi cho trẻ nhỏ đi học sớm không?",
+        "a": "One problem is that young children may <strong>feel scared and cry</strong> when they are away from parents. Also, they can <strong>catch colds easily from other kids</strong> at school."
       },
       {
         "q": "What should parents look for when choosing a preschool?",
         "vi": "Phụ huynh nên chú ý điều gì khi chọn trường mầm non?",
-        "a": "Parents should look for a school with <strong>caring teachers and a safe environment</strong> for kids. In addition, <strong>clean classrooms and nutritious meals</strong> are also very important factors."
+        "a": "Parents should choose a school with <strong>kind teachers and a safe play area</strong>. Clean classrooms and <strong>healthy meals</strong> are also very important."
       },
       {
-        "q": "Should preschool focus on academics or playtime?",
-        "vi": "Mầm non nên chú trọng học chữ hay vui chơi?",
-        "a": "I think preschool should <strong>focus mainly on playtime and social skills</strong> rather than heavy academic study. Playing with friends helps children <strong>develop creativity and make friends naturally</strong>."
+        "q": "Should preschool focus on study or playtime?",
+        "vi": "Mầm non nên chú trọng việc học hay vui chơi?",
+        "a": "I think preschool should <strong>focus mainly on playing and making friends</strong>. Playing games helps children feel happy and learn natural social skills."
       }
     ]
   },
@@ -533,19 +533,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How can conflicts between coworkers be resolved?",
-        "vi": "Làm thế nào giải quyết mâu thuẫn đồng nghiệp?",
-        "a": "Coworkers should <strong>talk openly and listen patiently</strong> to understand each other's opinions. If they cannot resolve the dispute, they can <strong>ask their team manager for guidance</strong>."
+        "q": "How can coworkers solve problems with each other?",
+        "vi": "Làm thế nào đồng nghiệp giải quyết vấn đề với nhau?",
+        "a": "Coworkers should <strong>talk calmly and listen to understand each other</strong>. If they still cannot agree, they can <strong>ask their manager for help</strong>."
       },
       {
-        "q": "Is having close friends at work always positive?",
+        "q": "Is having close friends at work always good?",
         "vi": "Có bạn thân ở nơi làm việc có luôn tốt không?",
-        "a": "It is mostly positive, but having close friends at work can sometimes <strong>cause office gossip or distractions</strong>. Therefore, employees need to <strong>stay professional during working hours</strong>."
+        "a": "It is mostly good, but sometimes close friends can <strong>talk too much and lose focus</strong>. Therefore, workers should still <strong>stay serious during working hours</strong>."
       },
       {
-        "q": "What can a company do to build a friendly work culture?",
-        "vi": "Công ty có thể làm gì để xây dựng văn hóa thân thiện?",
-        "a": "Companies can <strong>organize monthly team lunches</strong> and celebrate employee birthdays together. This simple habit creates a <strong>friendly and supportive working atmosphere</strong> for everyone."
+        "q": "What can a company do to build a friendly workplace?",
+        "vi": "Công ty có thể làm gì để xây dựng nơi làm việc thân thiện?",
+        "a": "Companies can have <strong>monthly team lunches</strong> and <strong>celebrate worker birthdays together</strong>. These simple activities help workers feel closer and happier."
       }
     ]
   },
@@ -588,19 +588,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Do you prefer physical books or e-books?",
+        "q": "Do you prefer paper books or e-books?",
         "vi": "Bạn thích sách giấy hay sách điện tử?",
-        "a": "I prefer <strong>reading physical paper books</strong> because holding a real book feels very relaxing and does not hurt my eyes. Turning printed pages also helps me <strong>focus much better on the story</strong>."
+        "a": "I prefer reading paper books because <strong>holding a real book feels nice</strong> and does not hurt my eyes. Also, <strong>turning real pages helps me focus better</strong> on the story."
       },
       {
-        "q": "How can parents encourage kids to read more?",
-        "vi": "Làm sao cha mẹ khuyến khích con đọc sách?",
-        "a": "Parents should <strong>read bedtime stories with their children</strong> and take them to bookstores regularly. In addition, <strong>having a small bookshelf at home</strong> encourages kids to pick up books daily."
+        "q": "How can parents encourage children to read more?",
+        "vi": "Làm sao cha mẹ khuyến khích trẻ đọc sách nhiều hơn?",
+        "a": "Parents should <strong>read bedtime stories with their kids</strong> and <strong>take them to bookstores</strong>. Having a small bookshelf at home also makes children want to read more."
       },
       {
         "q": "Why do some people read less nowadays?",
-        "vi": "Tại sao ngày nay nhiều người ít đọc sách?",
-        "a": "Many people read less because they are <strong>addicted to smartphones and short videos</strong> like TikTok. These digital apps are very entertaining and <strong>take away most of their free time</strong>."
+        "vi": "Tại sao ngày nay một số người ít đọc sách?",
+        "a": "Many people read less because they <strong>spend too much time on smartphones and short videos</strong> like TikTok. Those apps are very fun and take away most of their free time."
       }
     ]
   },
@@ -644,18 +644,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "Will AI take away people's jobs?",
-        "vi": "AI có cướp mất việc làm không?",
-        "a": "AI may <strong>replace simple and repetitive manual jobs</strong> in offices and factories. However, it will also <strong>create exciting new careers</strong> in technology and data management."
+        "vi": "AI có lấy mất việc làm của con người không?",
+        "a": "AI may take some <strong>simple and repeated jobs</strong> in offices and factories. However, it will also <strong>create new jobs in technology and computer work</strong>."
       },
       {
-        "q": "How do you use AI in your daily study or work?",
-        "vi": "Bạn dùng AI trong học tập thế nào?",
-        "a": "I often use AI tools to <strong>translate difficult English texts</strong> and check grammar errors in my essays. It helps me <strong>save valuable study time and learn faster</strong>."
+        "q": "How do you use AI in your study or work?",
+        "vi": "Bạn dùng AI trong học tập hay công việc như thế nào?",
+        "a": "I often use AI tools to <strong>check grammar mistakes and translate hard English words</strong>. It helps me <strong>save study time and learn faster</strong>."
       },
       {
-        "q": "What ethical risks come with AI development?",
-        "vi": "Nguy cơ đạo đức nào đi kèm với AI?",
-        "a": "The biggest risk is that personal data could be <strong>stolen or misused by cyber criminals</strong>. In addition, fake information created by AI can <strong>deceive people on the internet</strong>."
+        "q": "What problems can AI bring?",
+        "vi": "AI có thể mang lại những vấn đề gì?",
+        "a": "One big problem is that <strong>personal information can be stolen online</strong>. Also, <strong>fake news or fake photos made by AI</strong> can trick many people."
       }
     ]
   },
@@ -698,19 +698,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Why is work-life balance difficult in modern cities?",
-        "vi": "Tại sao cân bằng khó ở thành phố?",
-        "a": "It is difficult because city life has <strong>heavy traffic jams and high living costs</strong>. As a result, many people have to <strong>work overtime to earn enough money</strong>."
+        "q": "Why is work-life balance difficult in big cities?",
+        "vi": "Tại sao cân bằng công việc và cuộc sống lại khó ở thành phố lớn?",
+        "a": "It is difficult because big cities have <strong>heavy traffic and high living costs</strong>. As a result, many people have to <strong>work late to earn enough money</strong>."
       },
       {
-        "q": "What happens if someone ignores work-life balance?",
-        "vi": "Chuyện gì xảy ra nếu bỏ qua cân bằng?",
-        "a": "If someone ignores this balance, they will suffer from <strong>severe mental stress and physical exhaustion</strong>. Over time, their <strong>family relationships will also break down</strong>."
+        "q": "What happens if someone works too much and never rests?",
+        "vi": "Chuyện gì xảy ra nếu ai đó làm việc quá nhiều mà không nghỉ ngơi?",
+        "a": "If someone works too much, they will <strong>feel very stressed and get sick easily</strong>. Over time, they may also <strong>have problems with their family</strong>."
       },
       {
-        "q": "How can employers support their workers' balance?",
-        "vi": "Doanh nghiệp hỗ trợ nhân viên thế nào?",
-        "a": "Employers can <strong>offer flexible working hours</strong> and avoid sending urgent emails during weekends. Moreover, providing <strong>annual paid leave</strong> gives employees time to recharge."
+        "q": "How can companies help workers balance work and life?",
+        "vi": "Công ty có thể làm gì để giúp nhân viên cân bằng công việc và cuộc sống?",
+        "a": "Companies can allow <strong>flexible working hours</strong> and avoid calling workers on weekends. <strong>Giving paid holidays</strong> also helps workers rest well."
       }
     ]
   },
@@ -754,18 +754,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "Do you prefer traveling alone or in a group?",
-        "vi": "Bạn thích du lịch một mình hay theo nhóm?",
-        "a": "I prefer <strong>traveling with close friends</strong> because we can share delicious local food and take nice pictures together. Having good companions makes the journey <strong>much more memorable and enjoyable</strong>."
+        "vi": "Bạn thích đi du lịch một mình hay theo nhóm?",
+        "a": "I prefer traveling with close friends because we can <strong>share good food and take nice photos together</strong>. Having good friends makes the trip <strong>much more fun</strong>."
       },
       {
-        "q": "Is eco-tourism becoming more popular?",
-        "vi": "Du lịch sinh thái có đang phổ biến không?",
-        "a": "Yes, eco-tourism is growing fast because tourists want to <strong>protect nature and support local communities</strong>. People are choosing <strong>green travel to reduce pollution</strong> in national parks."
+        "q": "Is green tourism becoming more popular?",
+        "vi": "Du lịch xanh có đang trở nên phổ biến hơn không?",
+        "a": "Yes, green travel is growing fast because people want to <strong>protect nature and help local towns</strong>. Many tourists <strong>try not to litter</strong> when visiting parks."
       },
       {
         "q": "What should travelers prepare before visiting another country?",
-        "vi": "Cần chuẩn bị gì trước chuyến đi nước ngoài?",
-        "a": "Travelers should <strong>prepare their valid passports, book hotels early</strong>, and exchange local currency. Additionally, <strong>learning a few basic greetings</strong> in the local language is very helpful."
+        "vi": "Du khách nên chuẩn bị gì trước khi đến một đất nước khác?",
+        "a": "Travelers should <strong>check their passports, book hotels early, and change some local money</strong>. Learning a few simple greetings in the local language is also very helpful."
       }
     ]
   },
@@ -808,19 +808,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Should schools make volunteering mandatory for students?",
-        "vi": "Trường học có nên bắt buộc học sinh đi tình nguyện?",
-        "a": "I think schools should <strong>encourage volunteering through fun clubs</strong> rather than making it strictly mandatory. When students join willingly, they will <strong>feel genuine joy and empathy</strong> towards others."
+        "q": "Should schools make charity work a rule for students?",
+        "vi": "Trường học có nên bắt buộc học sinh làm từ thiện không?",
+        "a": "I think schools should <strong>encourage charity through fun clubs</strong> instead of forcing students. When students join freely, they will <strong>feel happy to help others</strong>."
       },
       {
-        "q": "How can people help the needy besides donating money?",
-        "vi": "Giúp người nghèo bằng cách nào ngoài tiền?",
-        "a": "People can <strong>donate old clothes and warm blankets</strong> to poor families in rural areas. In addition, <strong>spending time teaching orphan children</strong> is an extremely meaningful deed."
+        "q": "How can people help poor people besides giving money?",
+        "vi": "Mọi người có thể giúp người nghèo bằng cách nào ngoài việc cho tiền?",
+        "a": "People can <strong>give old clothes, books, and warm blankets</strong> to poor families. Spending time <strong>teaching young children</strong> is also a very kind thing to do."
       },
       {
-        "q": "Have you ever participated in a charity project?",
+        "q": "Have you ever joined a charity activity?",
         "vi": "Bạn đã từng tham gia hoạt động từ thiện nào chưa?",
-        "a": "Yes, I once <strong>donated books and warm clothes</strong> to poor children in mountainous areas. Seeing their happy smiles made me <strong>feel truly blessed and grateful</strong>."
+        "a": "Yes, I once <strong>gave books and warm clothes to poor children</strong> in the countryside. Seeing their happy smiles made me <strong>feel very happy</strong>."
       }
     ]
   },
@@ -863,19 +863,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "What fun activities can people do when staying home during holidays?",
-        "vi": "Những hoạt động thú vị tại nhà trong kỳ nghỉ?",
-        "a": "People can <strong>cook favorite meals with family</strong>, watch interesting movies, or read books. In addition, <strong>doing gardening and redecorating the room</strong> brings a lot of fun."
+        "q": "What fun things can people do when staying home on holidays?",
+        "vi": "Mọi người có thể làm gì vui khi ở nhà vào kỳ nghỉ?",
+        "a": "People can <strong>cook nice meals with family, watch good movies, or read books</strong>. Gardening and <strong>cleaning their room together</strong> can also be very fun."
       },
       {
-        "q": "Why do some people dislike staying at home on holidays?",
-        "vi": "Tại sao vài người không thích ở nhà ngày lễ?",
-        "a": "Some people dislike it because staying in one place can <strong>feel boring and repetitive</strong>. They prefer going to new places to <strong>explore famous sights and meet new people</strong>."
+        "q": "Why do some people not like staying at home on holidays?",
+        "vi": "Tại sao một số người không thích ở nhà vào ngày lễ?",
+        "a": "Some people find staying in one place <strong>a bit boring</strong>. They prefer going to <strong>new cities or beaches to try new food and take photos</strong>."
       },
       {
         "q": "Is holiday traffic a big problem in your country?",
-        "vi": "Giao thông ngày lễ có là vấn đề lớn không?",
-        "a": "Yes, traffic jams are <strong>a huge problem during national holidays</strong> in big cities. Thousands of people crowd onto highways and bus stations, <strong>causing hours of exhaustion</strong>."
+        "vi": "Giao thông ngày lễ có phải là vấn đề lớn ở nước bạn không?",
+        "a": "Yes, traffic jams are a huge problem during big holidays in cities. Many people travel at the same time, so <strong>roads and bus stations are always crowded</strong>."
       }
     ]
   },
@@ -918,19 +918,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "What advantages do young leaders have over older leaders?",
-        "vi": "Lãnh đạo trẻ có ưu thế gì so với người lớn tuổi?",
-        "a": "Young leaders are often <strong>more energetic, tech-savvy, and open to innovation</strong>. They can <strong>inspire young teams with creative solutions</strong> much faster."
+        "q": "What good points do young leaders have compared to older leaders?",
+        "vi": "Lãnh đạo trẻ có ưu điểm gì so với lãnh đạo lớn tuổi?",
+        "a": "Young leaders often have <strong>lots of energy and know technology very well</strong>. They can also <strong>bring fresh and creative ideas</strong> to the team."
       },
       {
-        "q": "Should there be an age limit for political leaders?",
-        "vi": "Có nên giới hạn tuổi cho chính trị gia không?",
-        "a": "Yes, an age limit gives <strong>younger generations opportunities to lead</strong> with modern ideas. However, older leaders still offer <strong>invaluable experience to advise the nation</strong>."
+        "q": "Should there be an age limit for leaders?",
+        "vi": "Có nên có giới hạn độ tuổi cho lãnh đạo không?",
+        "a": "Yes, an age limit gives young people <strong>chances to lead with modern ideas</strong>. However, older leaders still have <strong>great experience to give good advice</strong>."
       },
       {
-        "q": "What makes a truly inspiring leader?",
-        "vi": "Điều gì tạo nên một nhà lãnh đạo truyền cảm hứng?",
-        "a": "An inspiring leader must <strong>listen to team members respectfully</strong> and lead by personal example. In addition, they need to <strong>encourage others and stay calm</strong> in difficult times."
+        "q": "What makes a good leader?",
+        "vi": "Điều gì tạo nên một nhà lãnh đạo giỏi?",
+        "a": "A good leader must <strong>listen to workers kindly and set a good example</strong>. They also need to <strong>encourage the team and stay calm</strong> during hard times."
       }
     ]
   },
@@ -973,19 +973,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How can consumers protect themselves when shopping online?",
-        "vi": "Làm thế nào người mua tự bảo vệ mình?",
-        "a": "Consumers should <strong>buy products from official and trusted stores</strong> on reputable websites. In addition, they should always <strong>read reviews and customer ratings carefully</strong> before buying."
+        "q": "How can buyers stay safe when shopping online?",
+        "vi": "Người mua làm gì để an toàn khi mua sắm online?",
+        "a": "Buyers should choose <strong>trusted shops and official websites</strong>. Also, <strong>reading reviews from other buyers</strong> helps them avoid bad products."
       },
       {
-        "q": "Will online stores completely replace traditional shopping malls?",
-        "vi": "Cửa hàng online có thay thế hoàn toàn trung tâm thương mại?",
-        "a": "No, traditional malls will not disappear because people love <strong>trying on clothes in person and hanging out</strong> with friends. Real shopping gives an <strong>enjoyable experience</strong> that online shopping cannot replace."
+        "q": "Will online stores completely replace real shops?",
+        "vi": "Cửa hàng online có thay thế hoàn toàn cửa hàng thật không?",
+        "a": "No, real shops will not disappear because many people love <strong>trying on clothes and going out with friends</strong>. Real shopping gives a fun feeling that online shopping cannot replace."
       },
       {
-        "q": "What should you do if an online order arrives damaged?",
-        "vi": "Nên làm gì khi hàng online bị hư hỏng?",
-        "a": "You should <strong>take photos of the damaged package</strong> and notify the seller immediately. After that, you can <strong>ask for a replacement or a full refund</strong>."
+        "q": "What should you do if an online order arrives broken?",
+        "vi": "Bạn nên làm gì nếu đơn hàng online giao đến bị hỏng?",
+        "a": "You should <strong>take photos of the broken item</strong> and message the shop right away. After that, you can ask them to <strong>change it or give your money back</strong>."
       }
     ]
   },
@@ -1028,19 +1028,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How can governments encourage more people to ride buses and metros?",
-        "vi": "Chính phủ khuyến khích đi xe bus thế nào?",
-        "a": "Governments should <strong>offer cheaper tickets</strong> and keep buses clean and comfortable. In addition, <strong>adding more bus routes</strong> will help passengers save time."
+        "q": "How can the government encourage more people to use buses?",
+        "vi": "Chính phủ làm gì để khuyến khích nhiều người đi xe buýt hơn?",
+        "a": "The government should <strong>make bus tickets cheaper</strong> and keep buses clean and comfortable. Adding more bus stops and routes will also <strong>help people save time</strong>."
       },
       {
-        "q": "Is public transport eco-friendly?",
-        "vi": "Phương tiện công cộng có thân thiện môi trường không?",
-        "a": "Yes, public transport is <strong>much more eco-friendly than private vehicles</strong> because buses can carry many people at once. This helps <strong>reduce traffic jams and air pollution</strong> significantly."
+        "q": "Is public transport good for the environment?",
+        "vi": "Phương tiện công cộng có tốt cho môi trường không?",
+        "a": "Yes, public transport is <strong>much better for the environment than private cars</strong> because one bus can carry many people. This helps <strong>reduce traffic jams and air pollution</strong>."
       },
       {
-        "q": "Do you prefer traveling by motorbike or by bus?",
-        "vi": "Bạn thích đi xe máy hay xe buýt?",
-        "a": "I prefer <strong>traveling by bus on rainy days</strong> because it is much safer and drier. However, on sunny days, <strong>riding a motorbike is quicker</strong> in narrow streets."
+        "q": "Do you prefer going by motorbike or by bus?",
+        "vi": "Bạn thích đi bằng xe máy hay xe buýt?",
+        "a": "I prefer going by bus on rainy days because it is <strong>safer and keeps me dry</strong>. However, on sunny days, <strong>riding a motorbike is faster</strong> on small streets."
       }
     ]
   },
@@ -1083,19 +1083,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How can people prevent sports injuries?",
-        "vi": "Làm thế nào phòng tránh chấn thương thể thao?",
-        "a": "People should <strong>warm up carefully for ten minutes</strong> before doing exercise. In addition, <strong>wearing suitable sports shoes</strong> helps protect their feet and prevent injuries."
+        "q": "How can people stay safe when doing exercise?",
+        "vi": "Làm sao để an toàn khi tập thể dục?",
+        "a": "People should <strong>warm up carefully for ten minutes</strong> before starting exercise. Also, <strong>wearing good sports shoes</strong> helps protect their feet."
       },
       {
-        "q": "Is going to an expensive gym necessary to stay fit?",
-        "vi": "Có cần đến phòng gym đắt tiền không?",
-        "a": "No, going to an expensive gym is not necessary because people can <strong>jog in the park or exercise at home</strong>. Doing simple exercises every day is <strong>enough to stay healthy</strong>."
+        "q": "Do people need an expensive gym to stay healthy?",
+        "vi": "Mọi người có cần đến phòng gym đắt tiền để khỏe mạnh không?",
+        "a": "No, going to an expensive gym is not necessary because people can <strong>walk in the park or exercise at home</strong>. Doing simple exercises every day is enough to stay healthy."
       },
       {
-        "q": "How many hours of exercise per week is enough for adults?",
+        "q": "How many hours of exercise per week is good for adults?",
         "vi": "Người lớn nên tập bao nhiêu giờ mỗi tuần?",
-        "a": "Adults should exercise for <strong>about three to five hours each week</strong>. Doing <strong>thirty minutes of moderate exercise each day</strong> brings great health benefits."
+        "a": "Adults should exercise for about <strong>three to five hours each week</strong>. Doing <strong>thirty minutes of easy exercise each day</strong> is very good for health."
       }
     ]
   },
@@ -1138,19 +1138,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Do you think people should become self-employed despite these disadvantages?",
-        "vi": "Có nên tự kinh doanh bất chấp bất lợi?",
-        "a": "Yes, self-employment gives people <strong>freedom to control their own work schedule</strong> and pursue their passions. If they work hard and stay patient, they can <strong>achieve great success</strong>."
+        "q": "Should people start their own business even with these problems?",
+        "vi": "Mọi người có nên tự mở kinh doanh dù có những vấn đề này không?",
+        "a": "Yes, working for yourself gives you <strong>freedom to choose your work time and follow your dream</strong>. If you <strong>work hard and stay patient</strong>, you can still succeed."
       },
       {
-        "q": "Should students choose self-employment or work for a company after graduation?",
-        "vi": "Sinh viên nên tự kinh doanh hay đi làm công ty?",
-        "a": "Graduates should <strong>work for a company first</strong> to gain practical experience and professional skills. After a few years, they can <strong>start their own business with lower risks</strong>."
+        "q": "Should students work for themselves or work for a company after school?",
+        "vi": "Sinh viên ra trường nên tự kinh doanh hay đi làm công ty?",
+        "a": "Young people should <strong>work for a company first to learn real experience and work skills</strong>. After a few years, they can <strong>start their own business safely</strong>."
       },
       {
-        "q": "What skills are most important for self-employed entrepreneurs?",
-        "vi": "Kỹ năng nào quan trọng nhất cho chủ kinh doanh?",
-        "a": "The most important skills are <strong>self-discipline and good financial management</strong>. In addition, having <strong>good communication skills helps entrepreneurs attract more customers</strong>."
+        "q": "What skills are most important for people who run their own business?",
+        "vi": "Kỹ năng nào quan trọng nhất cho người tự kinh doanh?",
+        "a": "The most important skills are <strong>hard work and good money planning</strong>. Also, <strong>talking nicely with customers</strong> helps them sell more products."
       }
     ]
   },
@@ -1194,18 +1194,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "Why do many young families still choose apartments?",
-        "vi": "Tại sao nhiều gia đình trẻ vẫn chọn chung cư?",
-        "a": "Young families choose apartments because of <strong>reasonable prices and good security</strong>. In addition, having <strong>elevators, playgrounds, and mini-marts nearby</strong> is very convenient."
+        "vi": "Tại sao nhiều gia đình trẻ vẫn chọn sống ở chung cư?",
+        "a": "Young families choose apartments because <strong>the prices are fair and there are good security guards</strong>. Also, having <strong>shops, elevators, and playgrounds nearby</strong> is very convenient."
       },
       {
-        "q": "How can apartment residents deal with noisy neighbors?",
-        "vi": "Xử lý hàng xóm ồn ào thế nào?",
-        "a": "Residents should <strong>talk politely with their neighbors</strong> to ask them to keep the noise down. If the problem continues, they can <strong>report it to the building management</strong>."
+        "q": "What can people do about noisy neighbors in an apartment?",
+        "vi": "Mọi người có thể làm gì khi hàng xóm ở chung cư gây ồn?",
+        "a": "People should <strong>talk politely with their neighbors</strong> and ask them to keep the noise down. If the noise does not stop, they can <strong>tell the building manager</strong>."
       },
       {
-        "q": "Do you prefer a townhouse or a condominium?",
-        "vi": "Bạn thích nhà phố hay chung cư?",
-        "a": "I prefer <strong>living in an apartment</strong> because it offers good security and a peaceful living environment. Living on higher floors also <strong>provides fresh air and reduces street noise</strong>."
+        "q": "Do you prefer living in a normal house or an apartment?",
+        "vi": "Bạn thích sống ở nhà riêng bình thường hay căn hộ chung cư?",
+        "a": "I prefer living in an apartment because it is <strong>safe and clean</strong>. Living on higher floors also brings <strong>fresh air and less street noise</strong>."
       }
     ]
   },
@@ -1248,19 +1248,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How can students avoid relying too much on AI?",
-        "vi": "Học sinh tránh phụ thuộc AI thế nào?",
-        "a": "Students should <strong>try to brainstorm and write drafts by themselves</strong> before checking with AI. In addition, teachers can <strong>organize more in-class speaking activities and presentations</strong>."
+        "q": "How can students avoid depending too much on AI?",
+        "vi": "Làm sao học sinh tránh phụ thuộc quá nhiều vào AI?",
+        "a": "Students should <strong>think and write their own ideas first</strong> before checking with AI. Also, teachers can <strong>give more speaking tests in class</strong>."
       },
       {
-        "q": "Can AI replace human creativity in art and writing?",
-        "vi": "AI có thay thế được sáng tạo nghệ thuật?",
-        "a": "No, AI cannot replace real human creativity because it lacks <strong>real feelings and personal life experiences</strong>. True art always comes from <strong>human emotions and imagination</strong>."
+        "q": "Can AI replace humans in art and writing?",
+        "vi": "AI có thể thay thế con người trong nghệ thuật và viết lách không?",
+        "a": "No, AI cannot replace humans in art because it has <strong>no real feelings or life experiences</strong>. True art always comes from <strong>human feelings and ideas</strong>."
       },
       {
-        "q": "What should schools do about students using ChatGPT to do homework?",
-        "vi": "Trường học nên làm gì khi học sinh dùng ChatGPT?",
-        "a": "Schools should <strong>guide students on how to use AI as a helpful study tool</strong> instead of copying. In addition, teachers can <strong>assign more in-class writing tasks</strong>."
+        "q": "What should schools do when students use ChatGPT for homework?",
+        "vi": "Trường học nên làm gì khi học sinh dùng ChatGPT làm bài tập về nhà?",
+        "a": "Schools should teach students how to <strong>use AI as a study helper</strong> instead of copying everything. Teachers can also <strong>ask students to do more writing tasks in class</strong>."
       }
     ]
   },
@@ -1305,17 +1305,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can schools help prevent school violence?",
         "vi": "Trường học làm gì để ngăn bạo lực học đường?",
-        "a": "Schools should <strong>teach moral lessons about mutual respect</strong> and organize anti-bullying workshops. In addition, <strong>installing security cameras and strict rules</strong> will stop aggressive behavior."
+        "a": "Schools should teach students to <strong>respect each other and be kind</strong>. Putting <strong>security cameras and clear rules</strong> in school will also stop fighting."
       },
       {
-        "q": "Is cyberbullying among youth becoming worse?",
-        "vi": "Bạo lực mạng ở giới trẻ có đang tồi tệ hơn?",
-        "a": "Yes, cyberbullying is becoming more serious because people can <strong>hide their identity behind computer screens</strong>. Hurtful comments on social media can <strong>cause deep depression among teenagers</strong>."
+        "q": "Is online bullying among young people becoming worse?",
+        "vi": "Bắt nạt trên mạng ở giới trẻ có đang tệ hơn không?",
+        "a": "Yes, online bullying is getting worse because people can <strong>hide their real names online</strong>. Mean comments on social media can make teenagers <strong>feel very sad</strong>."
       },
       {
-        "q": "What role do parents play in guiding aggressive teenagers?",
-        "vi": "Vai trò của cha mẹ khi con cái bướng bỉnh?",
-        "a": "Parents should <strong>spend time talking with their children daily</strong> and listen to their personal struggles. Providing <strong>warm emotional support at home</strong> prevents kids from becoming aggressive."
+        "q": "What should parents do when teenagers are angry or act badly?",
+        "vi": "Cha mẹ nên làm gì khi con cái nóng giận hoặc cư xử xấu?",
+        "a": "Parents should <strong>spend time talking with their children every day</strong> and listen to their problems. Giving <strong>love and warm support at home</strong> helps children stay calm."
       }
     ]
   },
@@ -1359,18 +1359,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "What values should parents teach children first?",
-        "vi": "Cha mẹ nên dạy con giá trị nào đầu tiên?",
-        "a": "Parents should teach children <strong>honesty, politeness, and respect for elders</strong> first. These basic moral values form <strong>the solid foundation of good character</strong>."
+        "vi": "Cha mẹ nên dạy con điều tốt đẹp nào đầu tiên?",
+        "a": "Parents should teach children to be <strong>honest, polite, and respectful to older people</strong> first. These good habits help children <strong>become kind and good adults</strong>."
       },
       {
         "q": "Can parents sometimes teach their children bad habits?",
-        "vi": "Cha mẹ có thể vô tình dạy con thói quen xấu?",
-        "a": "Yes, if parents smoke, argue loudly, or spend too much time on phones, children will <strong>copy these negative habits easily</strong>. Therefore, parents must <strong>set a good personal example</strong>."
+        "vi": "Cha mẹ có thể vô tình dạy con thói quen xấu không?",
+        "a": "Yes, if parents smoke, shout loudly, or use phones too much, children will <strong>copy those bad habits easily</strong>. Therefore, parents must <strong>set a good example</strong>."
       },
       {
-        "q": "Who has a stronger influence on teenagers: parents or teachers?",
-        "vi": "Cha mẹ hay thầy cô có ảnh hưởng lớn hơn?",
-        "a": "I think parents have a stronger influence because they <strong>live with teenagers and love them unconditionally</strong>. However, school teachers also play a big role in <strong>shaping career knowledge</strong>."
+        "q": "Who has a bigger influence on teenagers: parents or teachers?",
+        "vi": "Cha mẹ hay thầy cô có ảnh hưởng lớn hơn đến thanh thiếu niên?",
+        "a": "I think parents have a bigger influence because they <strong>live with teenagers and love them deeply</strong>. However, teachers also play a big role in <strong>teaching school subjects and life skills</strong>."
       }
     ]
   },
@@ -1413,19 +1413,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How can schools reduce exam stress for pupils?",
-        "vi": "Làm sao giảm áp lực thi cử cho học sinh?",
-        "a": "Schools can <strong>reduce the amount of daily homework</strong> and replace heavy tests with practical group projects. This approach helps students <strong>learn with enjoyment instead of fear</strong>."
+        "q": "How can schools reduce exam stress for students?",
+        "vi": "Trường học làm sao giảm áp lực thi cử cho học sinh?",
+        "a": "Schools can <strong>give less daily homework</strong> and use fun group projects instead of too many hard tests. This helps students <strong>enjoy learning without feeling scared</strong>."
       },
       {
-        "q": "What should parents do when their child gets low grades?",
-        "vi": "Cha mẹ nên làm gì khi con bị điểm kém?",
-        "a": "Parents should <strong>encourage their children and help them review mistakes</strong> calmly instead of shouting. Showing patience makes the child <strong>feel confident to try harder next time</strong>."
+        "q": "What should parents do when their child gets low marks?",
+        "vi": "Cha mẹ nên làm gì khi con bị điểm thấp?",
+        "a": "Parents should <strong>encourage their child and check the mistakes calmly</strong> instead of shouting. Being kind and patient helps the child <strong>feel confident to try again</strong>."
       },
       {
-        "q": "Can physical sports relieve study stress?",
-        "vi": "Thể thao có giúp giảm căng thẳng học tập?",
-        "a": "Yes, playing sports helps students <strong>release pent-up stress and clear their minds</strong>. Physical exercise stimulates endorphins, making students <strong>feel happier and sleep much better</strong>."
+        "q": "Can playing sports help students reduce study stress?",
+        "vi": "Chơi thể thao có giúp học sinh giảm căng thẳng học tập không?",
+        "a": "Yes, playing sports helps students <strong>forget study stress and feel fresh again</strong>. Exercise makes the body healthy, helps them feel happier, and lets them sleep better."
       }
     ]
   },
@@ -1468,19 +1468,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Do men and women lead differently?",
-        "vi": "Nam và nữ lãnh đạo có khác nhau?",
-        "a": "Yes, women leaders often show <strong>greater empathy, active listening, and teamwork spirit</strong>. In contrast, men are sometimes <strong>more direct and decisive in taking risks</strong>."
+        "q": "Do men and women lead in different ways?",
+        "vi": "Nam và nữ lãnh đạo theo những cách khác nhau phải không?",
+        "a": "Yes, female leaders often <strong>listen carefully and care more about teamwork</strong>. On the other hand, male leaders are sometimes <strong>more direct and fast when making big choices</strong>."
       },
       {
-        "q": "What is the biggest barrier for women aiming for executive roles?",
-        "vi": "Rào cản lớn nhất của phụ nữ khi lên lãnh đạo?",
-        "a": "The biggest barrier is <strong>balancing heavy household chores with demanding corporate duties</strong>. Traditional gender stereotypes also <strong>prevent women from getting senior promotions</strong>."
+        "q": "What is the biggest difficulty for women who want to become top leaders?",
+        "vi": "Khó khăn lớn nhất của phụ nữ khi muốn lên vị trí lãnh đạo cao là gì?",
+        "a": "The biggest difficulty is <strong>balancing heavy housework with busy work at the office</strong>. Old ideas in society also make it <strong>harder for women to get high positions</strong>."
       },
       {
-        "q": "How can companies foster gender equality?",
-        "vi": "Doanh nghiệp thúc đẩy bình đẳng giới thế nào?",
-        "a": "Companies should <strong>provide equal pay and equal promotion chances</strong> for both men and women. In addition, <strong>flexible maternity leave policies</strong> help working mothers stay employed."
+        "q": "How can companies help women have equal chances at work?",
+        "vi": "Công ty có thể làm gì để giúp phụ nữ có cơ hội bình đẳng nơi làm việc?",
+        "a": "Companies should give <strong>equal pay and equal job chances</strong> to both men and women. Giving good leave time for mothers also <strong>helps women keep their jobs</strong>."
       }
     ]
   },
@@ -1523,19 +1523,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "What are early symptoms of chronic stress?",
-        "vi": "Dấu hiệu sớm của stress mãn tính?",
-        "a": "Early symptoms include <strong>chronic headaches, sudden anger, and insomnia</strong> at night. When stressed, people also <strong>lose their appetite and feel exhausted</strong> all day."
+        "q": "What are common signs of too much stress?",
+        "vi": "Những dấu hiệu thường gặp khi bị quá căng thẳng là gì?",
+        "a": "Common signs include <strong>bad headaches, getting angry quickly, and not sleeping well</strong> at night. Stressed people may also <strong>eat less and feel tired all day</strong>."
       },
       {
-        "q": "Can talking to a friend relieve stress?",
-        "vi": "Tâm sự với bạn bè có giảm stress?",
-        "a": "Yes, talking with a close friend helps people <strong>release pent-up emotions and feel understood</strong>. Good friends can also <strong>give helpful advice to solve daily worries</strong>."
+        "q": "Can talking to a friend help reduce stress?",
+        "vi": "Nói chuyện với bạn bè có giúp giảm căng thẳng không?",
+        "a": "Yes, talking with a close friend helps people <strong>share their feelings and feel much lighter</strong>. Good friends can also <strong>give helpful advice to solve problems</strong>."
       },
       {
-        "q": "When should someone seek professional therapy?",
-        "vi": "Khi nào nên gặp chuyên gia tâm lý?",
-        "a": "Someone should seek professional therapy when stress <strong>causes prolonged depression and stops normal daily work</strong>. Talking with a therapist provides <strong>safe treatments and scientific guidance</strong>."
+        "q": "When should someone talk to a doctor or counselor about stress?",
+        "vi": "Khi nào ai đó nên gặp bác sĩ hoặc chuyên gia tư vấn về stress?",
+        "a": "Someone should see a doctor when stress makes them <strong>very sad for a long time and stops them from working</strong>. Talking with an expert helps them <strong>feel better safely</strong>."
       }
     ]
   },
@@ -1578,19 +1578,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Should schools ban soft drinks and candy in canteens?",
-        "vi": "Trường học có nên cấm nước ngọt ở căn tin?",
-        "a": "Yes, school canteens should <strong>ban sugary soft drinks and deep-fried snacks</strong> completely. Instead, they should <strong>provide fresh fruits, clean milk, and vegetables</strong>."
+        "q": "Should schools stop selling sweet drinks and fast food in canteens?",
+        "vi": "Trường học có nên ngừng bán nước ngọt và đồ ăn nhanh ở căng tin không?",
+        "a": "Yes, school canteens should <strong>stop selling sweet drinks and fried food</strong>. Instead, they should offer <strong>fresh fruit, clean milk, and healthy meals</strong>."
       },
       {
-        "q": "What health issues can obese children face later in life?",
-        "vi": "Trẻ béo phì đối mặt nguy cơ gì sau này?",
-        "a": "Obese children face high risks of <strong>diabetes, high blood pressure, and heart diseases</strong> as adults. In addition, they may <strong>feel low self-esteem due to teasing</strong>."
+        "q": "What health problems can overweight children face later in life?",
+        "vi": "Trẻ thừa cân có thể gặp vấn đề sức khỏe gì sau này?",
+        "a": "Overweight children have <strong>higher risks of heart disease and other health problems</strong> when they grow up. Also, they may <strong>feel shy or sad if classmates tease them</strong>."
       },
       {
-        "q": "How can families create an active lifestyle together?",
-        "vi": "Gia đình làm sao để cùng nhau vận động?",
-        "a": "Parents can <strong>take their kids cycling or swimming together</strong> every weekend. In addition, <strong>cooking fresh home-cooked meals</strong> prevents children from eating junk food."
+        "q": "How can families help children stay active together?",
+        "vi": "Gia đình làm sao để giúp trẻ cùng vận động năng động?",
+        "a": "Parents can take their kids <strong>cycling, walking, or swimming every weekend</strong>. Cooking fresh meals at home also <strong>stops children from eating too much fast food</strong>."
       }
     ]
   },
@@ -1633,19 +1633,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Is crying a healthy way to release negative emotions?",
-        "vi": "Khóc có phải là cách lành mạnh giải tỏa cảm xúc?",
-        "a": "Yes, crying is <strong>a natural and healthy way to release emotional pain</strong>. After crying, the body releases tension and the heart <strong>feels noticeably lighter and calmer</strong>."
+        "q": "Is crying a good way to feel better when sad?",
+        "vi": "Khóc có phải là cách tốt để thấy dễ chịu hơn khi buồn không?",
+        "a": "Yes, crying is a <strong>natural and healthy way to let out sad feelings</strong>. After crying, people often <strong>feel lighter and calmer</strong>."
       },
       {
-        "q": "What should you do when a friend feels deeply sad?",
-        "vi": "Nên làm gì khi bạn bè buồn bã?",
-        "a": "You should <strong>sit beside them, listen attentively</strong>, and say comforting words. In addition, <strong>taking them out for a warm meal or walk</strong> helps cheer them up."
+        "q": "What should you do when a friend feels very sad?",
+        "vi": "Bạn nên làm gì khi bạn bè cảm thấy rất buồn?",
+        "a": "You should <strong>sit with them, listen carefully, and say kind words</strong>. Taking them out for <strong>a nice meal or a walk</strong> can also cheer them up."
       },
       {
-        "q": "Can spending time in nature improve mental health?",
-        "vi": "Hòa mình vào thiên nhiên có cải thiện tâm trạng?",
-        "a": "Yes, spending time in green parks helps <strong>lower stress hormones and refresh the mind</strong>. Breathing fresh air makes people <strong>feel peaceful and physically revitalized</strong>."
+        "q": "Can going out in nature help people feel happier?",
+        "vi": "Ra ngoài hòa mình vào thiên nhiên có giúp mọi người vui hơn không?",
+        "a": "Yes, spending time in green parks helps people <strong>relax and forget worries</strong>. Breathing fresh air makes people <strong>feel peaceful and refreshed</strong>."
       }
     ]
   },
@@ -1688,19 +1688,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Why is office gossip harmful to a team?",
-        "vi": "Tại sao tin đồn công sở gây hại?",
-        "a": "Office gossip is very harmful because it <strong>damages trust and hurts people's reputations</strong>. It creates a <strong>toxic working atmosphere and destroys team harmony</strong>."
+        "q": "Why is office gossip bad for a team?",
+        "vi": "Tại sao chuyện bàn tán ở văn phòng lại có hại cho nhóm?",
+        "a": "Office gossip is bad because it <strong>breaks trust and hurts people's feelings</strong>. It makes the workplace unfriendly and <strong>causes arguments among coworkers</strong>."
       },
       {
-        "q": "How can introverted workers build rapport with team members?",
-        "vi": "Người hướng nội kết nối với đồng nghiệp thế nào?",
-        "a": "Introverted workers can <strong>smile and have short friendly chats</strong> during lunch breaks. Moreover, <strong>offering small help on daily tasks</strong> shows kindness and builds rapport naturally."
+        "q": "How can quiet workers make friends at the office?",
+        "vi": "Người ít nói làm thế nào để kết bạn ở văn phòng?",
+        "a": "Quiet workers can <strong>smile and have short friendly chats</strong> during lunch breaks. Helping coworkers with small tasks is also <strong>a nice way to become friends</strong>."
       },
       {
-        "q": "Should managers socialize with employees after work?",
-        "vi": "Sếp có nên đi chơi với nhân viên sau giờ làm?",
-        "a": "Yes, occasional team dinners after work can <strong>help managers and staff understand each other better</strong>. However, managers should <strong>maintain professional boundaries</strong> during working hours."
+        "q": "Should managers hang out with workers after work?",
+        "vi": "Quản lý có nên đi ăn uống với nhân viên sau giờ làm không?",
+        "a": "Yes, sometimes having team dinners after work helps managers and workers <strong>understand each other better</strong>. However, everyone should still <strong>keep good rules during working hours</strong>."
       }
     ]
   },
@@ -1798,19 +1798,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Why is drinking enough water every day essential?",
-        "vi": "Tại sao uống đủ nước rất quan trọng?",
-        "a": "Drinking enough water is essential because it <strong>helps filter toxins and keeps the skin hydrated</strong>. It also prevents <strong>fatigue and supports healthy body digestion</strong>."
+        "q": "Why is drinking enough water every day important?",
+        "vi": "Tại sao uống đủ nước mỗi ngày lại quan trọng?",
+        "a": "Drinking enough water is important because it <strong>keeps the body clean and fresh</strong>. It also stops people from <strong>feeling tired and helps the skin look healthy</strong>."
       },
       {
-        "q": "How many hours of sleep do adults need per night?",
+        "q": "How many hours of sleep do adults need every night?",
         "vi": "Người lớn cần ngủ bao nhiêu tiếng mỗi đêm?",
-        "a": "Adults usually need <strong>about seven to eight hours of sound sleep</strong> every night. Sleeping enough allows the body to <strong>recover energy and keeps the brain sharp</strong>."
+        "a": "Adults usually need about <strong>seven to eight hours of good sleep</strong> every night. Sleeping enough helps the body rest and <strong>keeps the mind ready for the next day</strong>."
       },
       {
         "q": "Is mental health as important as physical health?",
-        "vi": "Sức khỏe tinh thần có quan trọng như thể chất?",
-        "a": "Yes, mental health is <strong>just as important as physical fitness</strong> for overall well-being. A peaceful and happy mind <strong>boosts the immune system and prevents illnesses</strong>."
+        "vi": "Sức khỏe tinh thần có quan trọng bằng sức khỏe thể chất không?",
+        "a": "Yes, mental health is <strong>just as important as body health</strong> for a good life. A happy and relaxed mind helps people <strong>stay strong and avoid sickness</strong>."
       }
     ]
   },
@@ -1853,19 +1853,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Does meditation help reduce anxiety?",
-        "vi": "Thiền có giúp giảm lo âu không?",
-        "a": "Yes, mindfulness meditation helps <strong>calm racing thoughts and relaxes the whole nervous system</strong>. Practicing it for ten minutes daily <strong>brings peace and emotional balance</strong>."
+        "q": "Does sitting quietly or resting help reduce worry?",
+        "vi": "Ngồi yên tĩnh hoặc nghỉ ngơi có giúp giảm lo âu không?",
+        "a": "Yes, sitting quietly and <strong>breathing slowly helps calm the mind</strong>. Doing this for <strong>ten minutes a day</strong> brings peace and lowers stress."
       },
       {
-        "q": "Can listening to instrumental music help people relax?",
-        "vi": "Nhạc không lời có giúp thư giãn?",
-        "a": "Listening to gentle classical music or nature sounds <strong>lowers heart rate and blood pressure</strong> effectively. It creates a <strong>soothing atmosphere that relieves daily mental fatigue</strong>."
+        "q": "Can listening to soft music help people relax?",
+        "vi": "Nghe nhạc nhẹ có giúp mọi người thư giãn không?",
+        "a": "Listening to <strong>soft music or nature sounds</strong> helps the body and mind slow down. It creates a peaceful feeling that <strong>reduces daily tiredness</strong>."
       },
       {
-        "q": "Why is taking short breaks during work crucial?",
-        "vi": "Tại sao nghỉ giải lao ngắn là cần thiết?",
-        "a": "Taking short breaks allows the brain to <strong>rest and regain sharp concentration</strong> quickly. It prevents <strong>work burnout and keeps productivity high</strong> throughout the day."
+        "q": "Why is taking short breaks at work important?",
+        "vi": "Tại sao nghỉ giải lao ngắn khi làm việc lại quan trọng?",
+        "a": "Taking short breaks lets <strong>the brain rest and focus better again</strong>. It stops workers from getting too tired and <strong>helps them work well all day</strong>."
       }
     ]
   },
@@ -1964,18 +1964,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "How can libraries attract more students to visit?",
-        "vi": "Thư viện làm gì để thu hút học sinh?",
-        "a": "Libraries should <strong>provide comfortable study seats, fast Wi-Fi</strong>, and lots of modern books. Creating a <strong>quiet reading environment with natural light</strong> also attracts students."
+        "vi": "Thư viện làm thế nào để thu hút nhiều học sinh đến hơn?",
+        "a": "Libraries should offer <strong>comfortable seats, fast Wi-Fi, and lots of new books</strong>. Making a <strong>quiet room with good light</strong> also brings more students in."
       },
       {
-        "q": "Are physical libraries still needed in the internet age?",
-        "vi": "Thời đại internet có còn cần thư viện?",
-        "a": "Yes, physical libraries are still necessary because they <strong>offer a quiet and focused atmosphere</strong> that homes lack. Being around studious peers <strong>motivates students to read more</strong>."
+        "q": "Are real libraries still needed today?",
+        "vi": "Thư viện thật ngày nay có còn cần thiết không?",
+        "a": "Yes, real libraries are still needed because they give <strong>a quiet study place that homes may not have</strong>. Seeing other hard-working students also <strong>makes people want to study</strong>."
       },
       {
         "q": "Should food and drinks be allowed in school libraries?",
-        "vi": "Có nên cho phép đồ ăn trong thư viện?",
-        "a": "No, food and sugary drinks should be banned to <strong>keep books clean and avoid spilling on computers</strong>. However, having a <strong>small coffee corner outside the reading room</strong> is a great idea."
+        "vi": "Có nên cho mang đồ ăn thức uống vào thư viện trường không?",
+        "a": "No, food and sweet drinks should not be allowed so <strong>books and computers stay clean</strong>. However, having a small cafe area outside the library is a good idea."
       }
     ]
   },
@@ -2019,18 +2019,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "Why do some students find history boring?",
-        "vi": "Tại sao vài học sinh thấy lịch sử nhàm chán?",
-        "a": "Students find it boring when they only <strong>memorize dry numbers and long lists of dates</strong> for tests. When history is taught without stories, it <strong>loses all its excitement and meaning</strong>."
+        "vi": "Tại sao một số học sinh thấy môn lịch sử nhàm chán?",
+        "a": "Students find history boring when they only have to <strong>remember dry numbers and long lists of dates</strong> for tests. Without interesting stories, history feels <strong>hard to enjoy</strong>."
       },
       {
-        "q": "How can visiting museums make history more exciting?",
-        "vi": "Tham quan bảo tàng giúp học lịch sử thế nào?",
-        "a": "Museums display <strong>real ancient weapons, traditional clothing, and historical films</strong>. Seeing real objects helps students <strong>visualize historical events much better</strong> than books."
+        "q": "How can visiting museums make history more fun?",
+        "vi": "Đi tham quan bảo tàng giúp học lịch sử vui hơn thế nào?",
+        "a": "Museums show <strong>old clothes, tools, and interesting short films</strong> about the past. Seeing real objects helps students <strong>understand history much better than reading only books</strong>."
       },
       {
-        "q": "Why is learning history important for every citizen?",
-        "vi": "Tại sao học lịch sử quan trọng với mọi công dân?",
-        "a": "Learning history helps citizens <strong>understand national traditions and take pride in their roots</strong>. It also teaches <strong>valuable lessons from the past to build a better future</strong>."
+        "q": "Why is learning history important for people?",
+        "vi": "Tại sao học lịch sử quan trọng đối với mọi người?",
+        "a": "Learning history helps people <strong>understand their country's traditions and feel proud of their culture</strong>. It also teaches <strong>useful lessons from the past</strong> to build a better future."
       }
     ]
   },
@@ -2073,19 +2073,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How has social media changed how we stay in touch?",
-        "vi": "Mạng xã hội đã thay đổi cách giữ liên lạc thế nào?",
-        "a": "Social media allows people to <strong>send free instant messages and video call friends anytime</strong>. It makes staying in touch <strong>extremely easy, even across different countries</strong>."
+        "q": "How has social media changed the way we stay in touch?",
+        "vi": "Mạng xã hội đã thay đổi cách chúng ta giữ liên lạc thế nào?",
+        "a": "Social media lets people <strong>send free messages and make video calls anytime</strong>. It makes talking with friends in different cities or countries <strong>very easy</strong>."
       },
       {
         "q": "Do you prefer calling or texting?",
-        "vi": "Bạn thích gọi điện hay nhắn tin?",
-        "a": "I prefer <strong>texting for daily casual chats</strong> because it is quiet and convenient. However, for urgent matters, <strong>making a phone call is much clearer and faster</strong>."
+        "vi": "Bạn thích gọi điện hay nhắn tin hơn?",
+        "a": "I prefer texting for quick daily chats because it is <strong>quiet and convenient</strong>. However, for urgent news, <strong>making a phone call is faster and clearer</strong>."
       },
       {
-        "q": "Why is face-to-face communication still the best?",
-        "vi": "Tại sao gặp mặt trực tiếp vẫn là tốt nhất?",
-        "a": "Face-to-face talk is best because you can <strong>see real facial expressions and hear vocal tones</strong>. Meeting in person builds <strong>deep emotional connection and genuine trust</strong>."
+        "q": "Why is meeting face to face still the best way to talk?",
+        "vi": "Tại sao gặp mặt trực tiếp vẫn là cách nói chuyện tốt nhất?",
+        "a": "Meeting face to face is best because you can <strong>see real smiles and hear real voices</strong>. Spending time together in person builds <strong>stronger trust and friendship</strong>."
       }
     ]
   },
@@ -2129,18 +2129,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "How have the roles of husband and wife changed in the past 10 years?",
-        "vi": "Vai trò vợ chồng đã thay đổi thế nào?",
-        "a": "In the past, husbands earned money while wives only did housework. Nowadays, both partners <strong>share financial responsibilities and household chores equally</strong>."
+        "vi": "Vai trò của vợ và chồng đã thay đổi như thế nào trong 10 năm qua?",
+        "a": "In the past, men mostly worked outside while women stayed at home. Today, <strong>both husband and wife go to work and share housework together</strong>."
       },
       {
         "q": "What roles do grandparents play in a family?",
-        "vi": "Vai trò của ông bà trong gia đình?",
-        "a": "Grandparents provide <strong>unconditional love and help look after grandchildren</strong> when parents work. They also share <strong>valuable traditional wisdom and family values</strong>."
+        "vi": "Ông bà đóng vai trò gì trong một gia đình?",
+        "a": "Grandparents often <strong>help look after young children</strong> when parents are busy at work. They also <strong>teach good lessons and pass on family traditions</strong> to grandchildren."
       },
       {
         "q": "What do you think about single-parent families?",
-        "vi": "Bạn nghĩ gì về gia đình đơn thân?",
-        "a": "Single parents are <strong>very admirable because they work double hard</strong> to raise their children alone. Society should <strong>offer them financial and emotional support</strong>."
+        "vi": "Bạn nghĩ gì về các gia đình đơn thân?",
+        "a": "Single parents have to <strong>work very hard to earn money and raise children alone</strong>. However, with strong love and family support, <strong>their children can still grow up happily</strong>."
       }
     ]
   },
@@ -2183,19 +2183,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Why is adaptability important in today's rapid job market?",
-        "vi": "Tại sao khả năng thích nghi quan trọng?",
-        "a": "Because business environments and technology <strong>change extremely fast with new tools</strong>. Adaptable workers can <strong>learn new skills quickly and keep their jobs</strong>."
+        "q": "Why is it important for workers to adapt quickly today?",
+        "vi": "Tại sao ngày nay việc nhân viên thích nghi nhanh lại quan trọng?",
+        "a": "Technology and work rules <strong>change very fast nowadays</strong>. If workers learn new tools quickly, they can <strong>keep their jobs and do their work better</strong>."
       },
       {
         "q": "Can someone improve their problem-solving skills?",
-        "vi": "Có thể cải thiện kỹ năng giải quyết vấn đề?",
-        "a": "Yes, people can improve this skill by <strong>analyzing difficulties calmly and learning from mistakes</strong>. In addition, <strong>asking for advice from senior mentors</strong> is very effective."
+        "vi": "Một người có thể cải thiện kỹ năng giải quyết vấn đề không?",
+        "a": "Yes, people can improve by <strong>staying calm and thinking carefully step by step</strong> when a problem happens. Talking with experienced coworkers also <strong>helps them find better answers</strong>."
       },
       {
-        "q": "What is more valuable: technical skills or a positive work attitude?",
-        "vi": "Kỹ năng chuyên môn hay thái độ tích cực quan trọng hơn?",
-        "a": "In my view, a <strong>positive and hardworking attitude is more valuable</strong> because technical skills can be trained. An honest and enthusiastic employee will <strong>always be trusted by the manager</strong>."
+        "q": "Which is more important: job skills or a good work attitude?",
+        "vi": "Kỹ năng làm việc hay thái độ làm việc tốt quan trọng hơn?",
+        "a": "Both are important, but <strong>a good attitude is more important</strong>. Companies can teach job skills easily, while workers with a good attitude <strong>are always happy to learn and help teammates</strong>."
       }
     ]
   },
@@ -2238,19 +2238,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "How can people maintain long-distance friendships?",
-        "vi": "Duy trì tình bạn xa cách bằng cách nào?",
-        "a": "Friends can <strong>send daily messages and video call each other</strong> regularly on weekends. Moreover, <strong>sending birthday gifts and planning visits</strong> keeps the friendship strong."
+        "q": "How can people keep close friendships when they live far apart?",
+        "vi": "Mọi người làm thế nào để giữ tình bạn thân khi sống xa nhau?",
+        "a": "Friends living far apart can <strong>send text messages and make video calls every week</strong>. Visiting each other during holidays also <strong>keeps the friendship warm and strong</strong>."
       },
       {
-        "q": "Is having a few true friends better than having many acquaintances?",
-        "vi": "Ít bạn thân tốt hơn nhiều bạn xã giao?",
-        "a": "Yes, having two or three loyal friends is <strong>far better than hundreds of superficial acquaintances</strong>. True friends will <strong>stand by you when you face difficulties</strong> in life."
+        "q": "Is having a few close friends better than having many casual friends?",
+        "vi": "Có ít bạn thân có tốt hơn có nhiều bạn xã giao không?",
+        "a": "Yes, having a few close friends is much better because <strong>they truly understand and care about you</strong>. When you face hard times, <strong>close friends are the ones who stay and help you</strong>."
       },
       {
-        "q": "What should you do if a friend betrays your trust?",
-        "vi": "Nên làm gì khi bạn bè phản bội lòng tin?",
-        "a": "First, you should <strong>talk directly to understand the real situation</strong>. If that person does not feel sorry or change, it is best to <strong>keep a safe distance from them</strong>."
+        "q": "What should you do if a friend breaks your trust?",
+        "vi": "Bạn nên làm gì nếu một người bạn làm mất lòng tin của bạn?",
+        "a": "You should <strong>stay calm and talk honestly with your friend</strong> about how hurt you feel. If they say sorry and try to change, you can <strong>forgive them and give them another chance</strong>."
       }
     ]
   },
@@ -2293,19 +2293,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Can leadership be taught, or is it inborn?",
-        "vi": "Lãnh đạo là bẩm sinh hay do học tập?",
-        "a": "I believe leadership skills can be <strong>learned through practice and proper training</strong>. Although some people are naturally charismatic, <strong>anyone can become a leader with dedication</strong>."
+        "q": "Are good leaders born that way, or can people learn to be leaders?",
+        "vi": "Người lãnh đạo giỏi là bẩm sinh hay có thể học để trở thành?",
+        "a": "People can definitely <strong>learn leadership skills through practice and experience</strong>. Leading school clubs or small work groups helps people <strong>speak clearly and manage others better</strong>."
       },
       {
-        "q": "How should a leader handle team conflicts?",
-        "vi": "Lãnh đạo nên xử lý mâu thuẫn nhóm thế nào?",
-        "a": "A leader should <strong>listen to both sides calmly and impartially</strong>. Then, they should <strong>guide team members to find a fair compromise</strong> that everyone accepts."
+        "q": "How should a leader solve problems between team members?",
+        "vi": "Người trưởng nhóm nên giải quyết mâu thuẫn giữa các thành viên như thế nào?",
+        "a": "A leader should <strong>listen to both sides calmly and talk fairly</strong>. Together, they can focus on <strong>finding a good answer for the whole team</strong>."
       },
       {
         "q": "What is the difference between a boss and a true leader?",
-        "vi": "Khác biệt giữa một ông chủ và người lãnh đạo?",
-        "a": "A boss simply <strong>gives strict orders and demands results</strong> from employees. In contrast, a true leader <strong>inspires the team and works alongside them</strong>."
+        "vi": "Sự khác biệt giữa một ông chủ và một người lãnh đạo thật sự là gì?",
+        "a": "A boss only <strong>gives orders and checks if work is done</strong>. A true leader works alongside the team, <strong>listens carefully, and helps workers improve</strong>."
       }
     ]
   },
@@ -2349,18 +2349,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "Who was your favorite teacher and why?",
-        "vi": "Ai là giáo viên yêu thích nhất của bạn?",
-        "a": "My favorite teacher was my high school English teacher because she was <strong>very patient, caring, and encouraging</strong>. She always <strong>made complex lessons easy and fun to understand</strong>."
+        "vi": "Giáo viên yêu thích nhất của bạn là ai và tại sao?",
+        "a": "My favorite teacher was my high school English teacher because she was <strong>always cheerful and very patient</strong>. She explained difficult grammar clearly and <strong>made every class fun</strong>."
       },
       {
         "q": "Will computers ever replace human teachers?",
-        "vi": "Máy tính có thể thay thế giáo viên?",
-        "a": "No, computers will never replace teachers because machines cannot <strong>show real human empathy and personal encouragement</strong>. A caring teacher <strong>inspires moral values and character</strong>."
+        "vi": "Máy tính có thể thay thế giáo viên thật không?",
+        "a": "Computers are very helpful for online study, but they <strong>cannot fully replace human teachers</strong>. Only real teachers can <strong>understand students' feelings and encourage them warmly</strong>."
       },
       {
-        "q": "What is the hardest challenge modern teachers face?",
-        "vi": "Thử thách lớn nhất của giáo viên hiện nay?",
-        "a": "The hardest challenge is <strong>dealing with students who are distracted by smartphones</strong> in class. Teachers also have to <strong>manage heavy administrative paperwork</strong> every day."
+        "q": "What is the biggest problem for teachers today?",
+        "vi": "Vấn đề lớn nhất đối với giáo viên hiện nay là gì?",
+        "a": "Today, many students spend too much time on phones, so it is <strong>hard to keep their attention in class</strong>. Teachers also have <strong>a lot of paperwork and big classes</strong> to manage."
       }
     ]
   },
@@ -2403,19 +2403,19 @@ const ALL_TOPICS_POOL = [
     ],
     "followups": [
       {
-        "q": "Why is self-discipline the most crucial quality for students today?",
-        "vi": "Tại sao tính tự giác là quan trọng nhất?",
-        "a": "Self-discipline is crucial because students face <strong>countless online distractions like social media and video games</strong>. With discipline, they can <strong>finish homework on time and study consistently</strong>."
+        "q": "Why is self-discipline so important for students today?",
+        "vi": "Tại sao tính tự giác lại rất quan trọng đối với học sinh ngày nay?",
+        "a": "Today, students see <strong>many fun things on phones like social media, short videos, and games</strong>. Without self-discipline, it is <strong>very easy to waste study time</strong>."
       },
       {
         "q": "Which is more important: high test scores or good character?",
-        "vi": "Điểm số cao hay phẩm chất tốt quan trọng hơn?",
-        "a": "Good character is far more important because <strong>high scores without honesty cannot make a good citizen</strong>. A person with integrity will <strong>earn respect and succeed in the long run</strong>."
+        "vi": "Điểm kiểm tra cao hay nhân cách tốt quan trọng hơn?",
+        "a": "Both matter, but <strong>good character is more important</strong> in life. Being honest, polite, and kind helps people <strong>build good friendships and win others' respect</strong>."
       },
       {
         "q": "How can students improve their time management?",
-        "vi": "Học sinh cải thiện quản lý thời gian thế nào?",
-        "a": "Students should <strong>write down daily tasks in a study notebook</strong> and set realistic deadlines. Additionally, <strong>turning off phone notifications while studying</strong> helps them concentrate."
+        "vi": "Học sinh làm thế nào để cải thiện kỹ năng quản lý thời gian?",
+        "a": "Students can <strong>write a simple to-do list every morning</strong> and finish important homework first. Turning off phones while studying also <strong>helps them finish faster</strong>."
       }
     ]
   },
@@ -2459,18 +2459,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "Which factor do you think is the most important?",
-        "vi": "Yếu tố nào quan trọng nhất?",
-        "a": "In my view, <strong>career growth and learning opportunities</strong> are the most important factors. A good job should help you <strong>develop professional skills and advance higher</strong>."
+        "vi": "Bạn nghĩ yếu tố nào là quan trọng nhất?",
+        "a": "I think <strong>a good salary is the most important factor</strong>. Everyone needs enough money to <strong>pay for food, housing, and family needs</strong>."
       },
       {
         "q": "Do young people and older people look for the same thing in a job?",
-        "vi": "Người trẻ và lớn tuổi có tìm kiếm điều giống nhau?",
-        "a": "Young people often look for <strong>high promotion chances and creative working environments</strong>. In contrast, older workers value <strong>job stability and comprehensive health insurance</strong>."
+        "vi": "Người trẻ và người lớn tuổi có tìm kiếm điều giống nhau trong công việc không?",
+        "a": "No, they often want different things. Young people look for <strong>good pay and chances to learn</strong>, while older people prefer <strong>safe, steady jobs and time for family</strong>."
       },
       {
         "q": "How can people find a job that is suitable for them?",
-        "vi": "Làm thế nào để tìm được công việc phù hợp?",
-        "a": "Job seekers should <strong>identify their personal strengths and passions</strong> before applying. Additionally, <strong>researching trustworthy recruitment websites and attending job fairs</strong> is very helpful."
+        "vi": "Mọi người làm thế nào để tìm được công việc phù hợp với bản thân?",
+        "a": "People should first <strong>think about what they are good at and what they enjoy doing</strong>. They can also <strong>check job websites and ask experienced friends</strong> for advice."
       }
     ]
   },
@@ -2514,18 +2514,18 @@ const ALL_TOPICS_POOL = [
     "followups": [
       {
         "q": "Which factor is the most important in a job interview?",
-        "vi": "Yếu tố nào quan trọng nhất trong phỏng vấn?",
-        "a": "In my opinion, <strong>confident communication and thorough company research</strong> are most important. When you show knowledge about the company, the interviewer <strong>sees your genuine enthusiasm</strong>."
+        "vi": "Yếu tố nào là quan trọng nhất trong một buổi phỏng vấn xin việc?",
+        "a": "I think <strong>clear and confident speaking is the most important factor</strong>. It helps the interviewer <strong>know your skills and see that you are ready for the job</strong>."
       },
       {
-        "q": "Do you think first impressions are always accurate? Why or why not?",
-        "vi": "Ấn tượng ban đầu có luôn chính xác không?",
-        "a": "No, first impressions are not always accurate because candidates are often <strong>very nervous during the first few minutes</strong>. Interviewers need <strong>more conversation to evaluate true ability</strong>."
+        "q": "Do you think first impressions are always right? Why or why not?",
+        "vi": "Bạn có nghĩ ấn tượng ban đầu luôn đúng không? Tại sao có hoặc tại sao không?",
+        "a": "No, first impressions are not always right. Some good workers feel <strong>shy or nervous in the first few minutes</strong>, so interviewers need <strong>more time to see their true skills</strong>."
       },
       {
         "q": "What can people do if they make a bad first impression in an interview?",
-        "vi": "Làm gì nếu lỡ tạo ấn tượng xấu ban đầu?",
-        "a": "Candidates should <strong>stay calm, smile politely</strong>, and answer the remaining questions with clear examples. Showing honesty and composure helps <strong>recover the interviewer's confidence</strong>."
+        "vi": "Mọi người có thể làm gì nếu lỡ tạo ấn tượng xấu ban đầu trong buổi phỏng vấn?",
+        "a": "They should <strong>stay calm and continue the interview confidently</strong>. They can give clear answers and <strong>show their real skills to change the interviewer's mind</strong>."
       }
     ]
   },
@@ -2570,17 +2570,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Which factor do you think is the most important when choosing a university?",
         "vi": "Bạn nghĩ yếu tố nào là quan trọng nhất khi chọn trường đại học?",
-        "a": "In my opinion, <strong>high teaching quality and job opportunities after graduation</strong> are most important. A reputable university helps students <strong>secure high-paying employment easily</strong>."
+        "a": "I think <strong>future job chances are the most important factor</strong>. Students go to university mainly to <strong>learn good skills and get a good job later</strong>."
       },
       {
-        "q": "Should high school students follow their parents' advice when selecting a college?",
-        "vi": "Học sinh có nên nghe theo lời khuyên của cha mẹ khi chọn trường không?",
-        "a": "Yes, students should <strong>listen to their parents' valuable life experience</strong> for guidance. However, the final choice should <strong>suit the student's personal interests and strengths</strong>."
+        "q": "Should high school students listen to their parents' advice when choosing a university?",
+        "vi": "Học sinh cấp ba có nên nghe lời khuyên của bố mẹ khi chọn trường đại học không?",
+        "a": "Yes, students should <strong>listen to parents' advice because parents have good life experience</strong>. However, students should also <strong>choose a major they truly like</strong>."
       },
       {
-        "q": "Is graduating from a prestigious university the only way to achieve career success?",
-        "vi": "Tốt nghiệp trường danh tiếng có phải là cách duy nhất để thành công trong sự nghiệp?",
-        "a": "No, graduating from a top school is helpful, but <strong>practical skills and hard work matter more</strong>. Many self-taught individuals achieve great success through <strong>continuous dedication and passion</strong>."
+        "q": "Is studying at a famous university the only way to have a good job?",
+        "vi": "Học tại một trường đại học nổi tiếng có phải là cách duy nhất để có việc làm tốt không?",
+        "a": "No, it is not the only way. If students <strong>work hard, learn practical skills, and stay active</strong>, they can still <strong>find great jobs from any university</strong>."
       }
     ]
   }
@@ -2596,8 +2596,8 @@ const FLASHCARDS_DATA = [
     { cat: 'Mở bài', front: 'There are some ways for [O] to [V]...', back: 'Có một số cách để [ai đó] [làm gì] (Mở bài dạng Cách thức)', ex: 'There are some ways for students to save money.' },
     { cat: 'Mở bài', front: 'There are several factors to consider when...', back: 'Có một số yếu tố cần cân nhắc khi... (Mở bài dạng Yếu tố)', ex: 'There are several factors to consider when applying for a job.' },
     { cat: 'Thân bài - Nhánh 1', front: 'One major advantage / factor is that...', back: 'Một ưu điểm / yếu tố lớn là...', ex: 'One major advantage is that online learning is flexible.' },
-    { cat: 'Thân bài - Nhánh 2', front: 'Another positive aspect / reason is that...', back: 'Một khía cạnh tích cực / lý do khác là...', ex: 'Another positive aspect is that soft skills improve work performance.' },
-    { cat: 'Thân bài - Nhánh 3', front: 'One more beneficial effect / key element is that...', back: 'Thêm một lợi ích / yếu tố then chốt nữa là...', ex: 'One more beneficial effect is that e-learning is money-saving.' },
+    { cat: 'Thân bài - Nhánh 2', front: 'Another advantage / reason is that...', back: 'Một ưu điểm / lý do khác là...', ex: 'Another advantage is that soft skills help people work better.' },
+    { cat: 'Thân bài - Nhánh 3', front: 'One more good point / important factor is that...', back: 'Thêm một điểm tốt / yếu tố quan trọng nữa là...', ex: 'One more good point is that online learning is money-saving.' },
     { cat: 'Giải thích lý do', front: 'This is because...', back: 'Điều này là bởi vì...', ex: 'This is because students can study anytime and anywhere.' },
     { cat: 'Giải thích lý do', front: 'This means that...', back: 'Điều này có nghĩa là...', ex: 'This means that employees do not need to commute in traffic.' },
     { cat: 'Đưa ra ví dụ', front: 'For example, / For instance,', back: 'Ví dụ như, chẳng hạn như,', ex: 'For example, team members need to share their ideas.' },
@@ -3077,16 +3077,16 @@ window.showOverviewMindmapDetail = function(branchNum) {
             expand: 'Because they just need an internet-connected smartphone or laptop to join classes.'
         },
         3: {
-            title: 'Nhánh 3 (Bottom): Cost-effective (Tính từ)',
-            en: 'One more benefit of online learning is that it is cost-effective.',
-            vi: 'Thêm một lợi ích nữa là học online giúp tiết kiệm chi phí học tập và đi lại.',
-            expand: 'In other words, they can save money on transportation, accommodation, and printed materials.'
+            title: 'Nhánh 3 (Bottom): Money-saving (Tính từ)',
+            en: 'One more benefit of online learning is that it is money-saving.',
+            vi: 'Thêm một lợi ích nữa là học online giúp tiết kiệm tiền học tập và đi lại.',
+            expand: 'In other words, students can save money on bus tickets, meals, and books.'
         },
         4: {
-            title: 'Nhánh 4 (Left): [Your own idea] - Self-paced (Tự do)',
-            en: 'In addition, it allows students to learn at their own pace.',
-            vi: 'Ngoài ra, nó cho phép học sinh học theo tiến độ riêng của bản thân.',
-            expand: 'For example, they can re-watch recorded video lectures whenever they do not understand a lesson.'
+            title: 'Nhánh 4 (Left): [Your own idea] - Easy to review (Tự do)',
+            en: 'In addition, students can review the lessons easily.',
+            vi: 'Ngoài ra, học sinh có thể xem lại bài học một cách dễ dàng.',
+            expand: 'For example, they can watch the lesson videos again whenever they do not understand a part.'
         }
     };
     
