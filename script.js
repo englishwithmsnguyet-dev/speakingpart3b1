@@ -150,12 +150,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What are some disadvantages of working in a team?",
         "vi": "Những bất lợi của việc làm việc nhóm là gì?",
-        "a": "Teamwork also has some problems. Members may have <strong>different ideas and argue easily</strong>. Some lazy people may also <strong>let others do the work</strong>."
+        "a": "Teamwork also has some problems. Members may <strong>have different ideas and argue easily</strong>. Some lazy people may also <strong>let others do the work</strong>."
       },
       {
         "q": "In your opinion, how can companies encourage good teamwork?",
         "vi": "Theo bạn, các công ty có thể khuyến khích làm việc nhóm tốt bằng cách nào?",
-        "a": "Companies can use simple ways. Managers should organize <strong>fun team activities every month</strong>. Giving bonuses for good teamwork <strong>also helps workers try harder</strong>."
+        "a": "Companies can use simple ways. Managers should <strong>organize fun team activities every month</strong>. Giving bonuses for good teamwork <strong>also helps workers try harder</strong>."
       },
       {
         "q": "Do you think teamwork is more useful for young people or older people? Why?",
@@ -215,7 +215,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you think young people have better soft skills than older people?",
         "vi": "Người trẻ có kỹ năng mềm tốt hơn người lớn tuổi không?",
-        "a": "I think both groups have strong points. Young people can <strong>learn new skills very fast</strong>. However, older people are often <strong>more calm and patient</strong>."
+        "a": "I think both groups have strong points. Young people can <strong>learn new skills very fast</strong>. However, older people <strong>are often more calm and patient</strong>."
       }
     ]
   },
@@ -320,7 +320,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Can body language cause misunderstandings in different cultures?",
         "vi": "Ngôn ngữ cơ thể có gây hiểu lầm giữa các nền văn hóa không?",
-        "a": "Yes, I think it can. Some hand signs have <strong>different meanings in other countries</strong>. People should learn <strong>local customs before traveling abroad</strong>."
+        "a": "Yes, I think it can. Some hand signs <strong>have different meanings in other countries</strong>. People should <strong>learn local customs before traveling abroad</strong>."
       },
       {
         "q": "How can people improve their body language?",
@@ -370,7 +370,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What difficulties do international students often face?",
         "vi": "Du học sinh thường gặp khó khăn gì?",
-        "a": "They often face many difficulties at first. Many students feel <strong>lonely and miss home food</strong>. Speaking a foreign language daily <strong>is also hard initially</strong>."
+        "a": "They often face many difficulties at first. Many students <strong>feel lonely and miss home food</strong>. Speaking a foreign language daily <strong>is also hard initially</strong>."
       },
       {
         "q": "Should students do a part-time job while studying abroad?",
@@ -380,7 +380,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you prefer studying abroad or studying in your home country?",
         "vi": "Bạn thích du học hay học trong nước?",
-        "a": "I prefer studying in my home country. I can live <strong>close to my family and friends</strong>. It is also much cheaper <strong>than studying abroad</strong>."
+        "a": "I prefer studying in my home country. I can <strong>live close to my family and friends</strong>. It is also much cheaper <strong>than studying abroad</strong>."
       }
     ]
   },
@@ -430,7 +430,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What is the best way to practice speaking English?",
         "vi": "Cách tốt nhất để luyện nói tiếng Anh là gì?",
-        "a": "The best way is speaking every day. Learners should talk <strong>with friends or English teachers</strong>. Watching English films also <strong>helps improve speaking skills</strong>."
+        "a": "The best way is speaking every day. Learners should <strong>talk with friends or English teachers</strong>. Watching English films also <strong>helps improve speaking skills</strong>."
       },
       {
         "q": "Is English the most useful language in the world?",
@@ -480,7 +480,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Are there any disadvantages of sending young children to school early?",
         "vi": "Có bất lợi gì khi cho trẻ nhỏ đi học sớm không?",
-        "a": "Yes, there are some small problems. Little kids may feel <strong>scared when away from parents</strong>. They can also catch <strong>colds easily from other kids</strong>."
+        "a": "Yes, there are some small problems. Little kids may <strong>feel scared when away from parents</strong>. They can also <strong>catch colds easily from other kids</strong>."
       },
       {
         "q": "What should parents look for when choosing a preschool?",
@@ -540,12 +540,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Is having close friends at work always good?",
         "vi": "Có bạn thân ở nơi làm việc có luôn tốt không?",
-        "a": "It is mostly good for workers. Friendly coworkers help make <strong>daily work feel lighter</strong>. However, friends should still <strong>focus well during work hours</strong>."
+        "a": "It is mostly good for workers. Friendly coworkers <strong>help make daily work feel lighter</strong>. However, friends should still <strong>focus well during work hours</strong>."
       },
       {
         "q": "What can a company do to build a friendly workplace?",
         "vi": "Công ty có thể làm gì để xây dựng nơi làm việc thân thiện?",
-        "a": "Companies can hold simple social events. Monthly team lunches help <strong>workers talk outside work</strong>. Celebrating birthdays together also <strong>makes the office warmer</strong>."
+        "a": "Companies can hold simple social events. Monthly team lunches <strong>help workers talk outside work</strong>. Celebrating birthdays together also <strong>makes the office warmer</strong>."
       }
     ]
   },
@@ -595,12 +595,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can parents encourage children to read more?",
         "vi": "Làm sao cha mẹ khuyến khích trẻ đọc sách nhiều hơn?",
-        "a": "Parents should start with simple habits. They can read <strong>short bedtime stories with kids</strong>. Taking children to bookstores <strong>also makes them love books</strong>."
+        "a": "Parents should start with simple habits. They can <strong>read short bedtime stories with kids</strong>. Taking children to bookstores <strong>also makes them love books</strong>."
       },
       {
         "q": "Why do some people read less nowadays?",
         "vi": "Tại sao ngày nay một số người ít đọc sách?",
-        "a": "People today have too many screens. Many people spend hours <strong>watching short videos on phones</strong>. This takes away their <strong>free time for reading</strong>."
+        "a": "People today have too many screens. Many people <strong>spend hours watching short videos on phones</strong>. This takes away their <strong>free time for reading</strong>."
       }
     ]
   },
@@ -705,12 +705,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What happens if someone works too much and never rests?",
         "vi": "Chuyện gì xảy ra nếu ai đó làm việc quá nhiều mà không nghỉ ngơi?",
-        "a": "Working without rest harms health badly. People will soon <strong>feel stressed and get sick</strong>. They may also have <strong>less time for family</strong>."
+        "a": "Working without rest harms health badly. People will soon <strong>feel stressed and get sick</strong>. They may also <strong>have less time for family</strong>."
       },
       {
         "q": "How can companies help workers balance work and life?",
         "vi": "Công ty có thể làm gì để giúp nhân viên cân bằng công việc và cuộc sống?",
-        "a": "Companies can support workers in simple ways. Managers should avoid <strong>calling workers on weekends</strong>. Giving paid holidays also helps <strong>workers rest properly</strong>."
+        "a": "Companies can support workers in simple ways. Managers should <strong>avoid calling workers on weekends</strong>. Giving paid holidays also helps <strong>workers rest properly</strong>."
       }
     ]
   },
@@ -760,12 +760,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Is green tourism becoming more popular?",
         "vi": "Du lịch xanh có đang trở nên phổ biến hơn không?",
-        "a": "Yes, green travel is very popular now. Many tourists want to <strong>protect nature during their trips</strong>. They try not to <strong>throw rubbish in parks</strong>."
+        "a": "Yes, green travel is very popular now. Many tourists <strong>want to protect nature during their trips</strong>. They try not to <strong>throw rubbish in parks</strong>."
       },
       {
         "q": "What should travelers prepare before visiting another country?",
         "vi": "Du khách nên chuẩn bị gì trước khi đến một đất nước khác?",
-        "a": "Good preparation makes any trip smoother. Travelers should check <strong>passports and book hotels early</strong>. Learning some simple greetings <strong>is also very helpful</strong>."
+        "a": "Good preparation makes any trip smoother. Travelers should <strong>check passports and book hotels early</strong>. Learning some simple greetings <strong>is also very helpful</strong>."
       }
     ]
   },
@@ -815,7 +815,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can people help poor people besides giving money?",
         "vi": "Mọi người có thể giúp người nghèo bằng cách nào ngoài việc cho tiền?",
-        "a": "There are many simple ways to help. People can give away <strong>old clothes, books, and food</strong>. Teaching poor children to read <strong>is also very meaningful</strong>."
+        "a": "There are many simple ways to help. People can give away <strong>old clothes, books, and food</strong>. Teaching poor children to <strong>read is also very meaningful</strong>."
       },
       {
         "q": "Have you ever joined a charity activity?",
@@ -870,12 +870,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why do some people not like staying at home on holidays?",
         "vi": "Tại sao một số người không thích ở nhà vào ngày lễ?",
-        "a": "Some people find staying home boring. They want to visit <strong>new beaches or famous cities</strong>. Trying new local food also <strong>makes their holiday exciting</strong>."
+        "a": "Some people find staying home boring. They <strong>want to visit new beaches or famous cities</strong>. Trying new local food also <strong>makes their holiday exciting</strong>."
       },
       {
         "q": "Is holiday traffic a big problem in your country?",
         "vi": "Giao thông ngày lễ có phải là vấn đề lớn ở nước bạn không?",
-        "a": "Yes, holiday traffic is very heavy here. Millions of people travel <strong>back to their hometowns together</strong>. Roads and bus stations <strong>always get very crowded</strong>."
+        "a": "Yes, holiday traffic is very heavy here. Millions of people <strong>travel back to their hometowns together</strong>. Roads and bus stations <strong>always get very crowded</strong>."
       }
     ]
   },
@@ -920,7 +920,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What good points do young leaders have compared to older leaders?",
         "vi": "Lãnh đạo trẻ có ưu điểm gì so với lãnh đạo lớn tuổi?",
-        "a": "Young leaders also have great strengths. They have lots of <strong>energy and know new technology</strong>. They often bring <strong>fresh ideas to the team</strong>."
+        "a": "Young leaders also have great strengths. They have lots of <strong>energy and know new technology</strong>. They often <strong>bring fresh ideas to the team</strong>."
       },
       {
         "q": "Should there be an age limit for leaders?",
@@ -975,7 +975,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can buyers stay safe when shopping online?",
         "vi": "Người mua làm gì để an toàn khi mua sắm online?",
-        "a": "Buyers need to be very careful. They should choose <strong>trusted shops and good websites</strong>. Reading reviews from others also <strong>helps them avoid bad items</strong>."
+        "a": "Buyers need to be very careful. They should <strong>choose trusted shops and good websites</strong>. Reading reviews from others also <strong>helps them avoid bad items</strong>."
       },
       {
         "q": "Will online stores completely replace real shops?",
@@ -1030,12 +1030,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can the government encourage more people to use buses?",
         "vi": "Chính phủ làm gì để khuyến khích nhiều người đi xe buýt hơn?",
-        "a": "The government can improve bus quality. They should make <strong>bus tickets cheaper and buses cleaner</strong>. Adding more bus stops also <strong>helps people save time</strong>."
+        "a": "The government can improve bus quality. They should <strong>make bus tickets cheaper and buses cleaner</strong>. Adding more bus stops also <strong>helps people save time</strong>."
       },
       {
         "q": "Is public transport good for the environment?",
         "vi": "Phương tiện công cộng có tốt cho môi trường không?",
-        "a": "Yes, I think it is very good. One bus can carry <strong>many people at one time</strong>. This can help <strong>reduce traffic jams and air pollution</strong>."
+        "a": "Yes, I think it is very good. One bus can <strong>carry many people at one time</strong>. This can <strong>help reduce traffic jams and air pollution</strong>."
       },
       {
         "q": "Do you prefer going by motorbike or by bus?",
@@ -1145,12 +1145,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Should students work for themselves or work for a company after school?",
         "vi": "Sinh viên ra trường nên tự kinh doanh hay đi làm công ty?",
-        "a": "I think they should work for a company first. Young workers need to <strong>learn real skills and experience</strong>. Later, they can start <strong>their own business safely</strong>."
+        "a": "I think they should work for a company first. Young workers <strong>need to learn real skills and experience</strong>. Later, they can <strong>start their own business safely</strong>."
       },
       {
         "q": "What skills are most important for people who run their own business?",
         "vi": "Kỹ năng nào quan trọng nhất cho người tự kinh doanh?",
-        "a": "Planning and speaking skills are very important. Owners need to <strong>manage money carefully every month</strong>. Talking politely with customers also <strong>helps them sell more</strong>."
+        "a": "Planning and speaking skills are very important. Owners <strong>need to manage money carefully every month</strong>. Talking politely with customers also <strong>helps them sell more</strong>."
       }
     ]
   },
@@ -1205,7 +1205,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you prefer living in a normal house or an apartment?",
         "vi": "Bạn thích sống ở nhà riêng bình thường hay căn hộ chung cư?",
-        "a": "I prefer living in an apartment. It is usually <strong>very clean, safe, and modern</strong>. Higher floors also give <strong>fresh air and quiet views</strong>."
+        "a": "I prefer living in an apartment. It <strong>is usually very clean, safe, and modern</strong>. Higher floors also <strong>give fresh air and quiet views</strong>."
       }
     ]
   },
@@ -1250,12 +1250,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can students avoid depending too much on AI?",
         "vi": "Làm sao học sinh tránh phụ thuộc quá nhiều vào AI?",
-        "a": "Students should always try on their own first. They should <strong>write their own ideas before using AI</strong>. Teachers can also give <strong>more speaking tests in class</strong>."
+        "a": "Students should always try on their own first. They should <strong>write their own ideas before using AI</strong>. Teachers can also <strong>give more speaking tests in class</strong>."
       },
       {
         "q": "Can AI replace humans in art and writing?",
         "vi": "AI có thể thay thế con người trong nghệ thuật và viết lách không?",
-        "a": "No, I don't think so. AI machines have <strong>no real feelings or life stories</strong>. Real art always comes <strong>from human hearts and minds</strong>."
+        "a": "No, I don't think so. AI machines <strong>have no real feelings or life stories</strong>. Real art always comes <strong>from human hearts and minds</strong>."
       },
       {
         "q": "What should schools do when students use ChatGPT for homework?",
@@ -1415,7 +1415,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can schools reduce exam stress for students?",
         "vi": "Trường học làm sao giảm áp lực thi cử cho học sinh?",
-        "a": "Schools can change how they test students. Teachers can give <strong>less homework every day</strong>. Fun group projects also help students <strong>enjoy learning more</strong>."
+        "a": "Schools can change how they test students. Teachers can <strong>give less homework every day</strong>. Fun group projects also help students <strong>enjoy learning more</strong>."
       },
       {
         "q": "What should parents do when their child gets low marks?",
@@ -1475,12 +1475,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What is the biggest difficulty for women who want to become top leaders?",
         "vi": "Khó khăn lớn nhất của phụ nữ khi muốn lên vị trí lãnh đạo cao là gì?",
-        "a": "The biggest difficulty is balancing family and work. Women often have to <strong>do heavy housework at home</strong>. This leaves them <strong>less time for company work</strong>."
+        "a": "The biggest difficulty is balancing family and work. Women often <strong>have to do heavy housework at home</strong>. This leaves them <strong>less time for company work</strong>."
       },
       {
         "q": "How can companies help women have equal chances at work?",
         "vi": "Công ty có thể làm gì để giúp phụ nữ có cơ hội bình đẳng nơi làm việc?",
-        "a": "Companies should treat men and women fairly. They should offer <strong>equal pay and fair promotions</strong>. Good rest time for mothers <strong>also helps a lot</strong>."
+        "a": "Companies should treat men and women fairly. They should <strong>offer equal pay and fair promotions</strong>. Good rest time for mothers <strong>also helps a lot</strong>."
       }
     ]
   },
@@ -1525,7 +1525,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What are common signs of too much stress?",
         "vi": "Những dấu hiệu thường gặp khi bị quá căng thẳng là gì?",
-        "a": "Stress shows clear signs on health. People may get <strong>headaches and sleep badly</strong>. They can also <strong>get angry very quickly</strong>."
+        "a": "Stress shows clear signs on health. People may <strong>get headaches and sleep badly</strong>. They can also <strong>get angry very quickly</strong>."
       },
       {
         "q": "Can talking to a friend help reduce stress?",
@@ -1585,7 +1585,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What health problems can overweight children face later in life?",
         "vi": "Trẻ thừa cân có thể gặp vấn đề sức khỏe gì sau này?",
-        "a": "Overweight children face serious health risks. They may get <strong>heart problems when they grow up</strong>. They may also feel <strong>shy around their classmates</strong>."
+        "a": "Overweight children face serious health risks. They may <strong>get heart problems when they grow up</strong>. They may also <strong>feel shy around their classmates</strong>."
       },
       {
         "q": "How can families help children stay active together?",
@@ -1690,7 +1690,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why is office gossip bad for a team?",
         "vi": "Tại sao chuyện bàn tán ở văn phòng lại có hại cho nhóm?",
-        "a": "Office gossip is bad for teamwork. It breaks trust and <strong>hurts coworkers' feelings</strong>. It can also cause <strong>useless arguments at work</strong>."
+        "a": "Office gossip is bad for teamwork. It breaks trust and <strong>hurts coworkers' feelings</strong>. It can also <strong>cause useless arguments at work</strong>."
       },
       {
         "q": "How can quiet workers make friends at the office?",
@@ -1965,7 +1965,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can libraries attract more students to visit?",
         "vi": "Thư viện làm thế nào để thu hút nhiều học sinh đến hơn?",
-        "a": "Libraries should make the room nicer. They can provide <strong>comfortable chairs, fast Wi-Fi, and new books</strong>. A quiet place will always <strong>bring more students in</strong>."
+        "a": "Libraries should make the room nicer. They can <strong>provide comfortable chairs, fast Wi-Fi, and new books</strong>. A quiet place will always <strong>bring more students in</strong>."
       },
       {
         "q": "Are real libraries still needed today?",
@@ -2025,7 +2025,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can visiting museums make history more fun?",
         "vi": "Đi tham quan bảo tàng giúp học lịch sử vui hơn thế nào?",
-        "a": "Museums make history feel very real. Students can see <strong>old tools, clothes, and photos</strong> directly. This helps them <strong>remember lessons better than reading books</strong>."
+        "a": "Museums make history feel very real. Students can <strong>see old tools, clothes, and photos</strong> directly. This helps them <strong>remember lessons better than reading books</strong>."
       },
       {
         "q": "Why is learning history important for people?",
@@ -2075,7 +2075,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How has social media changed the way we stay in touch?",
         "vi": "Mạng xã hội đã thay đổi cách chúng ta giữ liên lạc thế nào?",
-        "a": "Social media makes staying in touch easier. People can send <strong>free messages and photos anytime</strong>. Calling friends in other countries is <strong>also very fast now</strong>."
+        "a": "Social media makes staying in touch easier. People can <strong>send free messages and photos anytime</strong>. Calling friends in other countries is <strong>also very fast now</strong>."
       },
       {
         "q": "Do you prefer calling or texting?",
@@ -2140,7 +2140,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What do you think about single-parent families?",
         "vi": "Bạn nghĩ gì về các gia đình đơn thân?",
-        "a": "I think single parents are very strong. They have to <strong>earn money and raise children alone</strong>. However, with family love, their children can <strong>still grow up happily</strong>."
+        "a": "I think single parents are very strong. They <strong>have to earn money and raise children alone</strong>. However, with family love, their children can <strong>still grow up happily</strong>."
       }
     ]
   },
@@ -2360,7 +2360,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What is the biggest problem for teachers today?",
         "vi": "Vấn đề lớn nhất đối với giáo viên hiện nay là gì?",
-        "a": "Today, many students use phones too much. Therefore, it is <strong>hard to keep students focused in class</strong>. Teachers also have <strong>a lot of school work to prepare</strong>."
+        "a": "Today, many students use phones too much. Therefore, it is <strong>hard to keep students focused in class</strong>. Teachers also <strong>have a lot of school work to prepare</strong>."
       }
     ]
   },
@@ -2465,7 +2465,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do young people and older people look for the same thing in a job?",
         "vi": "Người trẻ và người lớn tuổi có tìm kiếm điều giống nhau trong công việc không?",
-        "a": "No, I don't think so. Young people often want to <strong>learn new skills and gain experience</strong>. Older people may prefer <strong>stable jobs because they want more security</strong>."
+        "a": "No, I don't think so. Young people often <strong>want to learn new skills and gain experience</strong>. Older people may <strong>prefer stable jobs because they want more security</strong>."
       },
       {
         "q": "How can people find a job that is suitable for them?",
@@ -2520,12 +2520,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you think first impressions are always right? Why or why not?",
         "vi": "Bạn có nghĩ ấn tượng ban đầu luôn đúng không? Tại sao có hoặc tại sao không?",
-        "a": "No, I don't think so. Some good workers feel <strong>shy in the first few minutes</strong>. Interviewers need more time to <strong>see their real skills</strong>."
+        "a": "No, I don't think so. Some good workers <strong>feel shy in the first few minutes</strong>. Interviewers need more time to <strong>see their real skills</strong>."
       },
       {
         "q": "What can people do if they make a bad first impression in an interview?",
         "vi": "Mọi người có thể làm gì nếu lỡ tạo ấn tượng xấu ban đầu trong buổi phỏng vấn?",
-        "a": "They should <strong>stay calm and continue the interview confidently</strong>. They can give clear answers and <strong>show their skills</strong>. This may help <strong>change the interviewer's opinion</strong>."
+        "a": "They should <strong>stay calm and continue the interview confidently</strong>. They can give clear answers and <strong>show their skills</strong>. This may <strong>help change the interviewer's opinion</strong>."
       }
     ]
   },
@@ -2575,7 +2575,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Should high school students listen to their parents' advice when choosing a university?",
         "vi": "Học sinh cấp ba có nên nghe lời khuyên của bố mẹ khi chọn trường đại học không?",
-        "a": "Yes, I think they should. Parents often have <strong>useful life experience to share</strong>. However, students should also <strong>choose a major they really like</strong>."
+        "a": "Yes, I think they should. Parents often <strong>have useful life experience to share</strong>. However, students should also <strong>choose a major they really like</strong>."
       },
       {
         "q": "Is studying at a famous university the only way to have a good job?",
@@ -3211,14 +3211,14 @@ function initExamSimulator() {
         const fuCards = (topic.followups || []).map((f, idx) => {
             const qClean = (f.q || '').replace(/'/g, "\\'");
             return `
-                <div class="followup-card" style="background:var(--bg-subtle, #f8fafc); border:1px solid var(--border); border-radius:8px; padding:0.85rem 1rem; margin-bottom:0.75rem;">
-                    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem;">
+                <div class="followup-card" style="background:var(--bg-subtle, #f8fafc); border:1px solid var(--border); border-radius:10px; padding:1.15rem 1.35rem; margin-bottom:1rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.75rem;">
                         <div style="flex:1;">
-                            <div style="font-weight:700; font-size:0.95rem; color:var(--text-main); line-height:1.5;">
-                                <span style="background:var(--primary); color:#ffffff; font-size:0.75rem; font-weight:700; padding:0.15rem 0.5rem; border-radius:4px; margin-right:0.4rem;">CÂU ${idx + 1}</span>
+                            <div style="font-weight:700; font-size:0.98rem; color:var(--text-main); line-height:1.75;">
+                                <span style="background:var(--primary); color:#ffffff; font-size:0.75rem; font-weight:700; padding:0.18rem 0.55rem; border-radius:4px; margin-right:0.45rem;">CÂU ${idx + 1}</span>
                                 ${f.q}
                             </div>
-                            <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">↳ Dịch: ${f.vi || f.qVi || ''}</div>
+                            <div style="font-size:0.88rem; color:var(--text-muted); margin-top:0.45rem; line-height:1.7;">↳ Dịch: ${f.vi || f.qVi || ''}</div>
                         </div>
                         <button class="practice-act-btn" onclick="speakText('${qClean}', this)" style="padding:0.25rem 0.65rem; font-size:0.8rem; flex-shrink:0;">
                             <i class="fa-solid fa-volume-high"></i> Nghe câu hỏi

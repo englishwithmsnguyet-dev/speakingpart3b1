@@ -1733,45 +1733,53 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* Distinct Highlights for Dạng Đề & Chủ Đề */
 .hl-dangde {
-    background: linear-gradient(120deg, rgba(59, 130, 246, 0.18), rgba(99, 102, 241, 0.22));
+    background: linear-gradient(120deg, rgba(59, 130, 246, 0.16), rgba(99, 102, 241, 0.20));
     color: #1d4ed8 !important;
     font-weight: 700;
-    padding: 0.15rem 0.55rem;
+    padding: 0.14rem 0.5rem;
     border-radius: 6px;
-    border: 1px solid rgba(59, 130, 246, 0.35);
-    display: inline-block;
-    box-shadow: 0 1px 3px rgba(37, 99, 235, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.32);
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    box-shadow: 0 1px 2px rgba(37, 99, 235, 0.08);
 }
 
 .hl-chude {
-    background: linear-gradient(120deg, rgba(16, 185, 129, 0.18), rgba(5, 150, 105, 0.22));
+    background: linear-gradient(120deg, rgba(16, 185, 129, 0.16), rgba(5, 150, 105, 0.20));
     color: #065f46 !important;
     font-weight: 700;
-    padding: 0.15rem 0.55rem;
+    padding: 0.14rem 0.5rem;
     border-radius: 6px;
-    border: 1px solid rgba(16, 185, 129, 0.35);
-    display: inline-block;
-    box-shadow: 0 1px 3px rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.32);
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    box-shadow: 0 1px 2px rgba(16, 185, 129, 0.08);
 }
 
 .hl-nhanh {
     background: linear-gradient(120deg, rgba(245, 158, 11, 0.18), rgba(217, 119, 6, 0.22));
     color: #92400e !important;
-    font-weight: 600;
-    padding: 0.15rem 0.5rem;
+    font-weight: 700;
+    padding: 0.14rem 0.5rem;
     border-radius: 6px;
     border: 1px solid rgba(245, 158, 11, 0.35);
-    display: inline-block;
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 .hl-doituong {
     background: linear-gradient(120deg, rgba(139, 92, 246, 0.16), rgba(124, 58, 237, 0.20));
     color: #6d28d9 !important;
-    font-weight: 600;
-    padding: 0.15rem 0.5rem;
+    font-weight: 700;
+    padding: 0.14rem 0.5rem;
     border-radius: 6px;
     border: 1px solid rgba(139, 92, 246, 0.35);
-    display: inline-block;
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 [data-theme="dark"] .hl-dangde {
@@ -1970,10 +1978,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .sample-flow-container {
-    padding: 1.5rem;
+    padding: 1.75rem !important;
     display: flex;
     flex-direction: column;
-    gap: 1.1rem;
+    gap: 1.5rem;
 }
 
 .sample-sentence-row {
@@ -1981,9 +1989,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     border: 1px solid #e2e8f0;
     border-left: 4.5px solid var(--primary);
     border-radius: 10px;
-    padding: 1.1rem 1.35rem;
-    line-height: 2.1;
-    font-size: 1.05rem;
+    padding: 1.45rem 1.7rem;
+    line-height: 2.35;
+    font-size: 1.06rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
     transition: transform 0.15s, border-color 0.15s;
 }
@@ -2026,37 +2034,58 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .sentence-body-text {
     color: var(--text-main);
-    font-size: 1.05rem;
-    line-height: 2.1;
+    font-size: 1.06rem;
+    line-height: 2.35;
 }
 
 .sentence-expand-part {
-    margin-top: 0.5rem;
-    padding: 0.6rem 0.95rem;
+    margin-top: 0.95rem;
+    padding: 0.95rem 1.25rem;
     background: rgba(79, 70, 229, 0.05);
     border-radius: 8px;
-    font-size: 0.98rem;
+    font-size: 1rem;
     color: var(--text-light);
-    line-height: 2.0;
+    line-height: 2.25;
 }
 
 .sentence-alt-option {
-    font-style: italic;
-    color: #4f46e5;
-    font-size: 0.92rem;
-    margin-top: 0.35rem;
+    font-style: normal;
+    color: #4338ca;
+    font-size: 0.95rem;
+    line-height: 2.2;
+    margin-top: 0.9rem;
+    padding: 0.85rem 1.15rem;
+    background: rgba(79, 70, 229, 0.045);
+    border-left: 3.5px solid rgba(79, 70, 229, 0.35);
+    border-radius: 8px;
+}
+
+.sentence-alt-option .sentence-alt-item {
+    margin-top: 0.55rem;
+    line-height: 2.2;
+}
+
+[data-theme="dark"] .sentence-alt-option {
+    background: rgba(99, 102, 241, 0.12);
+    color: #c7d2fe;
+    border-left-color: rgba(129, 140, 248, 0.5);
 }
 
 .sample-translation-drawer {
     background: #f8fafc;
     border-top: 1.5px dashed var(--border);
     border-left: 4.5px solid #6366f1;
-    padding: 1.25rem 1.5rem;
-    line-height: 2.1;
-    font-size: 0.98rem;
+    padding: 1.45rem 1.75rem !important;
+    line-height: 2.25 !important;
+    font-size: 0.98rem !important;
     color: var(--text-main);
     border-radius: 0 0 12px 12px;
     animation: fadeInTrans 0.25s ease-out;
+}
+
+.trans-line-item {
+    margin-top: 0.5rem;
+    line-height: 2.2;
 }
 
 @keyframes fadeInTrans {
@@ -2283,18 +2312,19 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     }
 
     .sample-flow-container {
-        padding: 1.15rem 0.95rem;
-        gap: 0.95rem;
+        padding: 1.25rem 1rem !important;
+        gap: 1.2rem;
     }
 
     .sample-sentence-row {
-        padding: 0.95rem 1rem;
-        font-size: 0.98rem;
-        line-height: 2.0;
+        padding: 1.15rem 1.1rem;
+        font-size: 1rem;
+        line-height: 2.2;
     }
 
     .sentence-body-text {
-        font-size: 0.98rem;
+        font-size: 1rem;
+        line-height: 2.2;
     }
 
     .sentence-step-label {
@@ -2303,8 +2333,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     }
 
     .sentence-expand-part {
-        font-size: 0.92rem;
-        padding: 0.5rem 0.75rem;
+        font-size: 0.94rem;
+        padding: 0.75rem 0.95rem;
+        line-height: 2.15;
     }
 
     /* Các nút hành động action-row */
