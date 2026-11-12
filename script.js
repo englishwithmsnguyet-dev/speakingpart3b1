@@ -2645,6 +2645,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initExamSimulator();
     initFlashcards();
     renderAllMindmaps();
+    initTopicCompletion();
 });
 
 // Danh sách học viên các lớp được cấp quyền truy cập
@@ -3549,4 +3550,410 @@ function showToast(msg) {
     setTimeout(() => {
         if (toast && toast.parentNode) toast.parentNode.removeChild(toast);
     }, 3000);
+}
+
+
+// ==========================================================================
+// TOPIC COMPLETION TRACKER & PROGRESS BACKUP/RESTORE SYSTEM
+// ==========================================================================
+const ALL_PRACTICE_TOPIC_IDS = [
+    'b-topic-01', 'b-topic-02', 'b-topic-03', 'b-topic-04', 'b-topic-05',
+    'b-topic-06', 'b-topic-07', 'b-topic-08', 'b-topic-09', 'b-topic-10',
+    'b-topic-11', 'b-topic-12', 'b-topic-13', 'b-topic-14', 'b-topic-15',
+    'd-topic-01', 'd-topic-02', 'd-topic-03', 'd-topic-04', 'd-topic-05', 'd-topic-06',
+    'c-topic-01', 'c-topic-02', 'c-topic-03', 'c-topic-04', 'c-topic-05', 'c-topic-06',
+    'w-topic-01', 'w-topic-02', 'w-topic-03', 'w-topic-04', 'w-topic-05',
+    'w-topic-06', 'w-topic-07', 'w-topic-08', 'w-topic-09',
+    'q-topic-01', 'q-topic-02', 'q-topic-03', 'q-topic-04', 'q-topic-05', 'q-topic-06',
+    'f-topic-01', 'f-topic-02', 'f-topic-03'
+];
+
+const GROUP_CONFIG = {
+    'b': { name: 'Nhóm Lợi Ích', total: 15 },
+    'd': { name: 'Nhóm Bất Lợi', total: 6 },
+    'c': { name: 'Nhóm Nguyên Nhân', total: 6 },
+    'w': { name: 'Nhóm Cách Thức', total: 9 },
+    'q': { name: 'Nhóm Đặc Điểm', total: 6 },
+    'f': { name: 'Nhóm Yếu Tố', total: 3 }
+};
+
+function getCompletedTopics() {
+    try {
+        const raw = localStorage.getItem('vstep_sp3_completed_topics');
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+            const validSet = new Set(ALL_PRACTICE_TOPIC_IDS);
+            return parsed.filter(id => validSet.has(id));
+        }
+    } catch (e) {
+        console.warn('Could not read completed topics from localStorage', e);
+    }
+    return [];
+}
+
+function saveCompletedTopics(topicsArray) {
+    try {
+        const unique = Array.from(new Set(topicsArray)).filter(id => ALL_PRACTICE_TOPIC_IDS.includes(id));
+        localStorage.setItem('vstep_sp3_completed_topics', JSON.stringify(unique));
+        const sName = localStorage.getItem('vstep_student_name');
+        if (sName) {
+            const safeKey = 'vstep_sp3_completed_' + sName.trim().toLowerCase().replace(/[^a-z0-9]/g, '_');
+            localStorage.setItem(safeKey, JSON.stringify(unique));
+        }
+    } catch (e) {
+        console.warn('Could not save completed topics to localStorage', e);
+    }
+}
+
+function getTopicDisplayName(tid) {
+    const card = document.getElementById('card-' + tid);
+    if (card) {
+        const badge = card.querySelector('.practice-code-badge');
+        if (badge) return badge.innerText.trim();
+    }
+    return tid;
+}
+
+window.toggleTopicComplete = function(tid, event) {
+    if (event) {
+        event.stopPropagation();
+        event.preventDefault();
+    }
+    const current = getCompletedTopics();
+    const idx = current.indexOf(tid);
+    const dispName = getTopicDisplayName(tid);
+
+    if (idx > -1) {
+        current.splice(idx, 1);
+        saveCompletedTopics(current);
+        showToast('Đã bỏ đánh dấu: ' + dispName);
+    } else {
+        current.push(tid);
+        saveCompletedTopics(current);
+        showToast('Đã hoàn thành: ' + dispName + ' 🎉');
+    }
+
+    renderTopicCompletionUI();
+};
+
+window.renderTopicCompletionUI = function() {
+    const completedList = getCompletedTopics();
+    const completedSet = new Set(completedList);
+
+    // 1. Update each topic card & complete button
+    ALL_PRACTICE_TOPIC_IDS.forEach(tid => {
+        const card = document.getElementById('card-' + tid);
+        if (!card) return;
+
+        const isDone = completedSet.has(tid);
+        card.classList.toggle('topic-completed', isDone);
+
+        // Update button
+        const btn = document.getElementById('btn-comp-' + tid) || card.querySelector('.btn-complete-topic');
+        if (btn) {
+            btn.classList.toggle('is-completed', isDone);
+            if (isDone) {
+                btn.innerHTML = '<i class="fa-solid fa-circle-check"></i> <span class="complete-btn-label">Đã hoàn thành</span>';
+                btn.title = 'Nhấn để hủy đánh dấu hoàn thành';
+            } else {
+                btn.innerHTML = '<i class="fa-regular fa-circle-check"></i> <span class="complete-btn-label">Chưa học</span>';
+                btn.title = 'Đánh dấu đã hoàn thành đề này';
+            }
+        }
+
+        // Update completed tag next to badge in card top
+        const cardTop = card.querySelector('.practice-card-top');
+        if (cardTop) {
+            let tag = cardTop.querySelector('.topic-completed-tag');
+            if (isDone) {
+                if (!tag) {
+                    tag = document.createElement('span');
+                    tag.className = 'topic-completed-tag';
+                    tag.innerHTML = '<i class="fa-solid fa-check"></i> ĐÃ HOÀN THÀNH';
+                    const badge = cardTop.querySelector('.practice-code-badge');
+                    if (badge && badge.nextSibling) {
+                        cardTop.insertBefore(tag, badge.nextSibling);
+                    } else {
+                        cardTop.appendChild(tag);
+                    }
+                }
+            } else {
+                if (tag) tag.remove();
+            }
+        }
+    });
+
+    // 2. Update Group Counters & Ratios
+    Object.keys(GROUP_CONFIG).forEach(grp => {
+        const total = GROUP_CONFIG[grp].total;
+        const grpDone = completedList.filter(id => id.startsWith(grp + '-')).length;
+        const grpPct = Math.round((grpDone / total) * 100);
+
+        // Sidebar badge
+        const navBadge = document.getElementById('nav-count-' + grp);
+        if (navBadge) navBadge.innerText = `${grpDone}/${total}`;
+
+        // Practice section header pill
+        const progText = document.getElementById('group-prog-text-' + grp);
+        if (progText) progText.innerText = `${grpDone}/${total} hoàn thành`;
+
+        // Filter counts
+        const doneCnt = document.getElementById(`filter-cnt-${grp}-done`);
+        if (doneCnt) doneCnt.innerText = grpDone;
+        const leftCnt = document.getElementById(`filter-cnt-${grp}-left`);
+        if (leftCnt) leftCnt.innerText = total - grpDone;
+
+        // Overview dashboard group card
+        const pdRatio = document.getElementById('pd-ratio-' + grp);
+        if (pdRatio) pdRatio.innerText = `${grpDone}/${total}`;
+        const pdFill = document.getElementById('pd-fill-' + grp);
+        if (pdFill) pdFill.style.width = `${grpPct}%`;
+    });
+
+    // 3. Update Overall Progress (Overview Dashboard & Sidebar Widget)
+    const totalDone = completedList.length;
+    const totalAll = ALL_PRACTICE_TOPIC_IDS.length;
+    const totalPct = Math.round((totalDone / totalAll) * 100);
+
+    // Overview Dashboard
+    const pdDoneCount = document.getElementById('pd-done-count');
+    if (pdDoneCount) pdDoneCount.innerText = totalDone;
+    const pdDonePercent = document.getElementById('pd-done-percent');
+    if (pdDonePercent) pdDonePercent.innerText = `${totalPct}% Hoàn thành`;
+    const pdBarFill = document.getElementById('pd-bar-fill');
+    if (pdBarFill) pdBarFill.style.width = `${totalPct}%`;
+
+    // Sidebar Widget
+    const spwPercent = document.getElementById('sidebar-prog-percent');
+    if (spwPercent) spwPercent.innerText = `${totalPct}%`;
+    const spwFill = document.getElementById('sidebar-prog-fill');
+    if (spwFill) spwFill.style.width = `${totalPct}%`;
+    const spwRatio = document.getElementById('sidebar-prog-ratio');
+    if (spwRatio) spwRatio.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${totalDone}/${totalAll} đề`;
+
+    // Modal stats
+    const modalTopics = document.getElementById('backup-stat-topics');
+    if (modalTopics) modalTopics.innerText = `${totalDone} / ${totalAll} đề (${totalPct}%)`;
+    const modalUser = document.getElementById('backup-stat-user');
+    if (modalUser) modalUser.innerText = localStorage.getItem('vstep_student_name') || 'Guest';
+
+    // Update backup code preview textarea if present
+    const codeArea = document.getElementById('backup-code-textarea');
+    if (codeArea) {
+        try {
+            codeArea.value = JSON.stringify(getBackupPayload(), null, 2);
+        } catch(e) {}
+    }
+};
+
+window.filterGroupTopics = function(groupPrefix, mode, btn) {
+    const header = btn.closest('.practice-section-header');
+    if (header) {
+        header.querySelectorAll('.filter-tab-btn').forEach(b => b.classList.remove('active'));
+    }
+    btn.classList.add('active');
+
+    const completedSet = new Set(getCompletedTopics());
+    ALL_PRACTICE_TOPIC_IDS.forEach(tid => {
+        if (!tid.startsWith(groupPrefix + '-')) return;
+        const card = document.getElementById('card-' + tid);
+        if (!card) return;
+
+        const isDone = completedSet.has(tid);
+        if (mode === 'all') {
+            card.style.display = '';
+        } else if (mode === 'completed') {
+            card.style.display = isDone ? '' : 'none';
+        } else if (mode === 'incomplete') {
+            card.style.display = !isDone ? '' : 'none';
+        }
+    });
+};
+
+// ==========================================================================
+// BACKUP & RESTORE MODAL SYSTEM
+// ==========================================================================
+window.getBackupPayload = function() {
+    const completed = getCompletedTopics();
+    const studentName = localStorage.getItem('vstep_student_name') || 'Học viên';
+    const systemData = {};
+    try {
+        for (let i = 0; i < localStorage.length; i++) {
+            const k = localStorage.key(i);
+            if (k && (k.startsWith('flower_') || k.startsWith('vstep_'))) {
+                systemData[k] = localStorage.getItem(k);
+            }
+        }
+    } catch(e) {}
+
+    return {
+        app: "VSTEP Speaking Part 3 - B1 Online",
+        author: "English with Miss Nguyet",
+        version: "1.0",
+        exportDate: new Date().toISOString(),
+        studentName: studentName,
+        completedTopics: completed,
+        totalCompleted: completed.length,
+        totalTopics: ALL_PRACTICE_TOPIC_IDS.length,
+        systemData: systemData
+    };
+};
+
+window.openBackupModal = function(initialTab = 'export') {
+    const overlay = document.getElementById('backup-modal-overlay');
+    if (!overlay) return;
+    overlay.style.display = 'flex';
+    switchBackupTab(initialTab);
+    renderTopicCompletionUI();
+};
+
+window.closeBackupModal = function() {
+    const overlay = document.getElementById('backup-modal-overlay');
+    if (overlay) overlay.style.display = 'none';
+};
+
+window.switchBackupTab = function(tabName) {
+    const tabExportBtn = document.getElementById('tab-btn-export');
+    const tabImportBtn = document.getElementById('tab-btn-import');
+    const contentExport = document.getElementById('backup-content-export');
+    const contentImport = document.getElementById('backup-content-import');
+
+    if (tabName === 'export') {
+        if (tabExportBtn) tabExportBtn.classList.add('active');
+        if (tabImportBtn) tabImportBtn.classList.remove('active');
+        if (contentExport) contentExport.classList.add('active');
+        if (contentImport) contentImport.classList.remove('active');
+        const codeArea = document.getElementById('backup-code-textarea');
+        if (codeArea) codeArea.value = JSON.stringify(getBackupPayload(), null, 2);
+    } else {
+        if (tabImportBtn) tabImportBtn.classList.add('active');
+        if (tabExportBtn) tabExportBtn.classList.remove('active');
+        if (contentImport) contentImport.classList.add('active');
+        if (contentExport) contentExport.classList.remove('active');
+    }
+};
+
+window.downloadBackupFile = function() {
+    const payload = getBackupPayload();
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(payload, null, 2));
+    const now = new Date();
+    const dateStr = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+    const dlAnchor = document.createElement('a');
+    dlAnchor.setAttribute("href", dataStr);
+    dlAnchor.setAttribute("download", `tien_do_speaking_b1_${dateStr}.json`);
+    document.body.appendChild(dlAnchor);
+    dlAnchor.click();
+    dlAnchor.remove();
+    showToast('Đã tải file sao lưu về máy thành công! 📥');
+};
+
+window.copyBackupCode = function() {
+    const payload = getBackupPayload();
+    const codeStr = JSON.stringify(payload, null, 2);
+    const codeArea = document.getElementById('backup-code-textarea');
+    if (codeArea) {
+        codeArea.value = codeStr;
+        codeArea.select();
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(codeStr).then(() => {
+            showToast('Đã sao chép mã sao lưu vào bộ nhớ tạm! 📋');
+        }).catch(() => {
+            showToast('Vui lòng copy thủ công từ khung mã.');
+        });
+    } else {
+        showToast('Vui lòng copy thủ công từ khung mã.');
+    }
+};
+
+window.handleBackupFileUpload = function(event) {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const parsed = JSON.parse(e.target.result);
+            applyBackupPayload(parsed);
+            event.target.value = '';
+        } catch (err) {
+            alert('Lỗi đọc file: File tải lên không đúng định dạng JSON hoặc bị hỏng.\n' + err.message);
+        }
+    };
+    reader.readAsText(file);
+};
+
+window.restoreFromCode = function() {
+    const codeArea = document.getElementById('restore-code-textarea');
+    if (!codeArea || !codeArea.value.trim()) {
+        alert('Vui lòng dán chuỗi mã sao lưu JSON vào khung trước khi khôi phục!');
+        return;
+    }
+    try {
+        const parsed = JSON.parse(codeArea.value.trim());
+        applyBackupPayload(parsed);
+        codeArea.value = '';
+    } catch (err) {
+        alert('Lỗi mã sao lưu: Chuỗi dán vào không hợp lệ hoặc thiếu thông tin.\n' + err.message);
+    }
+};
+
+window.applyBackupPayload = function(payload) {
+    if (!payload || typeof payload !== 'object') {
+        throw new Error('Dữ liệu không đúng định dạng đối tượng JSON.');
+    }
+    if (!Array.isArray(payload.completedTopics)) {
+        throw new Error('Không tìm thấy danh sách chủ đề hoàn thành (completedTopics) trong dữ liệu.');
+    }
+
+    // 1. Restore completed topics
+    saveCompletedTopics(payload.completedTopics);
+
+    // 2. Restore student name if valid
+    if (payload.studentName && payload.studentName !== 'Học viên' && payload.studentName !== 'Guest') {
+        localStorage.setItem('vstep_student_name', payload.studentName);
+        const nameEl = document.getElementById('display-name');
+        if (nameEl) nameEl.innerText = payload.studentName;
+    }
+
+    // 3. Restore system data (flower garden, etc.) if provided
+    if (payload.systemData && typeof payload.systemData === 'object') {
+        Object.entries(payload.systemData).forEach(([k, val]) => {
+            if (val !== null && val !== undefined) {
+                try {
+                    localStorage.setItem(k, typeof val === 'string' ? val : JSON.stringify(val));
+                } catch(e) {}
+            }
+        });
+    }
+
+    // 4. Update UI live
+    renderTopicCompletionUI();
+    if (window.FlowerGarden && typeof window.FlowerGarden.render === 'function') {
+        try { window.FlowerGarden.render(); } catch(e) {}
+    }
+
+    showToast(`Đã khôi phục thành công ${payload.completedTopics.length} chủ đề đã học! 🎉`);
+    setTimeout(() => {
+        closeBackupModal();
+    }, 1200);
+};
+
+window.resetProgress = function() {
+    if (confirm('Bạn có chắc chắn muốn xóa toàn bộ đánh dấu tiến độ học tập không?\n(Gợi ý: Bạn nên tải file sao lưu trước khi xóa để có thể khôi phục lại khi cần).')) {
+        saveCompletedTopics([]);
+        renderTopicCompletionUI();
+        showToast('Đã đặt lại tiến độ học tập!');
+    }
+};
+
+function initTopicCompletion() {
+    // Render UI initially
+    renderTopicCompletionUI();
+
+    // Close modal on Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeBackupModal();
+    });
 }

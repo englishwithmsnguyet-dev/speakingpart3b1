@@ -3751,3 +3751,908 @@ body.dark-theme .login-footer-signature a {
 body.dark-theme .login-footer-signature a:hover {
     color: #38bdf8;
 }
+
+
+/* ==========================================================================
+   TOPIC COMPLETION & PROGRESS BACKUP SYSTEM STYLES
+   ========================================================================== */
+
+/* 1. Topbar Backup Pill Button */
+.topbar-backup-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.42rem 0.88rem;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(5, 150, 105, 0.18));
+    border: 1.2px solid rgba(16, 185, 129, 0.4);
+    border-radius: 20px;
+    color: #065f46;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.topbar-backup-pill:hover {
+    background: #10b981;
+    color: #ffffff;
+    border-color: #059669;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    transform: translateY(-1px);
+}
+
+[data-theme="dark"] .topbar-backup-pill,
+body.dark-theme .topbar-backup-pill {
+    background: rgba(16, 185, 129, 0.18);
+    color: #6ee7b7;
+    border-color: rgba(52, 211, 153, 0.4);
+}
+
+[data-theme="dark"] .topbar-backup-pill:hover,
+body.dark-theme .topbar-backup-pill:hover {
+    background: #10b981;
+    color: #ffffff;
+}
+
+/* 2. Completion Button & Completed Topic Card Styling */
+.practice-act-btn.btn-complete-topic {
+    border-color: #cbd5e1;
+    background: #ffffff;
+    color: #64748b;
+    transition: all 0.2s ease;
+}
+
+.practice-act-btn.btn-complete-topic:hover {
+    background: #ecfdf5;
+    color: #059669;
+    border-color: #10b981;
+}
+
+.practice-act-btn.btn-complete-topic.is-completed {
+    background: linear-gradient(135deg, #10b981, #059669) !important;
+    color: #ffffff !important;
+    border-color: #047857 !important;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.32);
+}
+
+.practice-act-btn.btn-complete-topic.is-completed:hover {
+    background: linear-gradient(135deg, #059669, #047857) !important;
+    transform: translateY(-1px);
+}
+
+.practice-topic-card.topic-completed {
+    border-color: #10b981 !important;
+    border-left: 5.5px solid #10b981 !important;
+    background: linear-gradient(180deg, rgba(16, 185, 129, 0.04) 0%, rgba(255, 255, 255, 0.95) 75px) !important;
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.08) !important;
+}
+
+[data-theme="dark"] .practice-topic-card.topic-completed,
+body.dark-theme .practice-topic-card.topic-completed {
+    border-color: rgba(16, 185, 129, 0.45) !important;
+    border-left-color: #10b981 !important;
+    background: linear-gradient(180deg, rgba(16, 185, 129, 0.12) 0%, rgba(30, 41, 59, 0.85) 75px) !important;
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.15) !important;
+}
+
+.topic-completed-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: #d1fae5;
+    color: #065f46;
+    border: 1px solid #6ee7b7;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    animation: popIn 0.25s ease-out;
+}
+
+[data-theme="dark"] .topic-completed-tag,
+body.dark-theme .topic-completed-tag {
+    background: rgba(16, 185, 129, 0.22);
+    color: #6ee7b7;
+    border-color: rgba(52, 211, 153, 0.4);
+}
+
+@keyframes popIn {
+    0% { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* 3. Section Practice Header Pill & Filter Tabs */
+.group-progress-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(16, 185, 129, 0.12);
+    color: #065f46;
+    font-size: 0.82rem;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 0.25rem 0.7rem;
+    border: 1px solid rgba(16, 185, 129, 0.25);
+    margin-left: 0.65rem;
+    vertical-align: middle;
+}
+
+[data-theme="dark"] .group-progress-pill,
+body.dark-theme .group-progress-pill {
+    background: rgba(16, 185, 129, 0.2);
+    color: #6ee7b7;
+    border-color: rgba(52, 211, 153, 0.35);
+}
+
+.topic-filter-tabs {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    margin-top: 0.4rem;
+}
+
+.filter-tab-btn {
+    padding: 0.32rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-tab-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.filter-tab-btn.active {
+    background: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+    box-shadow: 0 2px 6px rgba(79, 70, 229, 0.25);
+}
+
+/* 4. Sidebar Progress Widget */
+.sidebar-progress-widget {
+    background: rgba(79, 70, 229, 0.05);
+    border: 1px solid rgba(79, 70, 229, 0.15);
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    margin: 0.5rem 1.25rem 1rem 1.25rem;
+}
+
+[data-theme="dark"] .sidebar-progress-widget,
+body.dark-theme .sidebar-progress-widget {
+    background: rgba(99, 102, 241, 0.1);
+    border-color: rgba(129, 140, 248, 0.2);
+}
+
+.spw-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.45rem;
+}
+
+.spw-title {
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.spw-percent {
+    font-size: 0.86rem;
+    font-weight: 800;
+    color: var(--text-main);
+}
+
+.spw-bar-track {
+    width: 100%;
+    height: 7px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: 0.55rem;
+}
+
+[data-theme="dark"] .spw-bar-track,
+body.dark-theme .spw-bar-track {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.spw-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #10b981, #06b6d4, #6366f1);
+    border-radius: 999px;
+    transition: width 0.4s ease;
+}
+
+.spw-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spw-ratio {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.spw-backup-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--primary);
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 0.18rem 0.55rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.spw-backup-btn:hover {
+    background: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+}
+
+.nav-count-badge {
+    margin-left: auto;
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 0.12rem 0.48rem;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.06);
+    color: var(--text-muted);
+}
+
+[data-theme="dark"] .nav-count-badge,
+body.dark-theme .nav-count-badge {
+    background: rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+}
+
+/* 5. Progress Dashboard Card (Overview Tab) */
+.progress-dashboard-card {
+    background: #ffffff;
+    border: 1.5px solid var(--border);
+    border-radius: 18px;
+    padding: 1.75rem 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="dark"] .progress-dashboard-card,
+body.dark-theme .progress-dashboard-card {
+    background: var(--bg-card);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.pd-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.pd-header-left {
+    flex: 1;
+    min-width: 280px;
+}
+
+.pd-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.25rem 0.65rem;
+    border-radius: 6px;
+    background: rgba(16, 185, 129, 0.12);
+    color: #065f46;
+    margin-bottom: 0.5rem;
+}
+
+[data-theme="dark"] .pd-badge,
+body.dark-theme .pd-badge {
+    background: rgba(16, 185, 129, 0.2);
+    color: #6ee7b7;
+}
+
+.pd-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--text-main);
+    margin: 0.2rem 0 0.4rem 0;
+}
+
+.pd-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.pd-header-right {
+    display: flex;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+}
+
+.pd-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.6rem 1.15rem;
+    border-radius: 10px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.pd-btn.primary {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.pd-btn.primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+}
+
+.pd-btn.secondary {
+    background: var(--bg-light);
+    color: var(--text-main);
+    border: 1.2px solid var(--border);
+}
+
+.pd-btn.secondary:hover {
+    background: rgba(79, 70, 229, 0.08);
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: translateY(-1px);
+}
+
+.pd-progress-banner {
+    background: linear-gradient(135deg, rgba(79, 70, 229, 0.05), rgba(16, 185, 129, 0.05));
+    border: 1px solid rgba(79, 70, 229, 0.12);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+[data-theme="dark"] .pd-progress-banner,
+body.dark-theme .pd-progress-banner {
+    background: rgba(30, 41, 59, 0.6);
+    border-color: rgba(148, 163, 184, 0.15);
+}
+
+.pd-progress-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.75rem;
+}
+
+.pd-progress-ratio strong {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #10b981;
+}
+
+.pd-total-text {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.pd-progress-percent {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.pd-bar-track {
+    width: 100%;
+    height: 12px;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+[data-theme="dark"] .pd-bar-track,
+body.dark-theme .pd-bar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.pd-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #10b981, #06b6d4, #6366f1);
+    border-radius: 999px;
+    transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pd-groups-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 0.95rem;
+}
+
+.pd-group-card {
+    background: var(--bg-light);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.15rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pd-group-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.pd-gc-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+.pd-gc-name {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.pd-gc-ratio {
+    font-size: 0.84rem;
+    font-weight: 800;
+    color: #10b981;
+}
+
+.pd-gc-bar {
+    width: 100%;
+    height: 6px;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+[data-theme="dark"] .pd-gc-bar,
+body.dark-theme .pd-gc-bar {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.pd-gc-fill {
+    height: 100%;
+    background: #10b981;
+    border-radius: 999px;
+    transition: width 0.4s ease;
+}
+
+/* 6. Backup & Restore Modal */
+.backup-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    padding: 20px;
+    box-sizing: border-box;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.backup-modal-card {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1.5px solid rgba(226, 232, 240, 0.95);
+    max-width: 580px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 2rem 2.25rem;
+    box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    box-sizing: border-box;
+    animation: loginCardPop 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="dark"] .backup-modal-card,
+body.dark-theme .backup-modal-card {
+    background: #1e293b;
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.backup-modal-close {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: transparent;
+    border: none;
+    font-size: 1.75rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.2rem 0.5rem;
+    border-radius: 8px;
+    transition: all 0.15s;
+}
+
+.backup-modal-close:hover {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.backup-modal-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.backup-modal-icon {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(79, 70, 229, 0.15));
+    color: #10b981;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+}
+
+.backup-modal-header h3 {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: var(--text-main);
+    margin: 0 0 0.4rem 0;
+    letter-spacing: -0.01em;
+}
+
+.backup-modal-subtitle {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin: 0 auto;
+    line-height: 1.55;
+    max-width: 460px;
+}
+
+.backup-modal-tabs {
+    display: flex;
+    background: var(--bg-light);
+    border-radius: 12px;
+    padding: 0.35rem;
+    gap: 0.35rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border);
+}
+
+.backup-tab-btn {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem;
+    border-radius: 9px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.backup-tab-btn.active {
+    background: #ffffff;
+    color: var(--primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .backup-tab-btn.active,
+body.dark-theme .backup-tab-btn.active {
+    background: #334155;
+    color: #818cf8;
+}
+
+.backup-tab-content {
+    display: none;
+}
+
+.backup-tab-content.active {
+    display: block;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.backup-summary-box {
+    background: rgba(16, 185, 129, 0.06);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: 12px;
+    padding: 0.9rem 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.summary-stat-item {
+    text-align: center;
+}
+
+.summary-stat-item .stat-label {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.summary-stat-item .stat-val {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #10b981;
+}
+
+.backup-action-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.85rem;
+    margin-bottom: 1.25rem;
+}
+
+.btn-backup-action {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-backup-action i {
+    font-size: 1.35rem;
+    flex-shrink: 0;
+}
+
+.btn-backup-action strong {
+    display: block;
+    font-size: 0.88rem;
+    line-height: 1.3;
+}
+
+.btn-backup-action span {
+    display: block;
+    font-size: 0.74rem;
+    opacity: 0.85;
+    margin-top: 0.15rem;
+}
+
+.btn-backup-action.primary {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+}
+
+.btn-backup-action.primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(16, 185, 129, 0.4);
+}
+
+.btn-backup-action.secondary {
+    background: var(--bg-light);
+    color: var(--text-main);
+    border: 1.2px solid var(--border);
+}
+
+.btn-backup-action.secondary:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.backup-code-preview label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+}
+
+.backup-code-preview textarea,
+#restore-code-textarea {
+    width: 100%;
+    height: 105px;
+    border-radius: 10px;
+    border: 1.2px solid var(--border);
+    background: var(--bg-light);
+    color: var(--text-main);
+    font-family: monospace;
+    font-size: 0.8rem;
+    padding: 0.75rem;
+    resize: none;
+    box-sizing: border-box;
+    line-height: 1.45;
+}
+
+.backup-code-preview textarea:focus,
+#restore-code-textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.backup-footer-reset {
+    margin-top: 1.25rem;
+    text-align: center;
+    border-top: 1px dashed var(--border);
+    padding-top: 1rem;
+}
+
+.btn-reset-progress {
+    background: transparent;
+    border: none;
+    color: #ef4444;
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    transition: background 0.15s;
+}
+
+.btn-reset-progress:hover {
+    background: rgba(239, 68, 68, 0.08);
+}
+
+.import-method-box {
+    background: var(--bg-light);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+}
+
+.import-method-box h4 {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: var(--text-main);
+    margin: 0 0 0.35rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.import-method-box p {
+    font-size: 0.84rem;
+    color: var(--text-muted);
+    margin: 0 0 0.75rem 0;
+    line-height: 1.5;
+}
+
+.btn-upload-file {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #ffffff;
+    border: 1.5px dashed var(--primary);
+    color: var(--primary);
+    font-size: 0.88rem;
+    font-weight: 700;
+    padding: 0.65rem 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+    justify-content: center;
+}
+
+[data-theme="dark"] .btn-upload-file,
+body.dark-theme .btn-upload-file {
+    background: #334155;
+}
+
+.btn-upload-file:hover {
+    background: rgba(79, 70, 229, 0.08);
+    border-style: solid;
+}
+
+.import-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.import-divider::before,
+.import-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px dashed var(--border);
+}
+
+.import-divider span {
+    padding: 0 0.85rem;
+    color: var(--text-muted);
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+.btn-restore-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem 1.25rem;
+    font-size: 0.92rem;
+    font-weight: 800;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.65rem;
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+    transition: all 0.2s;
+}
+
+.btn-restore-action:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(79, 70, 229, 0.4);
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+    .backup-action-grid {
+        grid-template-columns: 1fr;
+    }
+    .pd-header {
+        flex-direction: column;
+    }
+    .pd-header-right {
+        width: 100%;
+    }
+    .pd-btn {
+        flex: 1;
+        justify-content: center;
+    }
+    .backup-modal-card {
+        padding: 1.5rem 1.25rem;
+    }
+}
